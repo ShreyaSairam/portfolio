@@ -1,0 +1,4236 @@
+user_id,persona,destination,rating
+1,luxury_shopper,Copenhagen,5
+1,luxury_shopper,Chiang Mai,3
+1,luxury_shopper,Cusco,2
+1,luxury_shopper,Berlin,4
+1,luxury_shopper,Lisbon,2
+1,luxury_shopper,New York City,4
+1,luxury_shopper,Venice,5
+1,luxury_shopper,Banff,3
+1,luxury_shopper,Athens,2
+2,budget_backpacker,Nairobi,3
+2,budget_backpacker,Taipei,5
+2,budget_backpacker,Cusco,5
+2,budget_backpacker,Paris,4
+2,budget_backpacker,Bali,3
+2,budget_backpacker,Venice,3
+2,budget_backpacker,Kyoto,4
+2,budget_backpacker,Amsterdam,3
+2,budget_backpacker,Melbourne,4
+2,budget_backpacker,Rio de Janeiro,2
+2,budget_backpacker,Madrid,3
+2,budget_backpacker,London,3
+2,budget_backpacker,Vienna,3
+2,budget_backpacker,Cancun,3
+2,budget_backpacker,New York City,4
+2,budget_backpacker,Shanghai,3
+2,budget_backpacker,Interlaken,3
+3,adventure_nature,Shanghai,3
+3,adventure_nature,Marrakech,4
+3,adventure_nature,Kyoto,4
+3,adventure_nature,Buenos Aires,3
+3,adventure_nature,Istanbul,3
+3,adventure_nature,Zurich,4
+3,adventure_nature,Taipei,4
+3,adventure_nature,Cusco,5
+3,adventure_nature,Cancun,3
+3,adventure_nature,Kuala Lumpur,3
+3,adventure_nature,Interlaken,5
+3,adventure_nature,Amsterdam,3
+3,adventure_nature,Lisbon,2
+3,adventure_nature,Fiji (Nadi),3
+3,adventure_nature,Ho Chi Minh City,4
+3,adventure_nature,London,3
+3,adventure_nature,Sydney,5
+4,foodie_nightlife,Barcelona,5
+4,foodie_nightlife,Kuala Lumpur,5
+4,foodie_nightlife,London,4
+4,foodie_nightlife,Singapore,5
+4,foodie_nightlife,Cusco,3
+4,foodie_nightlife,Fiji (Nadi),3
+4,foodie_nightlife,Paris,3
+4,foodie_nightlife,Ho Chi Minh City,5
+4,foodie_nightlife,Beijing,3
+4,foodie_nightlife,Bali Ubud,1
+4,foodie_nightlife,Shanghai,4
+4,foodie_nightlife,Oslo,2
+4,foodie_nightlife,Vienna,3
+4,foodie_nightlife,Sydney,5
+4,foodie_nightlife,Prague,4
+4,foodie_nightlife,Athens,4
+4,foodie_nightlife,Rome,5
+4,foodie_nightlife,Queenstown,3
+5,beach_relaxer,Lisbon,4
+5,beach_relaxer,Rome,3
+5,beach_relaxer,New York City,3
+5,beach_relaxer,Reykjavik,2
+5,beach_relaxer,Marrakech,5
+5,beach_relaxer,Stockholm,2
+5,beach_relaxer,Kuala Lumpur,3
+5,beach_relaxer,Athens,3
+5,beach_relaxer,Chiang Mai,4
+5,beach_relaxer,Hanoi,4
+5,beach_relaxer,Madrid,3
+5,beach_relaxer,Interlaken,2
+5,beach_relaxer,Ho Chi Minh City,4
+5,beach_relaxer,Melbourne,1
+5,beach_relaxer,Bali,5
+5,beach_relaxer,Paris,1
+5,beach_relaxer,Siem Reap,2
+5,beach_relaxer,Cusco,3
+5,beach_relaxer,Banff,2
+5,beach_relaxer,Buenos Aires,4
+6,beach_relaxer,Banff,2
+6,beach_relaxer,Marrakech,3
+6,beach_relaxer,Dubai,2
+6,beach_relaxer,Amsterdam,1
+6,beach_relaxer,Singapore,1
+6,beach_relaxer,Bali,5
+6,beach_relaxer,Kuala Lumpur,3
+6,beach_relaxer,Prague,1
+6,beach_relaxer,Bali Ubud,5
+6,beach_relaxer,Santorini,2
+6,beach_relaxer,Cusco,3
+6,beach_relaxer,Paris,2
+6,beach_relaxer,Reykjavik,2
+6,beach_relaxer,Hanoi,3
+6,beach_relaxer,Cape Town,3
+6,beach_relaxer,Madrid,2
+6,beach_relaxer,Cairo,3
+6,beach_relaxer,Venice,3
+6,beach_relaxer,Buenos Aires,3
+6,beach_relaxer,Melbourne,1
+7,luxury_shopper,Dubai,5
+7,luxury_shopper,Lisbon,3
+7,luxury_shopper,Seoul,5
+7,luxury_shopper,Fiji (Nadi),4
+7,luxury_shopper,Melbourne,5
+7,luxury_shopper,Venice,5
+7,luxury_shopper,New York City,5
+7,luxury_shopper,Queenstown,2
+7,luxury_shopper,Bangkok,3
+7,luxury_shopper,Copenhagen,5
+7,luxury_shopper,Rome,3
+7,luxury_shopper,Interlaken,2
+7,luxury_shopper,Taipei,2
+7,luxury_shopper,Banff,3
+7,luxury_shopper,Vienna,3
+7,luxury_shopper,Oslo,3
+7,luxury_shopper,Santorini,4
+7,luxury_shopper,Zurich,4
+7,luxury_shopper,Athens,1
+8,adventure_nature,Cusco,5
+8,adventure_nature,Vienna,4
+8,adventure_nature,Bangkok,3
+8,adventure_nature,Banff,5
+8,adventure_nature,Bali,4
+8,adventure_nature,Copenhagen,3
+8,adventure_nature,London,3
+8,adventure_nature,Santorini,2
+8,adventure_nature,San Francisco,5
+8,adventure_nature,Athens,4
+8,adventure_nature,Madrid,2
+9,budget_backpacker,Chiang Mai,5
+9,budget_backpacker,Venice,5
+9,budget_backpacker,New York City,4
+9,budget_backpacker,Singapore,4
+9,budget_backpacker,Dubai,2
+9,budget_backpacker,Queenstown,3
+9,budget_backpacker,Vienna,2
+9,budget_backpacker,Santorini,3
+9,budget_backpacker,Berlin,3
+9,budget_backpacker,Bali Ubud,5
+9,budget_backpacker,Stockholm,3
+9,budget_backpacker,Siem Reap,5
+9,budget_backpacker,Oslo,3
+9,budget_backpacker,Nairobi,4
+10,budget_backpacker,Barcelona,4
+10,budget_backpacker,Dubai,4
+10,budget_backpacker,San Francisco,4
+10,budget_backpacker,Amsterdam,3
+10,budget_backpacker,Athens,4
+10,budget_backpacker,Oslo,4
+10,budget_backpacker,Hanoi,5
+10,budget_backpacker,Santorini,3
+10,budget_backpacker,Stockholm,3
+10,budget_backpacker,Buenos Aires,4
+10,budget_backpacker,Singapore,4
+11,luxury_shopper,Dubai,5
+11,luxury_shopper,Kyoto,2
+11,luxury_shopper,Vienna,2
+11,luxury_shopper,Santorini,4
+11,luxury_shopper,Chiang Mai,4
+11,luxury_shopper,Reykjavik,4
+11,luxury_shopper,Stockholm,4
+11,luxury_shopper,Cusco,3
+11,luxury_shopper,Marrakech,2
+11,luxury_shopper,Amsterdam,4
+11,luxury_shopper,Tokyo,5
+11,luxury_shopper,New York City,4
+11,luxury_shopper,Cancun,5
+11,luxury_shopper,Cairo,2
+11,luxury_shopper,Bali Ubud,3
+11,luxury_shopper,Siem Reap,2
+11,luxury_shopper,Zurich,3
+12,culture_history,Madrid,5
+12,culture_history,Rio de Janeiro,3
+12,culture_history,Singapore,5
+12,culture_history,Nairobi,3
+12,culture_history,Interlaken,3
+12,culture_history,Rome,5
+12,culture_history,Stockholm,3
+12,culture_history,Cusco,5
+12,culture_history,Reykjavik,4
+12,culture_history,Tokyo,4
+12,culture_history,Melbourne,4
+12,culture_history,Vienna,5
+12,culture_history,Dubai,4
+12,culture_history,Queenstown,3
+13,foodie_nightlife,Nairobi,4
+13,foodie_nightlife,Ho Chi Minh City,5
+13,foodie_nightlife,Oslo,2
+13,foodie_nightlife,Rio de Janeiro,4
+13,foodie_nightlife,Bali,2
+13,foodie_nightlife,Bali Ubud,1
+13,foodie_nightlife,Marrakech,3
+13,foodie_nightlife,Rome,4
+13,foodie_nightlife,New York City,5
+13,foodie_nightlife,Kuala Lumpur,5
+13,foodie_nightlife,Madrid,4
+14,budget_backpacker,Buenos Aires,5
+14,budget_backpacker,Stockholm,3
+14,budget_backpacker,Bali Ubud,4
+14,budget_backpacker,Venice,5
+14,budget_backpacker,Interlaken,2
+14,budget_backpacker,Cape Town,4
+14,budget_backpacker,Reykjavik,3
+14,budget_backpacker,Bangkok,5
+14,budget_backpacker,Chiang Mai,4
+14,budget_backpacker,Kuala Lumpur,4
+14,budget_backpacker,Zurich,3
+14,budget_backpacker,San Francisco,4
+14,budget_backpacker,Melbourne,4
+14,budget_backpacker,Beijing,3
+14,budget_backpacker,Istanbul,5
+14,budget_backpacker,Rome,5
+14,budget_backpacker,Santorini,3
+14,budget_backpacker,Fiji (Nadi),3
+15,beach_relaxer,Zurich,2
+15,beach_relaxer,Berlin,4
+15,beach_relaxer,Copenhagen,1
+15,beach_relaxer,San Francisco,2
+15,beach_relaxer,Cusco,2
+15,beach_relaxer,New York City,2
+15,beach_relaxer,Hanoi,3
+15,beach_relaxer,Prague,3
+15,beach_relaxer,Interlaken,2
+15,beach_relaxer,Lisbon,4
+15,beach_relaxer,Bali Ubud,3
+15,beach_relaxer,Sydney,4
+15,beach_relaxer,Oslo,2
+15,beach_relaxer,Kyoto,4
+15,beach_relaxer,Istanbul,3
+15,beach_relaxer,Buenos Aires,3
+15,beach_relaxer,Banff,1
+16,beach_relaxer,Hanoi,4
+16,beach_relaxer,Vienna,1
+16,beach_relaxer,London,2
+16,beach_relaxer,Interlaken,2
+16,beach_relaxer,Oslo,2
+16,beach_relaxer,Amsterdam,2
+16,beach_relaxer,Zurich,2
+16,beach_relaxer,Stockholm,2
+16,beach_relaxer,Cairo,4
+17,budget_backpacker,New York City,4
+17,budget_backpacker,Sydney,5
+17,budget_backpacker,Stockholm,3
+17,budget_backpacker,Nairobi,2
+17,budget_backpacker,Reykjavik,3
+17,budget_backpacker,Berlin,2
+17,budget_backpacker,Cape Town,4
+17,budget_backpacker,Amsterdam,3
+17,budget_backpacker,Buenos Aires,5
+17,budget_backpacker,Rome,4
+17,budget_backpacker,Dubai,4
+17,budget_backpacker,Fiji (Nadi),2
+17,budget_backpacker,Vienna,3
+17,budget_backpacker,Zurich,4
+17,budget_backpacker,Beijing,3
+17,budget_backpacker,Tokyo,5
+17,budget_backpacker,Madrid,4
+17,budget_backpacker,Shanghai,2
+17,budget_backpacker,Chiang Mai,5
+18,beach_relaxer,New York City,2
+18,beach_relaxer,Sydney,2
+18,beach_relaxer,Berlin,2
+18,beach_relaxer,Santorini,5
+18,beach_relaxer,Oslo,2
+18,beach_relaxer,Vienna,3
+18,beach_relaxer,Athens,4
+18,beach_relaxer,Cusco,3
+18,beach_relaxer,Interlaken,3
+19,luxury_shopper,Fiji (Nadi),3
+19,luxury_shopper,Paris,4
+19,luxury_shopper,Zurich,4
+19,luxury_shopper,New York City,5
+19,luxury_shopper,Barcelona,3
+19,luxury_shopper,Amsterdam,4
+19,luxury_shopper,Cusco,1
+19,luxury_shopper,Athens,3
+19,luxury_shopper,Dubai,5
+19,luxury_shopper,Vienna,3
+19,luxury_shopper,Taipei,1
+19,luxury_shopper,Interlaken,4
+19,luxury_shopper,Bali Ubud,3
+19,luxury_shopper,Bangkok,4
+20,adventure_nature,Rio de Janeiro,4
+20,adventure_nature,Ho Chi Minh City,2
+20,adventure_nature,Dubai,4
+20,adventure_nature,Fiji (Nadi),5
+20,adventure_nature,Cancun,4
+20,adventure_nature,Cairo,2
+20,adventure_nature,Rome,3
+20,adventure_nature,Shanghai,1
+20,adventure_nature,Melbourne,3
+20,adventure_nature,Tokyo,3
+20,adventure_nature,Bangkok,3
+21,foodie_nightlife,Singapore,5
+21,foodie_nightlife,San Francisco,5
+21,foodie_nightlife,New York City,5
+21,foodie_nightlife,London,4
+21,foodie_nightlife,Bali Ubud,1
+21,foodie_nightlife,Chiang Mai,3
+21,foodie_nightlife,Amsterdam,3
+21,foodie_nightlife,Santorini,3
+22,luxury_shopper,Lisbon,4
+22,luxury_shopper,Shanghai,4
+22,luxury_shopper,Berlin,3
+22,luxury_shopper,Buenos Aires,3
+22,luxury_shopper,Vienna,3
+22,luxury_shopper,Copenhagen,5
+22,luxury_shopper,Hanoi,2
+22,luxury_shopper,Madrid,4
+22,luxury_shopper,Athens,1
+23,culture_history,Fiji (Nadi),3
+23,culture_history,Bali Ubud,3
+23,culture_history,Taipei,4
+23,culture_history,Cairo,4
+23,culture_history,Venice,5
+23,culture_history,San Francisco,3
+23,culture_history,Prague,4
+23,culture_history,Tokyo,4
+24,budget_backpacker,Oslo,3
+24,budget_backpacker,Tokyo,4
+24,budget_backpacker,Interlaken,4
+24,budget_backpacker,Siem Reap,5
+24,budget_backpacker,Reykjavik,4
+24,budget_backpacker,Lisbon,4
+24,budget_backpacker,Chiang Mai,5
+24,budget_backpacker,Venice,4
+24,budget_backpacker,Cape Town,4
+24,budget_backpacker,Stockholm,2
+24,budget_backpacker,Barcelona,4
+24,budget_backpacker,Banff,3
+24,budget_backpacker,Dubai,2
+25,adventure_nature,Interlaken,5
+25,adventure_nature,Rio de Janeiro,4
+25,adventure_nature,Singapore,3
+25,adventure_nature,Nairobi,5
+25,adventure_nature,Melbourne,3
+25,adventure_nature,Bali Ubud,4
+25,adventure_nature,Vienna,2
+25,adventure_nature,Prague,3
+26,beach_relaxer,Siem Reap,2
+26,beach_relaxer,Cusco,4
+26,beach_relaxer,Oslo,2
+26,beach_relaxer,Chiang Mai,4
+26,beach_relaxer,Bali Ubud,4
+26,beach_relaxer,Seoul,4
+26,beach_relaxer,Rio de Janeiro,4
+26,beach_relaxer,Kyoto,3
+26,beach_relaxer,Beijing,2
+26,beach_relaxer,Nairobi,3
+26,beach_relaxer,Madrid,2
+26,beach_relaxer,Singapore,2
+26,beach_relaxer,San Francisco,3
+26,beach_relaxer,Bali,4
+26,beach_relaxer,Tokyo,3
+26,beach_relaxer,Banff,2
+26,beach_relaxer,Lisbon,5
+26,beach_relaxer,Cape Town,3
+27,adventure_nature,Bali Ubud,5
+27,adventure_nature,Oslo,4
+27,adventure_nature,Rio de Janeiro,5
+27,adventure_nature,New York City,3
+27,adventure_nature,Kuala Lumpur,3
+27,adventure_nature,Kyoto,3
+27,adventure_nature,Barcelona,3
+27,adventure_nature,Amsterdam,2
+27,adventure_nature,Madrid,3
+27,adventure_nature,Istanbul,4
+27,adventure_nature,Beijing,3
+27,adventure_nature,Cancun,3
+28,luxury_shopper,Buenos Aires,3
+28,luxury_shopper,Beijing,2
+28,luxury_shopper,Stockholm,4
+28,luxury_shopper,Vienna,3
+28,luxury_shopper,Fiji (Nadi),3
+28,luxury_shopper,Rome,2
+28,luxury_shopper,Seoul,5
+28,luxury_shopper,Rio de Janeiro,3
+28,luxury_shopper,Oslo,3
+28,luxury_shopper,Interlaken,4
+28,luxury_shopper,Kyoto,2
+28,luxury_shopper,Cancun,4
+28,luxury_shopper,Berlin,2
+28,luxury_shopper,London,5
+28,luxury_shopper,Lisbon,2
+28,luxury_shopper,Sydney,4
+28,luxury_shopper,Melbourne,3
+28,luxury_shopper,Cape Town,2
+29,luxury_shopper,Zurich,3
+29,luxury_shopper,Interlaken,4
+29,luxury_shopper,San Francisco,2
+29,luxury_shopper,Nairobi,3
+29,luxury_shopper,Copenhagen,3
+29,luxury_shopper,Melbourne,4
+29,luxury_shopper,Madrid,4
+29,luxury_shopper,Vienna,3
+30,budget_backpacker,Nairobi,2
+30,budget_backpacker,Oslo,3
+30,budget_backpacker,Athens,4
+30,budget_backpacker,New York City,5
+30,budget_backpacker,Seoul,5
+30,budget_backpacker,Rome,3
+30,budget_backpacker,Lisbon,4
+30,budget_backpacker,London,3
+30,budget_backpacker,Prague,4
+30,budget_backpacker,Reykjavik,2
+30,budget_backpacker,Copenhagen,5
+31,budget_backpacker,Santorini,4
+31,budget_backpacker,Ho Chi Minh City,4
+31,budget_backpacker,Siem Reap,5
+31,budget_backpacker,New York City,4
+31,budget_backpacker,Chiang Mai,5
+31,budget_backpacker,Taipei,4
+31,budget_backpacker,Bali,4
+31,budget_backpacker,Reykjavik,4
+31,budget_backpacker,Stockholm,3
+31,budget_backpacker,Berlin,2
+31,budget_backpacker,Tokyo,4
+31,budget_backpacker,Cape Town,4
+31,budget_backpacker,Shanghai,4
+31,budget_backpacker,Bali Ubud,4
+32,adventure_nature,Banff,5
+32,adventure_nature,Sydney,5
+32,adventure_nature,Dubai,4
+32,adventure_nature,Zurich,4
+32,adventure_nature,San Francisco,4
+32,adventure_nature,Tokyo,2
+32,adventure_nature,Athens,4
+32,adventure_nature,Shanghai,3
+32,adventure_nature,Berlin,2
+32,adventure_nature,Chiang Mai,4
+32,adventure_nature,Nairobi,5
+32,adventure_nature,Venice,4
+32,adventure_nature,Cape Town,5
+33,luxury_shopper,Siem Reap,1
+33,luxury_shopper,Madrid,4
+33,luxury_shopper,Cairo,1
+33,luxury_shopper,Queenstown,3
+33,luxury_shopper,Cape Town,2
+33,luxury_shopper,Cancun,4
+33,luxury_shopper,Ho Chi Minh City,4
+33,luxury_shopper,London,5
+34,foodie_nightlife,Sydney,3
+34,foodie_nightlife,Istanbul,4
+34,foodie_nightlife,Bangkok,3
+34,foodie_nightlife,Hanoi,3
+34,foodie_nightlife,Bali,2
+34,foodie_nightlife,Singapore,5
+34,foodie_nightlife,Venice,4
+34,foodie_nightlife,Shanghai,5
+34,foodie_nightlife,Madrid,5
+34,foodie_nightlife,Kuala Lumpur,5
+34,foodie_nightlife,Kyoto,2
+34,foodie_nightlife,Interlaken,3
+34,foodie_nightlife,Cairo,3
+34,foodie_nightlife,Buenos Aires,5
+34,foodie_nightlife,Copenhagen,5
+34,foodie_nightlife,Melbourne,5
+35,budget_backpacker,Cusco,5
+35,budget_backpacker,Cape Town,5
+35,budget_backpacker,Oslo,3
+35,budget_backpacker,Madrid,5
+35,budget_backpacker,Athens,5
+35,budget_backpacker,Cancun,3
+35,budget_backpacker,Amsterdam,3
+35,budget_backpacker,Nairobi,3
+35,budget_backpacker,Fiji (Nadi),4
+35,budget_backpacker,Bali Ubud,4
+35,budget_backpacker,London,2
+35,budget_backpacker,Melbourne,4
+35,budget_backpacker,Copenhagen,3
+35,budget_backpacker,Ho Chi Minh City,5
+35,budget_backpacker,Santorini,3
+35,budget_backpacker,Rio de Janeiro,3
+35,budget_backpacker,Berlin,3
+35,budget_backpacker,Vienna,4
+36,luxury_shopper,Rome,2
+36,luxury_shopper,Beijing,2
+36,luxury_shopper,Fiji (Nadi),2
+36,luxury_shopper,Athens,2
+36,luxury_shopper,Shanghai,2
+36,luxury_shopper,Vienna,3
+36,luxury_shopper,Dubai,5
+36,luxury_shopper,Sydney,4
+36,luxury_shopper,Chiang Mai,3
+37,luxury_shopper,Fiji (Nadi),3
+37,luxury_shopper,Taipei,2
+37,luxury_shopper,Kyoto,2
+37,luxury_shopper,Bali,2
+37,luxury_shopper,Siem Reap,2
+37,luxury_shopper,Banff,4
+37,luxury_shopper,Dubai,5
+37,luxury_shopper,Barcelona,3
+37,luxury_shopper,Beijing,3
+38,beach_relaxer,Copenhagen,1
+38,beach_relaxer,Bali,5
+38,beach_relaxer,Cairo,3
+38,beach_relaxer,New York City,1
+38,beach_relaxer,Kuala Lumpur,1
+38,beach_relaxer,Paris,1
+38,beach_relaxer,Istanbul,4
+38,beach_relaxer,Tokyo,3
+38,beach_relaxer,Melbourne,2
+38,beach_relaxer,Sydney,3
+38,beach_relaxer,Cancun,5
+38,beach_relaxer,Kyoto,3
+38,beach_relaxer,Athens,2
+38,beach_relaxer,Zurich,2
+38,beach_relaxer,Interlaken,2
+38,beach_relaxer,Cape Town,5
+38,beach_relaxer,Nairobi,3
+39,adventure_nature,Chiang Mai,3
+39,adventure_nature,Amsterdam,3
+39,adventure_nature,Nairobi,5
+39,adventure_nature,Sydney,4
+39,adventure_nature,New York City,4
+39,adventure_nature,Bangkok,2
+39,adventure_nature,Hanoi,4
+39,adventure_nature,Buenos Aires,4
+39,adventure_nature,Copenhagen,2
+39,adventure_nature,Reykjavik,4
+39,adventure_nature,Rome,3
+39,adventure_nature,Queenstown,4
+39,adventure_nature,Zurich,4
+39,adventure_nature,Fiji (Nadi),2
+39,adventure_nature,Singapore,3
+39,adventure_nature,Banff,5
+40,budget_backpacker,Rome,3
+40,budget_backpacker,Prague,3
+40,budget_backpacker,Banff,3
+40,budget_backpacker,Istanbul,4
+40,budget_backpacker,Cancun,3
+40,budget_backpacker,Bali,3
+40,budget_backpacker,Stockholm,4
+40,budget_backpacker,Ho Chi Minh City,5
+40,budget_backpacker,Beijing,3
+40,budget_backpacker,Chiang Mai,5
+40,budget_backpacker,Sydney,3
+40,budget_backpacker,Zurich,3
+40,budget_backpacker,Amsterdam,4
+40,budget_backpacker,Nairobi,3
+40,budget_backpacker,San Francisco,4
+40,budget_backpacker,Rio de Janeiro,2
+40,budget_backpacker,Paris,4
+40,budget_backpacker,Lisbon,4
+40,budget_backpacker,Fiji (Nadi),4
+40,budget_backpacker,Siem Reap,4
+41,adventure_nature,Banff,5
+41,adventure_nature,Fiji (Nadi),4
+41,adventure_nature,Kyoto,5
+41,adventure_nature,Bali Ubud,5
+41,adventure_nature,Lisbon,2
+41,adventure_nature,Seoul,3
+41,adventure_nature,Tokyo,3
+41,adventure_nature,Queenstown,4
+41,adventure_nature,Dubai,3
+41,adventure_nature,Singapore,3
+41,adventure_nature,Cancun,3
+41,adventure_nature,Venice,3
+41,adventure_nature,Siem Reap,4
+41,adventure_nature,Rome,2
+41,adventure_nature,Marrakech,3
+41,adventure_nature,Santorini,3
+42,budget_backpacker,Cairo,3
+42,budget_backpacker,Marrakech,5
+42,budget_backpacker,Cancun,1
+42,budget_backpacker,Shanghai,4
+42,budget_backpacker,Paris,4
+42,budget_backpacker,Santorini,4
+42,budget_backpacker,Melbourne,5
+42,budget_backpacker,Athens,5
+42,budget_backpacker,Hanoi,5
+42,budget_backpacker,Venice,4
+42,budget_backpacker,Taipei,4
+42,budget_backpacker,Tokyo,4
+42,budget_backpacker,Cusco,5
+43,luxury_shopper,Athens,3
+43,luxury_shopper,Interlaken,4
+43,luxury_shopper,Buenos Aires,3
+43,luxury_shopper,Fiji (Nadi),3
+43,luxury_shopper,Bali Ubud,3
+43,luxury_shopper,San Francisco,3
+43,luxury_shopper,Reykjavik,3
+43,luxury_shopper,Cancun,4
+43,luxury_shopper,Siem Reap,2
+43,luxury_shopper,Kuala Lumpur,4
+43,luxury_shopper,Nairobi,2
+43,luxury_shopper,Taipei,3
+43,luxury_shopper,Marrakech,2
+43,luxury_shopper,Copenhagen,4
+43,luxury_shopper,Santorini,4
+43,luxury_shopper,Hanoi,3
+43,luxury_shopper,Cairo,1
+44,beach_relaxer,Dubai,2
+44,beach_relaxer,Kuala Lumpur,4
+44,beach_relaxer,Venice,2
+44,beach_relaxer,Interlaken,4
+44,beach_relaxer,Siem Reap,3
+44,beach_relaxer,Buenos Aires,4
+44,beach_relaxer,Madrid,3
+44,beach_relaxer,Prague,3
+44,beach_relaxer,Cairo,2
+44,beach_relaxer,Melbourne,2
+44,beach_relaxer,Cancun,5
+44,beach_relaxer,Barcelona,4
+44,beach_relaxer,Queenstown,3
+44,beach_relaxer,Taipei,1
+44,beach_relaxer,Beijing,3
+44,beach_relaxer,Chiang Mai,4
+44,beach_relaxer,Shanghai,2
+45,budget_backpacker,Buenos Aires,5
+45,budget_backpacker,Singapore,3
+45,budget_backpacker,Chiang Mai,4
+45,budget_backpacker,Kyoto,2
+45,budget_backpacker,Siem Reap,5
+45,budget_backpacker,Madrid,4
+45,budget_backpacker,Barcelona,5
+45,budget_backpacker,Dubai,2
+45,budget_backpacker,Bali,4
+45,budget_backpacker,Oslo,5
+45,budget_backpacker,Fiji (Nadi),4
+45,budget_backpacker,Reykjavik,4
+45,budget_backpacker,San Francisco,5
+45,budget_backpacker,Taipei,4
+45,budget_backpacker,Cape Town,4
+45,budget_backpacker,Sydney,4
+45,budget_backpacker,Interlaken,3
+45,budget_backpacker,Banff,3
+45,budget_backpacker,Berlin,3
+45,budget_backpacker,Lisbon,3
+46,foodie_nightlife,Kyoto,4
+46,foodie_nightlife,Bali Ubud,3
+46,foodie_nightlife,Hanoi,3
+46,foodie_nightlife,Zurich,3
+46,foodie_nightlife,Seoul,5
+46,foodie_nightlife,Berlin,5
+46,foodie_nightlife,San Francisco,4
+46,foodie_nightlife,Ho Chi Minh City,4
+46,foodie_nightlife,Stockholm,5
+46,foodie_nightlife,Singapore,4
+46,foodie_nightlife,Kuala Lumpur,5
+46,foodie_nightlife,Istanbul,4
+47,culture_history,Cape Town,3
+47,culture_history,Interlaken,3
+47,culture_history,Venice,5
+47,culture_history,Lisbon,4
+47,culture_history,Cairo,4
+47,culture_history,Dubai,3
+47,culture_history,Athens,4
+47,culture_history,Stockholm,5
+47,culture_history,Shanghai,3
+47,culture_history,Santorini,3
+47,culture_history,Paris,5
+47,culture_history,Marrakech,4
+47,culture_history,Prague,5
+47,culture_history,Rome,5
+47,culture_history,Taipei,5
+47,culture_history,London,4
+47,culture_history,Barcelona,4
+47,culture_history,Fiji (Nadi),4
+48,budget_backpacker,Bangkok,4
+48,budget_backpacker,Cancun,2
+48,budget_backpacker,Kyoto,3
+48,budget_backpacker,Hanoi,5
+48,budget_backpacker,Singapore,3
+48,budget_backpacker,Buenos Aires,5
+48,budget_backpacker,Tokyo,4
+48,budget_backpacker,Zurich,3
+48,budget_backpacker,Bali Ubud,3
+48,budget_backpacker,Beijing,2
+48,budget_backpacker,Oslo,3
+48,budget_backpacker,Marrakech,5
+49,foodie_nightlife,London,5
+49,foodie_nightlife,Cape Town,4
+49,foodie_nightlife,Buenos Aires,5
+49,foodie_nightlife,Sydney,4
+49,foodie_nightlife,Bali Ubud,1
+49,foodie_nightlife,Oslo,4
+49,foodie_nightlife,Rome,4
+49,foodie_nightlife,Melbourne,5
+49,foodie_nightlife,Bali,3
+49,foodie_nightlife,Cairo,2
+49,foodie_nightlife,Venice,3
+49,foodie_nightlife,Chiang Mai,3
+50,foodie_nightlife,Zurich,2
+50,foodie_nightlife,Vienna,2
+50,foodie_nightlife,Istanbul,4
+50,foodie_nightlife,Bangkok,4
+50,foodie_nightlife,London,5
+50,foodie_nightlife,Rio de Janeiro,5
+50,foodie_nightlife,Prague,4
+50,foodie_nightlife,Tokyo,3
+50,foodie_nightlife,Cusco,2
+50,foodie_nightlife,Taipei,4
+50,foodie_nightlife,Marrakech,1
+50,foodie_nightlife,Cancun,4
+50,foodie_nightlife,Fiji (Nadi),3
+50,foodie_nightlife,Shanghai,3
+50,foodie_nightlife,Paris,5
+50,foodie_nightlife,Sydney,3
+50,foodie_nightlife,Hanoi,2
+50,foodie_nightlife,Amsterdam,4
+50,foodie_nightlife,Queenstown,4
+50,foodie_nightlife,Dubai,5
+51,luxury_shopper,Ho Chi Minh City,3
+51,luxury_shopper,Buenos Aires,4
+51,luxury_shopper,Queenstown,4
+51,luxury_shopper,Shanghai,4
+51,luxury_shopper,Bali,3
+51,luxury_shopper,Cusco,2
+51,luxury_shopper,Lisbon,4
+51,luxury_shopper,Bali Ubud,3
+51,luxury_shopper,Marrakech,2
+51,luxury_shopper,Berlin,5
+51,luxury_shopper,San Francisco,3
+51,luxury_shopper,Chiang Mai,3
+51,luxury_shopper,Santorini,4
+51,luxury_shopper,Reykjavik,3
+51,luxury_shopper,Melbourne,3
+52,luxury_shopper,Reykjavik,2
+52,luxury_shopper,Hanoi,2
+52,luxury_shopper,Berlin,4
+52,luxury_shopper,Marrakech,1
+52,luxury_shopper,Tokyo,5
+52,luxury_shopper,Kyoto,3
+52,luxury_shopper,Paris,3
+52,luxury_shopper,Kuala Lumpur,5
+52,luxury_shopper,Santorini,3
+52,luxury_shopper,Prague,3
+52,luxury_shopper,Fiji (Nadi),3
+52,luxury_shopper,Bangkok,4
+53,foodie_nightlife,Tokyo,5
+53,foodie_nightlife,Chiang Mai,3
+53,foodie_nightlife,Reykjavik,3
+53,foodie_nightlife,Bangkok,4
+53,foodie_nightlife,Cusco,2
+53,foodie_nightlife,Cancun,5
+53,foodie_nightlife,Ho Chi Minh City,5
+53,foodie_nightlife,Taipei,4
+53,foodie_nightlife,Stockholm,5
+53,foodie_nightlife,Madrid,5
+53,foodie_nightlife,Prague,4
+53,foodie_nightlife,Singapore,5
+53,foodie_nightlife,Melbourne,4
+54,adventure_nature,Seoul,3
+54,adventure_nature,Buenos Aires,4
+54,adventure_nature,Berlin,3
+54,adventure_nature,Marrakech,3
+54,adventure_nature,Istanbul,4
+54,adventure_nature,Cape Town,5
+54,adventure_nature,Rome,3
+54,adventure_nature,New York City,1
+54,adventure_nature,Vienna,3
+54,adventure_nature,Dubai,3
+54,adventure_nature,Prague,4
+55,luxury_shopper,Hanoi,2
+55,luxury_shopper,Copenhagen,4
+55,luxury_shopper,Madrid,2
+55,luxury_shopper,Queenstown,3
+55,luxury_shopper,Kuala Lumpur,5
+55,luxury_shopper,Chiang Mai,2
+55,luxury_shopper,Cusco,1
+55,luxury_shopper,Zurich,3
+55,luxury_shopper,Bangkok,3
+55,luxury_shopper,Stockholm,4
+56,foodie_nightlife,Vienna,3
+56,foodie_nightlife,San Francisco,4
+56,foodie_nightlife,Istanbul,4
+56,foodie_nightlife,Singapore,5
+56,foodie_nightlife,Oslo,2
+56,foodie_nightlife,Nairobi,3
+56,foodie_nightlife,New York City,5
+56,foodie_nightlife,Hanoi,3
+56,foodie_nightlife,Dubai,4
+56,foodie_nightlife,Melbourne,4
+56,foodie_nightlife,Ho Chi Minh City,5
+56,foodie_nightlife,Fiji (Nadi),3
+56,foodie_nightlife,Tokyo,5
+56,foodie_nightlife,Rio de Janeiro,4
+56,foodie_nightlife,Interlaken,2
+56,foodie_nightlife,Venice,3
+56,foodie_nightlife,Kuala Lumpur,5
+56,foodie_nightlife,Taipei,5
+57,adventure_nature,Venice,3
+57,adventure_nature,Oslo,3
+57,adventure_nature,Sydney,5
+57,adventure_nature,Kyoto,5
+57,adventure_nature,New York City,4
+57,adventure_nature,Istanbul,2
+57,adventure_nature,Lisbon,2
+57,adventure_nature,Santorini,2
+57,adventure_nature,Seoul,4
+57,adventure_nature,Zurich,4
+57,adventure_nature,Amsterdam,3
+58,culture_history,Cusco,5
+58,culture_history,Fiji (Nadi),2
+58,culture_history,Siem Reap,4
+58,culture_history,Buenos Aires,3
+58,culture_history,Sydney,4
+58,culture_history,Copenhagen,5
+58,culture_history,Ho Chi Minh City,4
+58,culture_history,Kyoto,5
+58,culture_history,Nairobi,3
+58,culture_history,Seoul,4
+58,culture_history,Bangkok,3
+59,foodie_nightlife,Sydney,4
+59,foodie_nightlife,Prague,5
+59,foodie_nightlife,Buenos Aires,5
+59,foodie_nightlife,Zurich,3
+59,foodie_nightlife,San Francisco,5
+59,foodie_nightlife,Bangkok,4
+59,foodie_nightlife,Rio de Janeiro,5
+59,foodie_nightlife,Kuala Lumpur,5
+59,foodie_nightlife,Siem Reap,1
+59,foodie_nightlife,Stockholm,5
+59,foodie_nightlife,Madrid,5
+59,foodie_nightlife,Nairobi,2
+59,foodie_nightlife,Istanbul,4
+59,foodie_nightlife,Cancun,5
+59,foodie_nightlife,Singapore,5
+59,foodie_nightlife,Copenhagen,5
+59,foodie_nightlife,Cape Town,4
+59,foodie_nightlife,Barcelona,5
+60,budget_backpacker,Oslo,1
+60,budget_backpacker,Istanbul,3
+60,budget_backpacker,Marrakech,5
+60,budget_backpacker,Ho Chi Minh City,5
+60,budget_backpacker,Fiji (Nadi),3
+60,budget_backpacker,San Francisco,4
+60,budget_backpacker,Santorini,2
+60,budget_backpacker,Banff,3
+60,budget_backpacker,Reykjavik,3
+60,budget_backpacker,Buenos Aires,5
+60,budget_backpacker,Cusco,5
+60,budget_backpacker,Cape Town,4
+60,budget_backpacker,Cairo,5
+61,culture_history,Beijing,5
+61,culture_history,Oslo,4
+61,culture_history,New York City,4
+61,culture_history,San Francisco,4
+61,culture_history,Venice,5
+61,culture_history,Shanghai,4
+61,culture_history,Rio de Janeiro,2
+61,culture_history,Lisbon,4
+61,culture_history,Santorini,4
+61,culture_history,Singapore,5
+61,culture_history,London,5
+61,culture_history,Dubai,4
+61,culture_history,Copenhagen,4
+61,culture_history,Berlin,5
+61,culture_history,Interlaken,3
+61,culture_history,Ho Chi Minh City,4
+61,culture_history,Tokyo,5
+62,adventure_nature,Santorini,3
+62,adventure_nature,New York City,3
+62,adventure_nature,Berlin,3
+62,adventure_nature,Ho Chi Minh City,2
+62,adventure_nature,Queenstown,5
+62,adventure_nature,Barcelona,4
+62,adventure_nature,Cancun,3
+62,adventure_nature,Vienna,3
+62,adventure_nature,Marrakech,5
+62,adventure_nature,Siem Reap,3
+62,adventure_nature,Prague,4
+62,adventure_nature,Cape Town,5
+62,adventure_nature,London,4
+62,adventure_nature,Copenhagen,2
+62,adventure_nature,Chiang Mai,4
+62,adventure_nature,Kuala Lumpur,3
+62,adventure_nature,Istanbul,3
+62,adventure_nature,Sydney,4
+62,adventure_nature,Amsterdam,3
+63,foodie_nightlife,Rome,3
+63,foodie_nightlife,Tokyo,5
+63,foodie_nightlife,Buenos Aires,4
+63,foodie_nightlife,Zurich,3
+63,foodie_nightlife,Prague,4
+63,foodie_nightlife,Vienna,3
+63,foodie_nightlife,Marrakech,2
+63,foodie_nightlife,Dubai,4
+63,foodie_nightlife,Cusco,1
+63,foodie_nightlife,Copenhagen,4
+63,foodie_nightlife,Nairobi,4
+63,foodie_nightlife,Shanghai,3
+63,foodie_nightlife,Lisbon,5
+63,foodie_nightlife,San Francisco,3
+63,foodie_nightlife,Venice,3
+63,foodie_nightlife,Banff,4
+63,foodie_nightlife,Sydney,4
+63,foodie_nightlife,Hanoi,2
+63,foodie_nightlife,Rio de Janeiro,3
+63,foodie_nightlife,Bangkok,4
+64,luxury_shopper,Kyoto,1
+64,luxury_shopper,Bangkok,4
+64,luxury_shopper,Madrid,3
+64,luxury_shopper,Buenos Aires,3
+64,luxury_shopper,Taipei,2
+64,luxury_shopper,Cape Town,2
+64,luxury_shopper,Istanbul,2
+64,luxury_shopper,Marrakech,2
+64,luxury_shopper,Banff,4
+64,luxury_shopper,Bali,3
+64,luxury_shopper,Singapore,5
+64,luxury_shopper,Rio de Janeiro,4
+65,budget_backpacker,New York City,4
+65,budget_backpacker,London,2
+65,budget_backpacker,Melbourne,4
+65,budget_backpacker,Zurich,4
+65,budget_backpacker,Madrid,4
+65,budget_backpacker,Fiji (Nadi),4
+65,budget_backpacker,Barcelona,3
+65,budget_backpacker,Oslo,4
+65,budget_backpacker,Taipei,4
+65,budget_backpacker,Bali Ubud,4
+65,budget_backpacker,Venice,3
+65,budget_backpacker,Buenos Aires,5
+65,budget_backpacker,Banff,3
+65,budget_backpacker,Nairobi,2
+66,adventure_nature,Ho Chi Minh City,4
+66,adventure_nature,London,4
+66,adventure_nature,Cape Town,5
+66,adventure_nature,Buenos Aires,4
+66,adventure_nature,Bangkok,3
+66,adventure_nature,Siem Reap,5
+66,adventure_nature,Dubai,4
+66,adventure_nature,Cancun,3
+66,adventure_nature,Zurich,4
+66,adventure_nature,Copenhagen,3
+66,adventure_nature,Reykjavik,5
+66,adventure_nature,Venice,3
+66,adventure_nature,Melbourne,3
+66,adventure_nature,Cairo,2
+66,adventure_nature,Banff,5
+66,adventure_nature,Bali Ubud,4
+67,budget_backpacker,Kuala Lumpur,4
+67,budget_backpacker,Bangkok,4
+67,budget_backpacker,Oslo,2
+67,budget_backpacker,Queenstown,3
+67,budget_backpacker,Beijing,4
+67,budget_backpacker,Interlaken,3
+67,budget_backpacker,Cape Town,3
+67,budget_backpacker,Athens,4
+67,budget_backpacker,Buenos Aires,5
+67,budget_backpacker,Sydney,4
+67,budget_backpacker,Taipei,4
+68,culture_history,Fiji (Nadi),3
+68,culture_history,Cape Town,3
+68,culture_history,Venice,5
+68,culture_history,Hanoi,4
+68,culture_history,Interlaken,3
+68,culture_history,Sydney,5
+68,culture_history,Chiang Mai,3
+68,culture_history,Kuala Lumpur,4
+68,culture_history,Singapore,4
+69,luxury_shopper,Ho Chi Minh City,2
+69,luxury_shopper,Cancun,3
+69,luxury_shopper,Seoul,4
+69,luxury_shopper,Fiji (Nadi),3
+69,luxury_shopper,Tokyo,5
+69,luxury_shopper,Bangkok,3
+69,luxury_shopper,Reykjavik,3
+69,luxury_shopper,New York City,5
+69,luxury_shopper,Buenos Aires,3
+70,luxury_shopper,Marrakech,2
+70,luxury_shopper,Madrid,4
+70,luxury_shopper,Nairobi,4
+70,luxury_shopper,Rio de Janeiro,4
+70,luxury_shopper,Prague,4
+70,luxury_shopper,Cusco,1
+70,luxury_shopper,Rome,3
+70,luxury_shopper,Dubai,5
+70,luxury_shopper,Fiji (Nadi),2
+70,luxury_shopper,Shanghai,5
+70,luxury_shopper,Venice,4
+70,luxury_shopper,Singapore,5
+70,luxury_shopper,Barcelona,4
+70,luxury_shopper,Ho Chi Minh City,4
+70,luxury_shopper,Siem Reap,1
+70,luxury_shopper,Cairo,1
+71,foodie_nightlife,Berlin,3
+71,foodie_nightlife,Ho Chi Minh City,4
+71,foodie_nightlife,Istanbul,4
+71,foodie_nightlife,Reykjavik,3
+71,foodie_nightlife,New York City,5
+71,foodie_nightlife,Kuala Lumpur,4
+71,foodie_nightlife,Cape Town,3
+71,foodie_nightlife,Oslo,2
+71,foodie_nightlife,Rome,4
+71,foodie_nightlife,Zurich,3
+71,foodie_nightlife,London,4
+71,foodie_nightlife,Vienna,3
+71,foodie_nightlife,Prague,4
+71,foodie_nightlife,Interlaken,4
+71,foodie_nightlife,Hanoi,3
+71,foodie_nightlife,Amsterdam,4
+71,foodie_nightlife,Stockholm,3
+72,adventure_nature,London,3
+72,adventure_nature,Ho Chi Minh City,3
+72,adventure_nature,Istanbul,2
+72,adventure_nature,Banff,5
+72,adventure_nature,Kuala Lumpur,3
+72,adventure_nature,Taipei,3
+72,adventure_nature,Buenos Aires,3
+72,adventure_nature,Kyoto,4
+72,adventure_nature,Beijing,3
+72,adventure_nature,Lisbon,5
+73,budget_backpacker,Madrid,5
+73,budget_backpacker,Oslo,3
+73,budget_backpacker,Banff,2
+73,budget_backpacker,Prague,4
+73,budget_backpacker,Athens,3
+73,budget_backpacker,Chiang Mai,4
+73,budget_backpacker,Vienna,4
+73,budget_backpacker,Paris,5
+73,budget_backpacker,Bali,4
+73,budget_backpacker,Cusco,5
+73,budget_backpacker,Buenos Aires,5
+73,budget_backpacker,Amsterdam,3
+73,budget_backpacker,Taipei,4
+74,foodie_nightlife,Tokyo,5
+74,foodie_nightlife,Fiji (Nadi),2
+74,foodie_nightlife,Rome,4
+74,foodie_nightlife,Melbourne,5
+74,foodie_nightlife,Shanghai,4
+74,foodie_nightlife,Bali,2
+74,foodie_nightlife,Copenhagen,4
+74,foodie_nightlife,Sydney,4
+74,foodie_nightlife,Athens,4
+74,foodie_nightlife,Amsterdam,3
+74,foodie_nightlife,London,4
+75,budget_backpacker,Ho Chi Minh City,4
+75,budget_backpacker,Chiang Mai,5
+75,budget_backpacker,Queenstown,3
+75,budget_backpacker,Amsterdam,4
+75,budget_backpacker,Siem Reap,5
+75,budget_backpacker,San Francisco,4
+75,budget_backpacker,Lisbon,5
+75,budget_backpacker,Fiji (Nadi),5
+75,budget_backpacker,Interlaken,3
+75,budget_backpacker,Marrakech,5
+75,budget_backpacker,Cape Town,4
+75,budget_backpacker,Rio de Janeiro,3
+75,budget_backpacker,Stockholm,4
+75,budget_backpacker,Bangkok,5
+75,budget_backpacker,Kyoto,3
+75,budget_backpacker,Santorini,3
+75,budget_backpacker,Barcelona,5
+75,budget_backpacker,Cairo,4
+76,luxury_shopper,Cape Town,3
+76,luxury_shopper,Cairo,2
+76,luxury_shopper,Banff,2
+76,luxury_shopper,Kyoto,2
+76,luxury_shopper,Buenos Aires,3
+76,luxury_shopper,Athens,3
+76,luxury_shopper,Venice,5
+76,luxury_shopper,Zurich,3
+76,luxury_shopper,Santorini,4
+76,luxury_shopper,Dubai,5
+76,luxury_shopper,Hanoi,1
+76,luxury_shopper,Seoul,4
+76,luxury_shopper,Paris,4
+77,budget_backpacker,Sydney,3
+77,budget_backpacker,Berlin,3
+77,budget_backpacker,Taipei,4
+77,budget_backpacker,Stockholm,2
+77,budget_backpacker,Lisbon,4
+77,budget_backpacker,Barcelona,4
+77,budget_backpacker,Vienna,3
+77,budget_backpacker,San Francisco,5
+77,budget_backpacker,Fiji (Nadi),4
+78,culture_history,Queenstown,3
+78,culture_history,Berlin,5
+78,culture_history,Interlaken,3
+78,culture_history,Barcelona,4
+78,culture_history,Beijing,5
+78,culture_history,Seoul,4
+78,culture_history,Paris,5
+78,culture_history,Singapore,3
+78,culture_history,Kuala Lumpur,5
+78,culture_history,Prague,4
+78,culture_history,Reykjavik,3
+78,culture_history,San Francisco,4
+78,culture_history,Dubai,3
+78,culture_history,Bangkok,3
+78,culture_history,Fiji (Nadi),3
+78,culture_history,Vienna,5
+78,culture_history,Tokyo,4
+78,culture_history,Cairo,5
+78,culture_history,Cancun,2
+78,culture_history,Bali,2
+79,foodie_nightlife,New York City,5
+79,foodie_nightlife,Reykjavik,3
+79,foodie_nightlife,Copenhagen,5
+79,foodie_nightlife,Cairo,1
+79,foodie_nightlife,Cusco,3
+79,foodie_nightlife,Tokyo,4
+79,foodie_nightlife,Rio de Janeiro,3
+79,foodie_nightlife,Singapore,5
+79,foodie_nightlife,Santorini,3
+79,foodie_nightlife,Stockholm,4
+79,foodie_nightlife,Siem Reap,2
+79,foodie_nightlife,Bali Ubud,1
+80,foodie_nightlife,San Francisco,4
+80,foodie_nightlife,Interlaken,3
+80,foodie_nightlife,Lisbon,5
+80,foodie_nightlife,Rome,4
+80,foodie_nightlife,Berlin,4
+80,foodie_nightlife,Zurich,2
+80,foodie_nightlife,Nairobi,2
+80,foodie_nightlife,Barcelona,5
+80,foodie_nightlife,Banff,4
+80,foodie_nightlife,Beijing,2
+80,foodie_nightlife,Stockholm,5
+80,foodie_nightlife,Taipei,4
+81,beach_relaxer,Cairo,3
+81,beach_relaxer,Amsterdam,2
+81,beach_relaxer,Singapore,2
+81,beach_relaxer,Dubai,3
+81,beach_relaxer,London,3
+81,beach_relaxer,Rome,5
+81,beach_relaxer,Tokyo,3
+81,beach_relaxer,New York City,1
+81,beach_relaxer,Oslo,1
+81,beach_relaxer,Prague,2
+82,luxury_shopper,Queenstown,3
+82,luxury_shopper,Amsterdam,3
+82,luxury_shopper,Cancun,3
+82,luxury_shopper,Cairo,1
+82,luxury_shopper,Seoul,5
+82,luxury_shopper,Berlin,3
+82,luxury_shopper,Nairobi,3
+82,luxury_shopper,Fiji (Nadi),2
+82,luxury_shopper,Shanghai,4
+82,luxury_shopper,Cusco,2
+82,luxury_shopper,Rio de Janeiro,2
+82,luxury_shopper,Kuala Lumpur,4
+82,luxury_shopper,New York City,5
+82,luxury_shopper,Bali,3
+82,luxury_shopper,Dubai,5
+82,luxury_shopper,Zurich,3
+82,luxury_shopper,Beijing,2
+83,luxury_shopper,Shanghai,4
+83,luxury_shopper,Cairo,1
+83,luxury_shopper,Seoul,3
+83,luxury_shopper,London,5
+83,luxury_shopper,Paris,4
+83,luxury_shopper,Bangkok,3
+83,luxury_shopper,Lisbon,2
+83,luxury_shopper,Venice,4
+83,luxury_shopper,Prague,3
+84,foodie_nightlife,Vienna,2
+84,foodie_nightlife,Venice,3
+84,foodie_nightlife,Interlaken,3
+84,foodie_nightlife,Singapore,5
+84,foodie_nightlife,Kuala Lumpur,5
+84,foodie_nightlife,Dubai,3
+84,foodie_nightlife,Beijing,4
+84,foodie_nightlife,Reykjavik,3
+84,foodie_nightlife,Siem Reap,2
+84,foodie_nightlife,Copenhagen,5
+84,foodie_nightlife,Cape Town,5
+84,foodie_nightlife,Madrid,4
+84,foodie_nightlife,Hanoi,3
+84,foodie_nightlife,Buenos Aires,5
+84,foodie_nightlife,Cairo,3
+84,foodie_nightlife,Zurich,3
+85,adventure_nature,Bali Ubud,5
+85,adventure_nature,Singapore,2
+85,adventure_nature,Tokyo,2
+85,adventure_nature,Banff,5
+85,adventure_nature,Vienna,3
+85,adventure_nature,Berlin,4
+85,adventure_nature,Siem Reap,5
+85,adventure_nature,Bangkok,3
+85,adventure_nature,Amsterdam,4
+85,adventure_nature,Cancun,2
+85,adventure_nature,Fiji (Nadi),3
+85,adventure_nature,Sydney,5
+85,adventure_nature,Bali,4
+85,adventure_nature,Stockholm,4
+85,adventure_nature,Istanbul,3
+85,adventure_nature,Oslo,3
+85,adventure_nature,Prague,4
+85,adventure_nature,Cairo,3
+86,budget_backpacker,Tokyo,4
+86,budget_backpacker,Lisbon,5
+86,budget_backpacker,Berlin,3
+86,budget_backpacker,Seoul,3
+86,budget_backpacker,Prague,4
+86,budget_backpacker,Cairo,5
+86,budget_backpacker,Cancun,1
+86,budget_backpacker,Singapore,5
+86,budget_backpacker,Fiji (Nadi),2
+86,budget_backpacker,Cusco,5
+86,budget_backpacker,Banff,2
+86,budget_backpacker,Rio de Janeiro,2
+86,budget_backpacker,Bangkok,5
+86,budget_backpacker,Kuala Lumpur,4
+86,budget_backpacker,Stockholm,4
+86,budget_backpacker,Queenstown,3
+86,budget_backpacker,Interlaken,4
+86,budget_backpacker,Santorini,4
+86,budget_backpacker,Nairobi,3
+87,culture_history,Copenhagen,4
+87,culture_history,Fiji (Nadi),3
+87,culture_history,Sydney,4
+87,culture_history,Hanoi,3
+87,culture_history,Bangkok,2
+87,culture_history,Cancun,3
+87,culture_history,Chiang Mai,2
+87,culture_history,Santorini,4
+87,culture_history,Madrid,5
+87,culture_history,Melbourne,3
+88,budget_backpacker,Stockholm,3
+88,budget_backpacker,Buenos Aires,5
+88,budget_backpacker,Fiji (Nadi),3
+88,budget_backpacker,Chiang Mai,4
+88,budget_backpacker,Cancun,3
+88,budget_backpacker,Zurich,2
+88,budget_backpacker,Istanbul,5
+88,budget_backpacker,Barcelona,4
+88,budget_backpacker,Amsterdam,3
+88,budget_backpacker,Vienna,1
+88,budget_backpacker,Reykjavik,2
+88,budget_backpacker,Melbourne,3
+88,budget_backpacker,Cape Town,4
+88,budget_backpacker,Kyoto,3
+89,culture_history,Hanoi,5
+89,culture_history,Dubai,3
+89,culture_history,Madrid,4
+89,culture_history,Zurich,4
+89,culture_history,Vienna,5
+89,culture_history,Shanghai,3
+89,culture_history,New York City,3
+89,culture_history,Queenstown,3
+89,culture_history,Beijing,5
+89,culture_history,Buenos Aires,2
+89,culture_history,Kyoto,5
+89,culture_history,Chiang Mai,3
+90,culture_history,Amsterdam,4
+90,culture_history,Berlin,4
+90,culture_history,Banff,4
+90,culture_history,Rio de Janeiro,3
+90,culture_history,Siem Reap,3
+90,culture_history,Oslo,5
+90,culture_history,Reykjavik,3
+90,culture_history,Zurich,3
+90,culture_history,Copenhagen,4
+90,culture_history,Lisbon,4
+90,culture_history,Stockholm,5
+90,culture_history,Cape Town,4
+90,culture_history,Singapore,3
+90,culture_history,New York City,4
+90,culture_history,Marrakech,5
+90,culture_history,London,5
+90,culture_history,Melbourne,5
+90,culture_history,Chiang Mai,2
+90,culture_history,Bali Ubud,4
+90,culture_history,Bangkok,3
+91,foodie_nightlife,Singapore,5
+91,foodie_nightlife,Taipei,5
+91,foodie_nightlife,Bali,2
+91,foodie_nightlife,Sydney,4
+91,foodie_nightlife,Prague,4
+91,foodie_nightlife,Vienna,3
+91,foodie_nightlife,Kyoto,3
+91,foodie_nightlife,New York City,5
+91,foodie_nightlife,Stockholm,4
+91,foodie_nightlife,Berlin,4
+91,foodie_nightlife,London,5
+91,foodie_nightlife,Istanbul,4
+91,foodie_nightlife,Shanghai,5
+91,foodie_nightlife,Siem Reap,1
+91,foodie_nightlife,Santorini,2
+91,foodie_nightlife,Hanoi,3
+92,beach_relaxer,London,2
+92,beach_relaxer,Cusco,4
+92,beach_relaxer,Rio de Janeiro,3
+92,beach_relaxer,Tokyo,2
+92,beach_relaxer,Sydney,3
+92,beach_relaxer,Stockholm,2
+92,beach_relaxer,Dubai,2
+92,beach_relaxer,Reykjavik,3
+93,beach_relaxer,London,1
+93,beach_relaxer,Rome,4
+93,beach_relaxer,Cape Town,4
+93,beach_relaxer,Amsterdam,2
+93,beach_relaxer,Hanoi,4
+93,beach_relaxer,Vienna,1
+93,beach_relaxer,Santorini,5
+93,beach_relaxer,Banff,2
+93,beach_relaxer,Nairobi,3
+93,beach_relaxer,Chiang Mai,4
+93,beach_relaxer,Oslo,1
+94,culture_history,Cape Town,3
+94,culture_history,Siem Reap,3
+94,culture_history,Barcelona,5
+94,culture_history,Oslo,5
+94,culture_history,Kyoto,5
+94,culture_history,Marrakech,5
+94,culture_history,Shanghai,4
+94,culture_history,Banff,1
+94,culture_history,Zurich,4
+94,culture_history,Madrid,3
+94,culture_history,Ho Chi Minh City,3
+94,culture_history,Stockholm,3
+94,culture_history,Cancun,3
+94,culture_history,Vienna,5
+94,culture_history,Singapore,4
+94,culture_history,Melbourne,5
+94,culture_history,New York City,4
+95,adventure_nature,Madrid,3
+95,adventure_nature,Kyoto,3
+95,adventure_nature,Nairobi,5
+95,adventure_nature,London,2
+95,adventure_nature,Seoul,3
+95,adventure_nature,Paris,3
+95,adventure_nature,Barcelona,2
+95,adventure_nature,Queenstown,5
+95,adventure_nature,Istanbul,4
+95,adventure_nature,Bali,5
+95,adventure_nature,Bangkok,2
+96,luxury_shopper,Beijing,2
+96,luxury_shopper,Prague,3
+96,luxury_shopper,Madrid,3
+96,luxury_shopper,Vienna,3
+96,luxury_shopper,Bali,2
+96,luxury_shopper,Sydney,4
+96,luxury_shopper,Amsterdam,4
+96,luxury_shopper,Buenos Aires,3
+96,luxury_shopper,Taipei,2
+96,luxury_shopper,Reykjavik,4
+97,budget_backpacker,Chiang Mai,5
+97,budget_backpacker,Athens,4
+97,budget_backpacker,Bali,5
+97,budget_backpacker,Queenstown,3
+97,budget_backpacker,Cairo,5
+97,budget_backpacker,Beijing,3
+97,budget_backpacker,Marrakech,4
+97,budget_backpacker,Kuala Lumpur,4
+97,budget_backpacker,Stockholm,3
+97,budget_backpacker,Bangkok,4
+97,budget_backpacker,Melbourne,5
+97,budget_backpacker,Rio de Janeiro,2
+97,budget_backpacker,Santorini,2
+97,budget_backpacker,Dubai,2
+97,budget_backpacker,Reykjavik,4
+98,foodie_nightlife,Athens,3
+98,foodie_nightlife,Marrakech,2
+98,foodie_nightlife,Siem Reap,1
+98,foodie_nightlife,Shanghai,4
+98,foodie_nightlife,Bali,2
+98,foodie_nightlife,Madrid,5
+98,foodie_nightlife,Rome,3
+98,foodie_nightlife,Bali Ubud,1
+98,foodie_nightlife,Santorini,2
+98,foodie_nightlife,Vienna,3
+98,foodie_nightlife,Melbourne,5
+98,foodie_nightlife,Lisbon,5
+98,foodie_nightlife,Venice,3
+98,foodie_nightlife,Taipei,5
+98,foodie_nightlife,Sydney,3
+98,foodie_nightlife,Cancun,5
+98,foodie_nightlife,Reykjavik,3
+98,foodie_nightlife,Beijing,3
+98,foodie_nightlife,Rio de Janeiro,5
+99,foodie_nightlife,Stockholm,4
+99,foodie_nightlife,Lisbon,4
+99,foodie_nightlife,Paris,3
+99,foodie_nightlife,Copenhagen,5
+99,foodie_nightlife,Dubai,4
+99,foodie_nightlife,Interlaken,2
+99,foodie_nightlife,Istanbul,5
+99,foodie_nightlife,San Francisco,4
+99,foodie_nightlife,Taipei,4
+99,foodie_nightlife,Reykjavik,4
+99,foodie_nightlife,Santorini,3
+99,foodie_nightlife,Beijing,3
+100,culture_history,Kuala Lumpur,3
+100,culture_history,Athens,5
+100,culture_history,Interlaken,4
+100,culture_history,Vienna,4
+100,culture_history,Lisbon,5
+100,culture_history,Banff,3
+100,culture_history,Siem Reap,4
+100,culture_history,Berlin,5
+100,culture_history,London,5
+101,foodie_nightlife,Interlaken,3
+101,foodie_nightlife,Bali Ubud,2
+101,foodie_nightlife,Stockholm,4
+101,foodie_nightlife,Athens,5
+101,foodie_nightlife,Copenhagen,5
+101,foodie_nightlife,Bangkok,5
+101,foodie_nightlife,Berlin,5
+101,foodie_nightlife,Rio de Janeiro,4
+101,foodie_nightlife,Cairo,1
+101,foodie_nightlife,Buenos Aires,4
+101,foodie_nightlife,Sydney,5
+101,foodie_nightlife,Paris,5
+101,foodie_nightlife,Singapore,5
+101,foodie_nightlife,Cancun,4
+101,foodie_nightlife,Fiji (Nadi),2
+101,foodie_nightlife,Hanoi,2
+101,foodie_nightlife,Cape Town,5
+101,foodie_nightlife,Venice,3
+101,foodie_nightlife,Queenstown,3
+101,foodie_nightlife,Oslo,3
+102,culture_history,Interlaken,3
+102,culture_history,Amsterdam,5
+102,culture_history,Berlin,5
+102,culture_history,Oslo,3
+102,culture_history,Rome,5
+102,culture_history,Bangkok,4
+102,culture_history,Stockholm,5
+102,culture_history,Taipei,4
+102,culture_history,Prague,5
+102,culture_history,Nairobi,2
+102,culture_history,Santorini,4
+102,culture_history,Lisbon,3
+102,culture_history,Reykjavik,2
+102,culture_history,Paris,4
+102,culture_history,Seoul,4
+102,culture_history,Shanghai,4
+102,culture_history,Melbourne,4
+102,culture_history,Venice,5
+102,culture_history,Cancun,3
+103,budget_backpacker,Paris,4
+103,budget_backpacker,Ho Chi Minh City,4
+103,budget_backpacker,Cusco,5
+103,budget_backpacker,New York City,3
+103,budget_backpacker,Chiang Mai,5
+103,budget_backpacker,San Francisco,5
+103,budget_backpacker,Cairo,4
+103,budget_backpacker,Nairobi,4
+103,budget_backpacker,Athens,4
+103,budget_backpacker,Hanoi,4
+103,budget_backpacker,Fiji (Nadi),3
+103,budget_backpacker,Queenstown,3
+103,budget_backpacker,London,3
+103,budget_backpacker,Cape Town,5
+103,budget_backpacker,Bali Ubud,4
+103,budget_backpacker,Banff,2
+103,budget_backpacker,Dubai,3
+104,adventure_nature,Singapore,4
+104,adventure_nature,Beijing,2
+104,adventure_nature,Barcelona,3
+104,adventure_nature,Stockholm,4
+104,adventure_nature,Ho Chi Minh City,4
+104,adventure_nature,Madrid,3
+104,adventure_nature,Seoul,3
+104,adventure_nature,Cape Town,5
+104,adventure_nature,Sydney,4
+104,adventure_nature,Berlin,3
+105,culture_history,Nairobi,3
+105,culture_history,Dubai,4
+105,culture_history,Beijing,4
+105,culture_history,Fiji (Nadi),4
+105,culture_history,Ho Chi Minh City,4
+105,culture_history,Paris,4
+105,culture_history,San Francisco,4
+105,culture_history,Taipei,5
+105,culture_history,Sydney,4
+105,culture_history,Barcelona,4
+106,adventure_nature,Dubai,3
+106,adventure_nature,Queenstown,5
+106,adventure_nature,Interlaken,5
+106,adventure_nature,Rio de Janeiro,5
+106,adventure_nature,Amsterdam,4
+106,adventure_nature,Banff,5
+106,adventure_nature,Bangkok,3
+106,adventure_nature,Marrakech,3
+106,adventure_nature,Shanghai,3
+106,adventure_nature,Copenhagen,2
+106,adventure_nature,Cairo,3
+106,adventure_nature,Kyoto,4
+106,adventure_nature,Buenos Aires,4
+106,adventure_nature,Madrid,3
+106,adventure_nature,Bali,3
+106,adventure_nature,Ho Chi Minh City,3
+106,adventure_nature,Bali Ubud,4
+107,luxury_shopper,Shanghai,3
+107,luxury_shopper,Singapore,4
+107,luxury_shopper,Oslo,3
+107,luxury_shopper,Paris,4
+107,luxury_shopper,Bali,5
+107,luxury_shopper,Seoul,3
+107,luxury_shopper,Bangkok,4
+107,luxury_shopper,Lisbon,3
+108,beach_relaxer,Banff,1
+108,beach_relaxer,Lisbon,5
+108,beach_relaxer,Siem Reap,3
+108,beach_relaxer,Taipei,3
+108,beach_relaxer,Cairo,3
+108,beach_relaxer,Prague,3
+108,beach_relaxer,Oslo,2
+108,beach_relaxer,Bali,5
+108,beach_relaxer,Paris,1
+108,beach_relaxer,Seoul,4
+108,beach_relaxer,Buenos Aires,2
+108,beach_relaxer,Marrakech,3
+108,beach_relaxer,Rio de Janeiro,5
+108,beach_relaxer,Venice,3
+108,beach_relaxer,Zurich,2
+108,beach_relaxer,Berlin,2
+108,beach_relaxer,Istanbul,3
+108,beach_relaxer,Queenstown,2
+108,beach_relaxer,London,2
+109,adventure_nature,Amsterdam,3
+109,adventure_nature,Madrid,2
+109,adventure_nature,Fiji (Nadi),5
+109,adventure_nature,Cairo,3
+109,adventure_nature,Vienna,4
+109,adventure_nature,Paris,1
+109,adventure_nature,Barcelona,3
+109,adventure_nature,Venice,3
+109,adventure_nature,Melbourne,4
+109,adventure_nature,San Francisco,5
+109,adventure_nature,Seoul,2
+109,adventure_nature,London,3
+109,adventure_nature,Interlaken,5
+109,adventure_nature,Bali Ubud,4
+110,foodie_nightlife,Oslo,2
+110,foodie_nightlife,Zurich,3
+110,foodie_nightlife,Bali Ubud,2
+110,foodie_nightlife,Shanghai,4
+110,foodie_nightlife,Istanbul,4
+110,foodie_nightlife,Fiji (Nadi),4
+110,foodie_nightlife,Paris,5
+110,foodie_nightlife,Cape Town,3
+110,foodie_nightlife,Taipei,4
+110,foodie_nightlife,Rome,4
+110,foodie_nightlife,Nairobi,3
+110,foodie_nightlife,Buenos Aires,4
+110,foodie_nightlife,Beijing,3
+110,foodie_nightlife,Hanoi,4
+110,foodie_nightlife,Singapore,5
+110,foodie_nightlife,Interlaken,3
+111,beach_relaxer,Bali,5
+111,beach_relaxer,Queenstown,2
+111,beach_relaxer,Santorini,4
+111,beach_relaxer,San Francisco,3
+111,beach_relaxer,Cairo,2
+111,beach_relaxer,London,2
+111,beach_relaxer,Melbourne,2
+111,beach_relaxer,Amsterdam,1
+111,beach_relaxer,Venice,3
+111,beach_relaxer,Athens,3
+111,beach_relaxer,Zurich,3
+111,beach_relaxer,Sydney,3
+111,beach_relaxer,Interlaken,3
+111,beach_relaxer,Kyoto,3
+111,beach_relaxer,Istanbul,3
+111,beach_relaxer,Rio de Janeiro,4
+111,beach_relaxer,Hanoi,2
+112,beach_relaxer,Queenstown,2
+112,beach_relaxer,Amsterdam,3
+112,beach_relaxer,Shanghai,3
+112,beach_relaxer,Kyoto,3
+112,beach_relaxer,Dubai,1
+112,beach_relaxer,Vienna,3
+112,beach_relaxer,Athens,4
+112,beach_relaxer,Singapore,3
+113,adventure_nature,Kuala Lumpur,4
+113,adventure_nature,Venice,2
+113,adventure_nature,Reykjavik,5
+113,adventure_nature,San Francisco,5
+113,adventure_nature,Barcelona,2
+113,adventure_nature,Cape Town,4
+113,adventure_nature,Bali,4
+113,adventure_nature,Rio de Janeiro,3
+113,adventure_nature,Zurich,4
+113,adventure_nature,Taipei,4
+114,adventure_nature,Melbourne,3
+114,adventure_nature,London,4
+114,adventure_nature,Siem Reap,5
+114,adventure_nature,Queenstown,5
+114,adventure_nature,Chiang Mai,5
+114,adventure_nature,Tokyo,4
+114,adventure_nature,Interlaken,4
+114,adventure_nature,Nairobi,5
+114,adventure_nature,Copenhagen,3
+114,adventure_nature,Kuala Lumpur,2
+114,adventure_nature,Berlin,1
+114,adventure_nature,Cairo,3
+114,adventure_nature,Buenos Aires,3
+114,adventure_nature,Hanoi,4
+114,adventure_nature,Santorini,3
+114,adventure_nature,Paris,2
+114,adventure_nature,Zurich,4
+114,adventure_nature,Banff,5
+115,luxury_shopper,Hanoi,1
+115,luxury_shopper,Interlaken,5
+115,luxury_shopper,Ho Chi Minh City,3
+115,luxury_shopper,Berlin,3
+115,luxury_shopper,London,5
+115,luxury_shopper,Venice,4
+115,luxury_shopper,Istanbul,2
+115,luxury_shopper,Nairobi,2
+115,luxury_shopper,Seoul,4
+115,luxury_shopper,Marrakech,2
+115,luxury_shopper,San Francisco,1
+116,luxury_shopper,Cairo,2
+116,luxury_shopper,Queenstown,3
+116,luxury_shopper,Athens,2
+116,luxury_shopper,Prague,4
+116,luxury_shopper,Istanbul,2
+116,luxury_shopper,Ho Chi Minh City,2
+116,luxury_shopper,Buenos Aires,3
+116,luxury_shopper,Kuala Lumpur,5
+116,luxury_shopper,Banff,4
+116,luxury_shopper,Singapore,5
+116,luxury_shopper,Marrakech,1
+116,luxury_shopper,Barcelona,4
+116,luxury_shopper,Bali Ubud,3
+116,luxury_shopper,Siem Reap,1
+116,luxury_shopper,Sydney,4
+116,luxury_shopper,Melbourne,3
+116,luxury_shopper,Cape Town,2
+116,luxury_shopper,San Francisco,3
+116,luxury_shopper,Copenhagen,4
+117,adventure_nature,Queenstown,5
+117,adventure_nature,Hanoi,3
+117,adventure_nature,Madrid,3
+117,adventure_nature,Fiji (Nadi),4
+117,adventure_nature,Bali,4
+117,adventure_nature,Bangkok,2
+117,adventure_nature,Seoul,4
+117,adventure_nature,Kuala Lumpur,3
+117,adventure_nature,Istanbul,2
+117,adventure_nature,Rome,4
+117,adventure_nature,Banff,5
+117,adventure_nature,Venice,2
+117,adventure_nature,London,4
+117,adventure_nature,New York City,4
+117,adventure_nature,Zurich,3
+117,adventure_nature,Stockholm,4
+117,adventure_nature,Tokyo,2
+117,adventure_nature,Athens,3
+117,adventure_nature,Santorini,4
+117,adventure_nature,Vienna,3
+118,adventure_nature,Bali Ubud,5
+118,adventure_nature,Berlin,3
+118,adventure_nature,Reykjavik,5
+118,adventure_nature,Oslo,3
+118,adventure_nature,Dubai,4
+118,adventure_nature,Queenstown,5
+118,adventure_nature,Seoul,3
+118,adventure_nature,Interlaken,5
+118,adventure_nature,Singapore,2
+118,adventure_nature,Marrakech,4
+118,adventure_nature,Beijing,4
+118,adventure_nature,Lisbon,2
+118,adventure_nature,Banff,5
+118,adventure_nature,Kuala Lumpur,4
+118,adventure_nature,Prague,3
+118,adventure_nature,Fiji (Nadi),4
+118,adventure_nature,Copenhagen,3
+118,adventure_nature,Zurich,4
+118,adventure_nature,Amsterdam,3
+119,budget_backpacker,Fiji (Nadi),2
+119,budget_backpacker,Bangkok,5
+119,budget_backpacker,Kyoto,4
+119,budget_backpacker,Santorini,3
+119,budget_backpacker,Vienna,4
+119,budget_backpacker,Hanoi,5
+119,budget_backpacker,New York City,4
+119,budget_backpacker,Athens,5
+119,budget_backpacker,Cancun,2
+119,budget_backpacker,Buenos Aires,5
+120,budget_backpacker,Kyoto,2
+120,budget_backpacker,Interlaken,3
+120,budget_backpacker,Cancun,3
+120,budget_backpacker,Beijing,3
+120,budget_backpacker,Hanoi,5
+120,budget_backpacker,Buenos Aires,5
+120,budget_backpacker,Melbourne,5
+120,budget_backpacker,Berlin,5
+120,budget_backpacker,Marrakech,5
+120,budget_backpacker,Cape Town,4
+120,budget_backpacker,Shanghai,1
+121,adventure_nature,Buenos Aires,3
+121,adventure_nature,Lisbon,4
+121,adventure_nature,Marrakech,4
+121,adventure_nature,Interlaken,5
+121,adventure_nature,Oslo,5
+121,adventure_nature,Bali,4
+121,adventure_nature,Kuala Lumpur,5
+121,adventure_nature,Siem Reap,3
+122,culture_history,Paris,5
+122,culture_history,Bangkok,3
+122,culture_history,Dubai,3
+122,culture_history,Venice,5
+122,culture_history,Singapore,4
+122,culture_history,Bali,3
+122,culture_history,Chiang Mai,3
+122,culture_history,London,5
+122,culture_history,Ho Chi Minh City,4
+122,culture_history,Madrid,4
+122,culture_history,Siem Reap,3
+122,culture_history,Fiji (Nadi),3
+122,culture_history,Banff,3
+122,culture_history,Barcelona,5
+122,culture_history,Hanoi,3
+122,culture_history,Interlaken,3
+123,beach_relaxer,Rome,2
+123,beach_relaxer,Taipei,3
+123,beach_relaxer,Rio de Janeiro,4
+123,beach_relaxer,Santorini,5
+123,beach_relaxer,Seoul,3
+123,beach_relaxer,Shanghai,3
+123,beach_relaxer,Vienna,3
+123,beach_relaxer,Bali,5
+123,beach_relaxer,Cairo,4
+123,beach_relaxer,Fiji (Nadi),5
+123,beach_relaxer,Tokyo,2
+123,beach_relaxer,Stockholm,2
+123,beach_relaxer,Paris,2
+123,beach_relaxer,Beijing,2
+124,beach_relaxer,Sydney,2
+124,beach_relaxer,Copenhagen,2
+124,beach_relaxer,Shanghai,3
+124,beach_relaxer,Kuala Lumpur,2
+124,beach_relaxer,San Francisco,2
+124,beach_relaxer,Dubai,3
+124,beach_relaxer,Queenstown,1
+124,beach_relaxer,Santorini,4
+124,beach_relaxer,Athens,3
+124,beach_relaxer,Istanbul,4
+124,beach_relaxer,Hanoi,3
+124,beach_relaxer,Nairobi,3
+124,beach_relaxer,Amsterdam,2
+124,beach_relaxer,Cairo,3
+124,beach_relaxer,Lisbon,4
+124,beach_relaxer,Zurich,2
+124,beach_relaxer,Paris,1
+124,beach_relaxer,Siem Reap,2
+125,foodie_nightlife,Fiji (Nadi),3
+125,foodie_nightlife,Siem Reap,1
+125,foodie_nightlife,Banff,3
+125,foodie_nightlife,Vienna,3
+125,foodie_nightlife,Paris,5
+125,foodie_nightlife,Tokyo,5
+125,foodie_nightlife,Seoul,4
+125,foodie_nightlife,Bali Ubud,3
+125,foodie_nightlife,Marrakech,2
+125,foodie_nightlife,Istanbul,4
+125,foodie_nightlife,San Francisco,4
+125,foodie_nightlife,Lisbon,5
+125,foodie_nightlife,Kuala Lumpur,5
+125,foodie_nightlife,Bangkok,3
+125,foodie_nightlife,Beijing,3
+125,foodie_nightlife,Sydney,4
+125,foodie_nightlife,Ho Chi Minh City,4
+125,foodie_nightlife,Melbourne,5
+125,foodie_nightlife,Reykjavik,4
+125,foodie_nightlife,Cape Town,4
+126,budget_backpacker,Vienna,3
+126,budget_backpacker,Chiang Mai,5
+126,budget_backpacker,Athens,5
+126,budget_backpacker,Siem Reap,5
+126,budget_backpacker,Cusco,4
+126,budget_backpacker,Singapore,3
+126,budget_backpacker,Queenstown,3
+126,budget_backpacker,Paris,5
+126,budget_backpacker,London,3
+126,budget_backpacker,Lisbon,5
+126,budget_backpacker,Nairobi,2
+126,budget_backpacker,Oslo,2
+126,budget_backpacker,Reykjavik,4
+126,budget_backpacker,Amsterdam,3
+126,budget_backpacker,Cairo,3
+127,beach_relaxer,Oslo,2
+127,beach_relaxer,Dubai,2
+127,beach_relaxer,Nairobi,5
+127,beach_relaxer,Tokyo,2
+127,beach_relaxer,Interlaken,3
+127,beach_relaxer,Stockholm,3
+127,beach_relaxer,Queenstown,3
+127,beach_relaxer,Paris,2
+127,beach_relaxer,Kuala Lumpur,3
+127,beach_relaxer,Cape Town,3
+127,beach_relaxer,Singapore,3
+127,beach_relaxer,Berlin,3
+127,beach_relaxer,Marrakech,1
+127,beach_relaxer,Seoul,4
+128,foodie_nightlife,Marrakech,3
+128,foodie_nightlife,Chiang Mai,2
+128,foodie_nightlife,Shanghai,3
+128,foodie_nightlife,Rome,5
+128,foodie_nightlife,Istanbul,4
+128,foodie_nightlife,Vienna,2
+128,foodie_nightlife,Paris,4
+128,foodie_nightlife,Rio de Janeiro,4
+128,foodie_nightlife,Hanoi,3
+128,foodie_nightlife,Dubai,5
+128,foodie_nightlife,Cairo,1
+128,foodie_nightlife,Buenos Aires,4
+128,foodie_nightlife,Bali Ubud,2
+128,foodie_nightlife,Madrid,5
+128,foodie_nightlife,Melbourne,5
+129,luxury_shopper,Ho Chi Minh City,3
+129,luxury_shopper,Bangkok,3
+129,luxury_shopper,Singapore,5
+129,luxury_shopper,Venice,4
+129,luxury_shopper,Queenstown,3
+129,luxury_shopper,Athens,2
+129,luxury_shopper,Cairo,2
+129,luxury_shopper,Seoul,5
+129,luxury_shopper,Amsterdam,4
+129,luxury_shopper,Cusco,3
+129,luxury_shopper,Beijing,3
+129,luxury_shopper,Zurich,2
+129,luxury_shopper,Madrid,4
+129,luxury_shopper,Nairobi,2
+129,luxury_shopper,Vienna,3
+129,luxury_shopper,Reykjavik,3
+129,luxury_shopper,Dubai,5
+129,luxury_shopper,Hanoi,3
+129,luxury_shopper,Siem Reap,2
+130,luxury_shopper,Queenstown,3
+130,luxury_shopper,Singapore,5
+130,luxury_shopper,Oslo,2
+130,luxury_shopper,Cusco,2
+130,luxury_shopper,Bali,3
+130,luxury_shopper,Kyoto,1
+130,luxury_shopper,Lisbon,5
+130,luxury_shopper,Santorini,5
+131,culture_history,Kyoto,4
+131,culture_history,San Francisco,4
+131,culture_history,Seoul,4
+131,culture_history,Reykjavik,2
+131,culture_history,Kuala Lumpur,4
+131,culture_history,Lisbon,5
+131,culture_history,Queenstown,4
+131,culture_history,Taipei,4
+131,culture_history,Copenhagen,4
+131,culture_history,Ho Chi Minh City,3
+131,culture_history,Zurich,3
+131,culture_history,Banff,3
+131,culture_history,Bali Ubud,3
+131,culture_history,Madrid,4
+131,culture_history,Buenos Aires,3
+131,culture_history,New York City,3
+131,culture_history,Marrakech,5
+131,culture_history,Hanoi,4
+131,culture_history,Beijing,5
+132,budget_backpacker,Queenstown,3
+132,budget_backpacker,Singapore,4
+132,budget_backpacker,Rio de Janeiro,1
+132,budget_backpacker,New York City,4
+132,budget_backpacker,Santorini,4
+132,budget_backpacker,Siem Reap,5
+132,budget_backpacker,Barcelona,4
+132,budget_backpacker,Ho Chi Minh City,5
+132,budget_backpacker,Athens,5
+132,budget_backpacker,Amsterdam,4
+132,budget_backpacker,Beijing,4
+132,budget_backpacker,Bangkok,5
+132,budget_backpacker,Taipei,4
+133,foodie_nightlife,Venice,2
+133,foodie_nightlife,Dubai,4
+133,foodie_nightlife,San Francisco,4
+133,foodie_nightlife,Athens,5
+133,foodie_nightlife,Rome,5
+133,foodie_nightlife,Bali,2
+133,foodie_nightlife,Ho Chi Minh City,4
+133,foodie_nightlife,Kyoto,4
+133,foodie_nightlife,Cape Town,4
+133,foodie_nightlife,Cairo,2
+133,foodie_nightlife,Singapore,5
+133,foodie_nightlife,Santorini,4
+133,foodie_nightlife,Sydney,4
+133,foodie_nightlife,Zurich,3
+133,foodie_nightlife,Madrid,5
+133,foodie_nightlife,Paris,3
+134,luxury_shopper,Berlin,3
+134,luxury_shopper,Kuala Lumpur,5
+134,luxury_shopper,Chiang Mai,4
+134,luxury_shopper,Cairo,2
+134,luxury_shopper,Venice,5
+134,luxury_shopper,Beijing,2
+134,luxury_shopper,Singapore,5
+134,luxury_shopper,Ho Chi Minh City,4
+134,luxury_shopper,Stockholm,4
+134,luxury_shopper,San Francisco,2
+134,luxury_shopper,Nairobi,3
+134,luxury_shopper,Rio de Janeiro,3
+134,luxury_shopper,Interlaken,3
+134,luxury_shopper,Seoul,4
+134,luxury_shopper,Santorini,4
+134,luxury_shopper,Athens,3
+135,adventure_nature,Berlin,2
+135,adventure_nature,Kuala Lumpur,3
+135,adventure_nature,Fiji (Nadi),4
+135,adventure_nature,Chiang Mai,5
+135,adventure_nature,Cusco,5
+135,adventure_nature,Ho Chi Minh City,2
+135,adventure_nature,Athens,3
+135,adventure_nature,New York City,2
+135,adventure_nature,Bali Ubud,4
+135,adventure_nature,Cape Town,5
+135,adventure_nature,Taipei,4
+135,adventure_nature,Kyoto,5
+135,adventure_nature,Rio de Janeiro,5
+135,adventure_nature,Melbourne,3
+136,luxury_shopper,Cairo,3
+136,luxury_shopper,Sydney,4
+136,luxury_shopper,Amsterdam,3
+136,luxury_shopper,Venice,4
+136,luxury_shopper,Reykjavik,3
+136,luxury_shopper,Prague,4
+136,luxury_shopper,Rome,2
+136,luxury_shopper,Interlaken,4
+136,luxury_shopper,Taipei,2
+136,luxury_shopper,Copenhagen,5
+137,luxury_shopper,Rio de Janeiro,3
+137,luxury_shopper,Bali,4
+137,luxury_shopper,Berlin,4
+137,luxury_shopper,Cancun,4
+137,luxury_shopper,Ho Chi Minh City,3
+137,luxury_shopper,Athens,2
+137,luxury_shopper,Buenos Aires,3
+137,luxury_shopper,Banff,3
+137,luxury_shopper,Hanoi,2
+137,luxury_shopper,Chiang Mai,2
+137,luxury_shopper,Fiji (Nadi),4
+137,luxury_shopper,Vienna,3
+137,luxury_shopper,Istanbul,2
+138,beach_relaxer,Shanghai,3
+138,beach_relaxer,Sydney,4
+138,beach_relaxer,Paris,2
+138,beach_relaxer,Santorini,4
+138,beach_relaxer,Zurich,1
+138,beach_relaxer,Interlaken,2
+138,beach_relaxer,Bali Ubud,4
+138,beach_relaxer,Queenstown,2
+138,beach_relaxer,Seoul,3
+139,budget_backpacker,Singapore,4
+139,budget_backpacker,Bali Ubud,5
+139,budget_backpacker,Berlin,3
+139,budget_backpacker,Marrakech,4
+139,budget_backpacker,Taipei,3
+139,budget_backpacker,Istanbul,4
+139,budget_backpacker,Lisbon,5
+139,budget_backpacker,Stockholm,3
+139,budget_backpacker,Chiang Mai,5
+139,budget_backpacker,Amsterdam,3
+139,budget_backpacker,Hanoi,5
+139,budget_backpacker,Nairobi,5
+139,budget_backpacker,Cape Town,5
+139,budget_backpacker,Barcelona,4
+139,budget_backpacker,Seoul,4
+140,culture_history,Barcelona,3
+140,culture_history,Kyoto,5
+140,culture_history,Kuala Lumpur,4
+140,culture_history,Paris,5
+140,culture_history,Lisbon,5
+140,culture_history,Banff,3
+140,culture_history,Bali Ubud,4
+140,culture_history,Venice,5
+140,culture_history,Nairobi,3
+141,foodie_nightlife,Paris,2
+141,foodie_nightlife,Interlaken,2
+141,foodie_nightlife,Tokyo,5
+141,foodie_nightlife,Amsterdam,5
+141,foodie_nightlife,Banff,4
+141,foodie_nightlife,New York City,4
+141,foodie_nightlife,Rio de Janeiro,5
+141,foodie_nightlife,Bali Ubud,1
+141,foodie_nightlife,Siem Reap,3
+141,foodie_nightlife,Venice,3
+141,foodie_nightlife,Oslo,3
+141,foodie_nightlife,Kyoto,3
+141,foodie_nightlife,Cancun,5
+141,foodie_nightlife,Buenos Aires,4
+141,foodie_nightlife,San Francisco,3
+142,adventure_nature,Singapore,3
+142,adventure_nature,Seoul,5
+142,adventure_nature,Zurich,4
+142,adventure_nature,New York City,4
+142,adventure_nature,Hanoi,2
+142,adventure_nature,Buenos Aires,3
+142,adventure_nature,Interlaken,5
+142,adventure_nature,Cape Town,5
+142,adventure_nature,Kuala Lumpur,2
+142,adventure_nature,Bali Ubud,4
+142,adventure_nature,Bali,5
+142,adventure_nature,Vienna,3
+142,adventure_nature,Cusco,4
+142,adventure_nature,Cairo,2
+142,adventure_nature,Melbourne,3
+142,adventure_nature,Cancun,4
+142,adventure_nature,Dubai,5
+143,beach_relaxer,Paris,1
+143,beach_relaxer,Banff,1
+143,beach_relaxer,Rio de Janeiro,4
+143,beach_relaxer,Zurich,1
+143,beach_relaxer,Hanoi,3
+143,beach_relaxer,Cape Town,4
+143,beach_relaxer,Kyoto,3
+143,beach_relaxer,Tokyo,3
+143,beach_relaxer,Venice,2
+143,beach_relaxer,Chiang Mai,5
+143,beach_relaxer,Ho Chi Minh City,2
+144,culture_history,Rio de Janeiro,4
+144,culture_history,Tokyo,5
+144,culture_history,Barcelona,4
+144,culture_history,Queenstown,1
+144,culture_history,Singapore,4
+144,culture_history,Cusco,5
+144,culture_history,London,5
+144,culture_history,Banff,3
+144,culture_history,Kyoto,5
+144,culture_history,Beijing,5
+144,culture_history,Copenhagen,2
+144,culture_history,Madrid,3
+144,culture_history,Reykjavik,4
+144,culture_history,Siem Reap,5
+144,culture_history,Nairobi,3
+144,culture_history,Fiji (Nadi),4
+144,culture_history,Bangkok,3
+144,culture_history,Taipei,3
+144,culture_history,Cairo,5
+144,culture_history,Bali,2
+145,luxury_shopper,Bali Ubud,4
+145,luxury_shopper,Vienna,4
+145,luxury_shopper,Barcelona,4
+145,luxury_shopper,Singapore,5
+145,luxury_shopper,Dubai,4
+145,luxury_shopper,Cusco,2
+145,luxury_shopper,Beijing,2
+145,luxury_shopper,Istanbul,2
+145,luxury_shopper,Sydney,3
+145,luxury_shopper,Madrid,3
+145,luxury_shopper,Cancun,4
+145,luxury_shopper,Shanghai,4
+145,luxury_shopper,Bali,3
+145,luxury_shopper,Queenstown,3
+146,adventure_nature,Vienna,4
+146,adventure_nature,Singapore,3
+146,adventure_nature,Fiji (Nadi),4
+146,adventure_nature,Cairo,2
+146,adventure_nature,Cape Town,5
+146,adventure_nature,Interlaken,5
+146,adventure_nature,Hanoi,3
+146,adventure_nature,Sydney,4
+146,adventure_nature,Paris,3
+147,budget_backpacker,Queenstown,3
+147,budget_backpacker,Cusco,5
+147,budget_backpacker,Siem Reap,5
+147,budget_backpacker,Prague,4
+147,budget_backpacker,Buenos Aires,5
+147,budget_backpacker,Stockholm,4
+147,budget_backpacker,Reykjavik,5
+147,budget_backpacker,San Francisco,3
+147,budget_backpacker,Interlaken,3
+147,budget_backpacker,Barcelona,4
+147,budget_backpacker,Sydney,3
+147,budget_backpacker,Chiang Mai,5
+147,budget_backpacker,Singapore,4
+147,budget_backpacker,Nairobi,4
+147,budget_backpacker,Kuala Lumpur,5
+147,budget_backpacker,Madrid,4
+147,budget_backpacker,Hanoi,4
+147,budget_backpacker,Oslo,3
+147,budget_backpacker,Bangkok,5
+147,budget_backpacker,Vienna,3
+148,culture_history,Cairo,4
+148,culture_history,Taipei,3
+148,culture_history,Paris,5
+148,culture_history,Istanbul,5
+148,culture_history,Berlin,5
+148,culture_history,Interlaken,5
+148,culture_history,Bali,3
+148,culture_history,Buenos Aires,4
+148,culture_history,Vienna,5
+148,culture_history,Cusco,4
+148,culture_history,Chiang Mai,2
+148,culture_history,Hanoi,5
+148,culture_history,Ho Chi Minh City,4
+148,culture_history,Amsterdam,4
+148,culture_history,Cancun,3
+148,culture_history,Queenstown,3
+148,culture_history,Barcelona,5
+148,culture_history,Shanghai,4
+148,culture_history,Rome,4
+149,adventure_nature,Seoul,5
+149,adventure_nature,Reykjavik,5
+149,adventure_nature,Nairobi,5
+149,adventure_nature,Barcelona,4
+149,adventure_nature,New York City,3
+149,adventure_nature,Copenhagen,3
+149,adventure_nature,Dubai,5
+149,adventure_nature,Ho Chi Minh City,3
+149,adventure_nature,Bali,3
+149,adventure_nature,London,3
+149,adventure_nature,Istanbul,3
+149,adventure_nature,Cancun,3
+150,budget_backpacker,Tokyo,4
+150,budget_backpacker,Santorini,4
+150,budget_backpacker,Siem Reap,5
+150,budget_backpacker,Chiang Mai,5
+150,budget_backpacker,Sydney,2
+150,budget_backpacker,Rio de Janeiro,2
+150,budget_backpacker,Lisbon,5
+150,budget_backpacker,Athens,5
+151,foodie_nightlife,Vienna,2
+151,foodie_nightlife,Taipei,3
+151,foodie_nightlife,Cape Town,4
+151,foodie_nightlife,Cairo,2
+151,foodie_nightlife,Bangkok,5
+151,foodie_nightlife,Hanoi,3
+151,foodie_nightlife,Lisbon,4
+151,foodie_nightlife,Dubai,5
+151,foodie_nightlife,Sydney,5
+151,foodie_nightlife,Madrid,4
+151,foodie_nightlife,Buenos Aires,4
+151,foodie_nightlife,Queenstown,1
+151,foodie_nightlife,Chiang Mai,3
+151,foodie_nightlife,Melbourne,5
+151,foodie_nightlife,Tokyo,4
+151,foodie_nightlife,Rio de Janeiro,4
+151,foodie_nightlife,Kyoto,2
+151,foodie_nightlife,Bali,3
+152,luxury_shopper,Taipei,1
+152,luxury_shopper,Shanghai,5
+152,luxury_shopper,Chiang Mai,3
+152,luxury_shopper,Bali Ubud,3
+152,luxury_shopper,Cancun,4
+152,luxury_shopper,Sydney,3
+152,luxury_shopper,Buenos Aires,3
+152,luxury_shopper,Copenhagen,3
+152,luxury_shopper,Bangkok,3
+153,adventure_nature,Taipei,4
+153,adventure_nature,Reykjavik,5
+153,adventure_nature,Nairobi,5
+153,adventure_nature,Lisbon,4
+153,adventure_nature,Banff,4
+153,adventure_nature,Zurich,4
+153,adventure_nature,Chiang Mai,3
+153,adventure_nature,Cairo,3
+153,adventure_nature,Marrakech,3
+153,adventure_nature,San Francisco,5
+153,adventure_nature,Ho Chi Minh City,2
+153,adventure_nature,Beijing,3
+153,adventure_nature,New York City,3
+153,adventure_nature,Istanbul,3
+153,adventure_nature,Siem Reap,5
+153,adventure_nature,Shanghai,3
+153,adventure_nature,Barcelona,3
+153,adventure_nature,Amsterdam,3
+153,adventure_nature,Rio de Janeiro,4
+153,adventure_nature,Melbourne,3
+154,adventure_nature,Kuala Lumpur,3
+154,adventure_nature,Chiang Mai,4
+154,adventure_nature,Cairo,2
+154,adventure_nature,Tokyo,3
+154,adventure_nature,San Francisco,3
+154,adventure_nature,London,3
+154,adventure_nature,Venice,3
+154,adventure_nature,Prague,4
+154,adventure_nature,Bali Ubud,4
+154,adventure_nature,Buenos Aires,3
+154,adventure_nature,Madrid,4
+154,adventure_nature,Beijing,2
+154,adventure_nature,Bangkok,3
+155,luxury_shopper,London,5
+155,luxury_shopper,Ho Chi Minh City,2
+155,luxury_shopper,Bali,3
+155,luxury_shopper,Nairobi,2
+155,luxury_shopper,Dubai,5
+155,luxury_shopper,Cusco,1
+155,luxury_shopper,Bali Ubud,3
+155,luxury_shopper,Shanghai,4
+155,luxury_shopper,Lisbon,3
+155,luxury_shopper,Sydney,4
+155,luxury_shopper,Reykjavik,2
+156,luxury_shopper,Lisbon,4
+156,luxury_shopper,Buenos Aires,3
+156,luxury_shopper,Singapore,5
+156,luxury_shopper,Oslo,3
+156,luxury_shopper,Istanbul,2
+156,luxury_shopper,Athens,3
+156,luxury_shopper,Kyoto,2
+156,luxury_shopper,Fiji (Nadi),2
+156,luxury_shopper,Dubai,4
+156,luxury_shopper,Hanoi,1
+156,luxury_shopper,Queenstown,2
+156,luxury_shopper,Sydney,4
+156,luxury_shopper,Ho Chi Minh City,3
+156,luxury_shopper,Marrakech,2
+156,luxury_shopper,Cape Town,2
+156,luxury_shopper,San Francisco,2
+156,luxury_shopper,Rio de Janeiro,4
+157,foodie_nightlife,Paris,4
+157,foodie_nightlife,Copenhagen,5
+157,foodie_nightlife,Nairobi,3
+157,foodie_nightlife,Tokyo,5
+157,foodie_nightlife,New York City,5
+157,foodie_nightlife,Rio de Janeiro,5
+157,foodie_nightlife,Sydney,5
+157,foodie_nightlife,Singapore,5
+157,foodie_nightlife,Zurich,2
+157,foodie_nightlife,Buenos Aires,3
+157,foodie_nightlife,Interlaken,2
+157,foodie_nightlife,Kuala Lumpur,5
+157,foodie_nightlife,Cusco,2
+157,foodie_nightlife,Ho Chi Minh City,5
+157,foodie_nightlife,Banff,3
+157,foodie_nightlife,Queenstown,3
+157,foodie_nightlife,Bali Ubud,3
+158,budget_backpacker,Santorini,2
+158,budget_backpacker,Bali,4
+158,budget_backpacker,Marrakech,4
+158,budget_backpacker,Beijing,3
+158,budget_backpacker,Hanoi,5
+158,budget_backpacker,Prague,2
+158,budget_backpacker,Oslo,3
+158,budget_backpacker,Barcelona,5
+158,budget_backpacker,Madrid,4
+158,budget_backpacker,Nairobi,4
+159,foodie_nightlife,Cusco,3
+159,foodie_nightlife,San Francisco,4
+159,foodie_nightlife,Stockholm,4
+159,foodie_nightlife,Bangkok,4
+159,foodie_nightlife,Cancun,5
+159,foodie_nightlife,Zurich,1
+159,foodie_nightlife,Prague,3
+159,foodie_nightlife,Ho Chi Minh City,4
+159,foodie_nightlife,Nairobi,3
+159,foodie_nightlife,Madrid,5
+159,foodie_nightlife,Buenos Aires,5
+159,foodie_nightlife,Tokyo,5
+159,foodie_nightlife,Seoul,5
+159,foodie_nightlife,Bali,2
+159,foodie_nightlife,Siem Reap,2
+159,foodie_nightlife,Athens,4
+159,foodie_nightlife,Venice,3
+160,culture_history,Vienna,5
+160,culture_history,Bali Ubud,2
+160,culture_history,Cancun,3
+160,culture_history,New York City,4
+160,culture_history,Stockholm,3
+160,culture_history,Cape Town,3
+160,culture_history,Zurich,4
+160,culture_history,Rome,5
+160,culture_history,Taipei,3
+160,culture_history,Nairobi,2
+160,culture_history,Buenos Aires,4
+160,culture_history,Seoul,5
+160,culture_history,Athens,5
+160,culture_history,Cairo,2
+160,culture_history,Bali,2
+160,culture_history,Venice,5
+160,culture_history,Cusco,5
+160,culture_history,San Francisco,4
+160,culture_history,Dubai,2
+160,culture_history,Copenhagen,5
+161,adventure_nature,Taipei,4
+161,adventure_nature,Barcelona,1
+161,adventure_nature,Banff,5
+161,adventure_nature,Reykjavik,5
+161,adventure_nature,Fiji (Nadi),4
+161,adventure_nature,Ho Chi Minh City,3
+161,adventure_nature,Athens,2
+161,adventure_nature,Melbourne,2
+161,adventure_nature,Buenos Aires,4
+162,luxury_shopper,Dubai,5
+162,luxury_shopper,Kyoto,2
+162,luxury_shopper,Barcelona,3
+162,luxury_shopper,Bali,4
+162,luxury_shopper,Santorini,5
+162,luxury_shopper,Bali Ubud,3
+162,luxury_shopper,Prague,3
+162,luxury_shopper,Lisbon,4
+162,luxury_shopper,Taipei,2
+162,luxury_shopper,Marrakech,3
+162,luxury_shopper,Siem Reap,2
+162,luxury_shopper,Nairobi,3
+162,luxury_shopper,Stockholm,5
+162,luxury_shopper,Ho Chi Minh City,2
+163,luxury_shopper,Bangkok,5
+163,luxury_shopper,Prague,4
+163,luxury_shopper,Banff,3
+163,luxury_shopper,Ho Chi Minh City,3
+163,luxury_shopper,Berlin,3
+163,luxury_shopper,Kuala Lumpur,5
+163,luxury_shopper,Marrakech,2
+163,luxury_shopper,Fiji (Nadi),3
+163,luxury_shopper,Venice,4
+164,culture_history,Sydney,5
+164,culture_history,Seoul,4
+164,culture_history,Athens,5
+164,culture_history,Stockholm,5
+164,culture_history,New York City,5
+164,culture_history,Bali Ubud,3
+164,culture_history,Zurich,4
+164,culture_history,Copenhagen,5
+164,culture_history,Bangkok,4
+164,culture_history,Rome,5
+164,culture_history,Berlin,4
+164,culture_history,Taipei,4
+164,culture_history,Lisbon,3
+164,culture_history,Singapore,5
+164,culture_history,Nairobi,2
+164,culture_history,Cusco,3
+164,culture_history,Dubai,3
+164,culture_history,Queenstown,4
+164,culture_history,Bali,2
+164,culture_history,London,5
+165,luxury_shopper,Kyoto,3
+165,luxury_shopper,Cape Town,2
+165,luxury_shopper,Seoul,3
+165,luxury_shopper,Sydney,4
+165,luxury_shopper,Buenos Aires,2
+165,luxury_shopper,Athens,3
+165,luxury_shopper,Tokyo,5
+165,luxury_shopper,Cairo,1
+165,luxury_shopper,Paris,4
+165,luxury_shopper,Copenhagen,4
+165,luxury_shopper,Venice,5
+165,luxury_shopper,Shanghai,5
+165,luxury_shopper,Queenstown,4
+165,luxury_shopper,Fiji (Nadi),3
+165,luxury_shopper,Zurich,2
+165,luxury_shopper,Reykjavik,3
+165,luxury_shopper,Ho Chi Minh City,3
+165,luxury_shopper,Istanbul,1
+166,beach_relaxer,Tokyo,1
+166,beach_relaxer,Sydney,3
+166,beach_relaxer,Taipei,3
+166,beach_relaxer,Singapore,1
+166,beach_relaxer,Chiang Mai,5
+166,beach_relaxer,Reykjavik,1
+166,beach_relaxer,Barcelona,5
+166,beach_relaxer,San Francisco,3
+166,beach_relaxer,Bali Ubud,3
+167,adventure_nature,Cusco,5
+167,adventure_nature,Tokyo,2
+167,adventure_nature,Queenstown,5
+167,adventure_nature,Prague,3
+167,adventure_nature,Nairobi,5
+167,adventure_nature,Amsterdam,4
+167,adventure_nature,Taipei,4
+167,adventure_nature,Chiang Mai,4
+167,adventure_nature,Oslo,3
+167,adventure_nature,Siem Reap,3
+168,culture_history,Venice,5
+168,culture_history,Vienna,4
+168,culture_history,Beijing,5
+168,culture_history,Istanbul,5
+168,culture_history,Sydney,4
+168,culture_history,Ho Chi Minh City,3
+168,culture_history,Hanoi,4
+168,culture_history,Paris,5
+168,culture_history,Fiji (Nadi),3
+168,culture_history,Seoul,3
+168,culture_history,Bangkok,4
+168,culture_history,Melbourne,4
+168,culture_history,Rio de Janeiro,3
+168,culture_history,Reykjavik,3
+169,foodie_nightlife,Bangkok,4
+169,foodie_nightlife,Melbourne,5
+169,foodie_nightlife,Copenhagen,5
+169,foodie_nightlife,Barcelona,5
+169,foodie_nightlife,Interlaken,4
+169,foodie_nightlife,Shanghai,5
+169,foodie_nightlife,Rio de Janeiro,4
+169,foodie_nightlife,Chiang Mai,3
+169,foodie_nightlife,San Francisco,4
+170,budget_backpacker,Athens,4
+170,budget_backpacker,Siem Reap,5
+170,budget_backpacker,Chiang Mai,5
+170,budget_backpacker,Cusco,4
+170,budget_backpacker,Bali,5
+170,budget_backpacker,Copenhagen,4
+170,budget_backpacker,San Francisco,4
+170,budget_backpacker,Rio de Janeiro,1
+170,budget_backpacker,Cape Town,5
+170,budget_backpacker,Oslo,3
+170,budget_backpacker,Ho Chi Minh City,5
+170,budget_backpacker,Santorini,4
+170,budget_backpacker,Melbourne,5
+170,budget_backpacker,Bali Ubud,4
+170,budget_backpacker,Marrakech,5
+170,budget_backpacker,Nairobi,4
+170,budget_backpacker,Hanoi,5
+171,culture_history,Zurich,4
+171,culture_history,Queenstown,3
+171,culture_history,Kuala Lumpur,3
+171,culture_history,Melbourne,4
+171,culture_history,Bali,2
+171,culture_history,Banff,2
+171,culture_history,New York City,4
+171,culture_history,Reykjavik,2
+171,culture_history,Stockholm,4
+171,culture_history,Amsterdam,5
+171,culture_history,Beijing,4
+172,luxury_shopper,Kuala Lumpur,4
+172,luxury_shopper,Bali,3
+172,luxury_shopper,San Francisco,3
+172,luxury_shopper,Rome,3
+172,luxury_shopper,Barcelona,2
+172,luxury_shopper,Melbourne,4
+172,luxury_shopper,Taipei,2
+172,luxury_shopper,Vienna,2
+172,luxury_shopper,Seoul,4
+172,luxury_shopper,Ho Chi Minh City,1
+172,luxury_shopper,Shanghai,4
+172,luxury_shopper,Paris,5
+172,luxury_shopper,Cusco,2
+172,luxury_shopper,Hanoi,3
+173,budget_backpacker,Kuala Lumpur,5
+173,budget_backpacker,Venice,2
+173,budget_backpacker,Santorini,4
+173,budget_backpacker,Kyoto,3
+173,budget_backpacker,Shanghai,1
+173,budget_backpacker,Marrakech,5
+173,budget_backpacker,Barcelona,4
+173,budget_backpacker,Singapore,5
+173,budget_backpacker,Berlin,3
+173,budget_backpacker,Chiang Mai,5
+173,budget_backpacker,Bali Ubud,4
+173,budget_backpacker,New York City,4
+173,budget_backpacker,Ho Chi Minh City,4
+173,budget_backpacker,Dubai,3
+174,foodie_nightlife,Oslo,2
+174,foodie_nightlife,Paris,4
+174,foodie_nightlife,Prague,4
+174,foodie_nightlife,Chiang Mai,2
+174,foodie_nightlife,Berlin,4
+174,foodie_nightlife,Bali,2
+174,foodie_nightlife,Cape Town,5
+174,foodie_nightlife,Kyoto,3
+174,foodie_nightlife,Fiji (Nadi),3
+174,foodie_nightlife,Siem Reap,2
+174,foodie_nightlife,Venice,2
+174,foodie_nightlife,Rio de Janeiro,3
+174,foodie_nightlife,Zurich,4
+174,foodie_nightlife,Istanbul,5
+175,beach_relaxer,Cusco,2
+175,beach_relaxer,Santorini,4
+175,beach_relaxer,Cancun,4
+175,beach_relaxer,Prague,3
+175,beach_relaxer,Dubai,2
+175,beach_relaxer,Beijing,4
+175,beach_relaxer,New York City,2
+175,beach_relaxer,Melbourne,1
+175,beach_relaxer,Bali,5
+175,beach_relaxer,Rome,3
+175,beach_relaxer,Zurich,3
+175,beach_relaxer,Sydney,3
+176,luxury_shopper,Interlaken,3
+176,luxury_shopper,Fiji (Nadi),3
+176,luxury_shopper,Melbourne,4
+176,luxury_shopper,Nairobi,3
+176,luxury_shopper,Singapore,5
+176,luxury_shopper,Santorini,4
+176,luxury_shopper,Sydney,3
+176,luxury_shopper,Seoul,4
+176,luxury_shopper,London,5
+176,luxury_shopper,Hanoi,2
+177,beach_relaxer,Seoul,2
+177,beach_relaxer,Sydney,4
+177,beach_relaxer,New York City,2
+177,beach_relaxer,Istanbul,2
+177,beach_relaxer,Athens,3
+177,beach_relaxer,Beijing,3
+177,beach_relaxer,Singapore,4
+177,beach_relaxer,Cape Town,4
+177,beach_relaxer,Cancun,5
+177,beach_relaxer,Interlaken,2
+177,beach_relaxer,Buenos Aires,3
+177,beach_relaxer,Vienna,2
+177,beach_relaxer,Venice,3
+177,beach_relaxer,San Francisco,3
+177,beach_relaxer,Hanoi,4
+177,beach_relaxer,Marrakech,4
+177,beach_relaxer,Chiang Mai,3
+177,beach_relaxer,Reykjavik,3
+177,beach_relaxer,Banff,3
+177,beach_relaxer,Siem Reap,4
+178,beach_relaxer,Berlin,3
+178,beach_relaxer,Nairobi,4
+178,beach_relaxer,Bali,5
+178,beach_relaxer,Singapore,2
+178,beach_relaxer,Taipei,3
+178,beach_relaxer,San Francisco,2
+178,beach_relaxer,Banff,2
+178,beach_relaxer,Paris,2
+178,beach_relaxer,Cusco,2
+178,beach_relaxer,Santorini,4
+178,beach_relaxer,Sydney,3
+179,culture_history,Venice,5
+179,culture_history,Lisbon,4
+179,culture_history,New York City,5
+179,culture_history,Tokyo,3
+179,culture_history,Berlin,5
+179,culture_history,Athens,5
+179,culture_history,Rome,5
+179,culture_history,Siem Reap,4
+179,culture_history,Interlaken,3
+179,culture_history,Taipei,4
+179,culture_history,Singapore,3
+179,culture_history,Ho Chi Minh City,4
+179,culture_history,Istanbul,5
+179,culture_history,Rio de Janeiro,2
+180,adventure_nature,Cape Town,5
+180,adventure_nature,Ho Chi Minh City,3
+180,adventure_nature,Venice,3
+180,adventure_nature,Bali,5
+180,adventure_nature,Melbourne,3
+180,adventure_nature,Barcelona,2
+180,adventure_nature,Banff,5
+180,adventure_nature,San Francisco,5
+180,adventure_nature,Taipei,5
+180,adventure_nature,Oslo,4
+180,adventure_nature,Zurich,4
+180,adventure_nature,Berlin,2
+180,adventure_nature,Bangkok,2
+181,culture_history,Cape Town,3
+181,culture_history,Banff,3
+181,culture_history,Barcelona,4
+181,culture_history,Shanghai,3
+181,culture_history,Amsterdam,5
+181,culture_history,Cusco,4
+181,culture_history,Venice,5
+181,culture_history,New York City,3
+182,foodie_nightlife,Bali Ubud,3
+182,foodie_nightlife,Madrid,5
+182,foodie_nightlife,Cape Town,4
+182,foodie_nightlife,Melbourne,5
+182,foodie_nightlife,Taipei,4
+182,foodie_nightlife,Sydney,4
+182,foodie_nightlife,Cancun,4
+182,foodie_nightlife,Marrakech,3
+182,foodie_nightlife,Santorini,3
+182,foodie_nightlife,Bali,3
+182,foodie_nightlife,Barcelona,5
+182,foodie_nightlife,Stockholm,5
+182,foodie_nightlife,Venice,2
+182,foodie_nightlife,Shanghai,4
+182,foodie_nightlife,Beijing,2
+182,foodie_nightlife,Ho Chi Minh City,4
+182,foodie_nightlife,Dubai,4
+182,foodie_nightlife,Fiji (Nadi),3
+182,foodie_nightlife,Cusco,2
+183,foodie_nightlife,Seoul,5
+183,foodie_nightlife,Ho Chi Minh City,4
+183,foodie_nightlife,Sydney,4
+183,foodie_nightlife,Prague,4
+183,foodie_nightlife,Kuala Lumpur,5
+183,foodie_nightlife,Chiang Mai,4
+183,foodie_nightlife,Buenos Aires,5
+183,foodie_nightlife,Beijing,3
+183,foodie_nightlife,Queenstown,3
+184,foodie_nightlife,Venice,2
+184,foodie_nightlife,Dubai,4
+184,foodie_nightlife,Copenhagen,5
+184,foodie_nightlife,Lisbon,5
+184,foodie_nightlife,Chiang Mai,4
+184,foodie_nightlife,Queenstown,3
+184,foodie_nightlife,Istanbul,4
+184,foodie_nightlife,Melbourne,5
+184,foodie_nightlife,Rio de Janeiro,4
+184,foodie_nightlife,Kuala Lumpur,5
+184,foodie_nightlife,Cusco,2
+184,foodie_nightlife,Rome,4
+185,foodie_nightlife,Rome,3
+185,foodie_nightlife,Copenhagen,5
+185,foodie_nightlife,Interlaken,3
+185,foodie_nightlife,Shanghai,4
+185,foodie_nightlife,Taipei,4
+185,foodie_nightlife,Marrakech,2
+185,foodie_nightlife,Buenos Aires,3
+185,foodie_nightlife,Sydney,4
+185,foodie_nightlife,Queenstown,4
+185,foodie_nightlife,Singapore,5
+185,foodie_nightlife,Santorini,4
+185,foodie_nightlife,Lisbon,5
+186,beach_relaxer,Zurich,2
+186,beach_relaxer,Buenos Aires,3
+186,beach_relaxer,Prague,4
+186,beach_relaxer,Reykjavik,3
+186,beach_relaxer,Madrid,5
+186,beach_relaxer,London,3
+186,beach_relaxer,Nairobi,2
+186,beach_relaxer,Santorini,4
+186,beach_relaxer,Dubai,2
+186,beach_relaxer,Queenstown,3
+186,beach_relaxer,Tokyo,3
+186,beach_relaxer,Shanghai,3
+186,beach_relaxer,Rome,3
+186,beach_relaxer,Seoul,3
+186,beach_relaxer,Vienna,2
+186,beach_relaxer,Melbourne,2
+186,beach_relaxer,Fiji (Nadi),5
+186,beach_relaxer,Barcelona,3
+187,beach_relaxer,Cusco,1
+187,beach_relaxer,Rio de Janeiro,3
+187,beach_relaxer,Ho Chi Minh City,2
+187,beach_relaxer,New York City,4
+187,beach_relaxer,Stockholm,3
+187,beach_relaxer,Kyoto,3
+187,beach_relaxer,Bali Ubud,5
+187,beach_relaxer,Nairobi,3
+187,beach_relaxer,Copenhagen,2
+187,beach_relaxer,Melbourne,3
+187,beach_relaxer,Dubai,1
+187,beach_relaxer,Barcelona,5
+187,beach_relaxer,Cape Town,5
+187,beach_relaxer,Taipei,5
+187,beach_relaxer,Tokyo,2
+187,beach_relaxer,Lisbon,3
+187,beach_relaxer,Banff,2
+188,foodie_nightlife,Reykjavik,2
+188,foodie_nightlife,Kuala Lumpur,5
+188,foodie_nightlife,San Francisco,3
+188,foodie_nightlife,Cape Town,5
+188,foodie_nightlife,Ho Chi Minh City,4
+188,foodie_nightlife,Santorini,4
+188,foodie_nightlife,New York City,5
+188,foodie_nightlife,London,5
+189,budget_backpacker,Berlin,3
+189,budget_backpacker,Interlaken,2
+189,budget_backpacker,Ho Chi Minh City,5
+189,budget_backpacker,Bali Ubud,4
+189,budget_backpacker,Singapore,5
+189,budget_backpacker,Buenos Aires,5
+189,budget_backpacker,Kyoto,2
+189,budget_backpacker,Copenhagen,5
+189,budget_backpacker,Venice,3
+189,budget_backpacker,Rio de Janeiro,1
+189,budget_backpacker,Nairobi,4
+190,beach_relaxer,Bangkok,3
+190,beach_relaxer,Vienna,2
+190,beach_relaxer,San Francisco,1
+190,beach_relaxer,Rio de Janeiro,3
+190,beach_relaxer,Beijing,3
+190,beach_relaxer,Istanbul,4
+190,beach_relaxer,New York City,2
+190,beach_relaxer,Berlin,3
+190,beach_relaxer,Queenstown,2
+190,beach_relaxer,Taipei,3
+190,beach_relaxer,London,2
+190,beach_relaxer,Fiji (Nadi),5
+190,beach_relaxer,Cape Town,3
+190,beach_relaxer,Melbourne,4
+191,budget_backpacker,Amsterdam,4
+191,budget_backpacker,Interlaken,3
+191,budget_backpacker,Santorini,1
+191,budget_backpacker,Melbourne,5
+191,budget_backpacker,London,3
+191,budget_backpacker,Prague,3
+191,budget_backpacker,Beijing,3
+191,budget_backpacker,Marrakech,5
+191,budget_backpacker,Buenos Aires,4
+191,budget_backpacker,Cape Town,5
+191,budget_backpacker,Singapore,5
+191,budget_backpacker,Copenhagen,4
+191,budget_backpacker,San Francisco,5
+192,foodie_nightlife,Shanghai,5
+192,foodie_nightlife,Madrid,4
+192,foodie_nightlife,Melbourne,5
+192,foodie_nightlife,Queenstown,3
+192,foodie_nightlife,Istanbul,4
+192,foodie_nightlife,New York City,5
+192,foodie_nightlife,Chiang Mai,3
+192,foodie_nightlife,Kuala Lumpur,5
+192,foodie_nightlife,San Francisco,4
+192,foodie_nightlife,Kyoto,2
+192,foodie_nightlife,Sydney,4
+192,foodie_nightlife,Bali Ubud,2
+192,foodie_nightlife,Interlaken,4
+193,foodie_nightlife,Istanbul,4
+193,foodie_nightlife,Athens,4
+193,foodie_nightlife,Queenstown,4
+193,foodie_nightlife,Melbourne,5
+193,foodie_nightlife,Nairobi,3
+193,foodie_nightlife,Beijing,3
+193,foodie_nightlife,Bali Ubud,3
+193,foodie_nightlife,Interlaken,5
+193,foodie_nightlife,Berlin,4
+193,foodie_nightlife,Stockholm,4
+193,foodie_nightlife,San Francisco,4
+193,foodie_nightlife,Cusco,2
+193,foodie_nightlife,Prague,3
+193,foodie_nightlife,Kuala Lumpur,5
+193,foodie_nightlife,Paris,4
+193,foodie_nightlife,Taipei,5
+194,culture_history,Singapore,4
+194,culture_history,Athens,5
+194,culture_history,Istanbul,5
+194,culture_history,Bali Ubud,3
+194,culture_history,Paris,5
+194,culture_history,Cape Town,3
+194,culture_history,London,4
+194,culture_history,Dubai,2
+194,culture_history,Cairo,4
+194,culture_history,Kyoto,4
+194,culture_history,Prague,5
+194,culture_history,Buenos Aires,3
+194,culture_history,Banff,2
+194,culture_history,Bangkok,3
+194,culture_history,Venice,5
+194,culture_history,New York City,4
+194,culture_history,Rome,5
+194,culture_history,Hanoi,3
+194,culture_history,Berlin,5
+194,culture_history,Oslo,4
+195,luxury_shopper,Athens,2
+195,luxury_shopper,San Francisco,3
+195,luxury_shopper,Bangkok,4
+195,luxury_shopper,Rome,2
+195,luxury_shopper,Prague,3
+195,luxury_shopper,Chiang Mai,3
+195,luxury_shopper,Lisbon,3
+195,luxury_shopper,Bali,3
+195,luxury_shopper,Cancun,3
+195,luxury_shopper,Tokyo,5
+195,luxury_shopper,Shanghai,3
+195,luxury_shopper,Singapore,5
+195,luxury_shopper,New York City,5
+195,luxury_shopper,Madrid,3
+195,luxury_shopper,Nairobi,3
+195,luxury_shopper,Copenhagen,3
+195,luxury_shopper,Banff,2
+196,beach_relaxer,Amsterdam,3
+196,beach_relaxer,Vienna,3
+196,beach_relaxer,Siem Reap,3
+196,beach_relaxer,Interlaken,4
+196,beach_relaxer,Ho Chi Minh City,4
+196,beach_relaxer,Melbourne,3
+196,beach_relaxer,Seoul,4
+196,beach_relaxer,Cape Town,5
+196,beach_relaxer,Paris,1
+196,beach_relaxer,Marrakech,2
+196,beach_relaxer,Bangkok,2
+196,beach_relaxer,Sydney,3
+196,beach_relaxer,Venice,3
+196,beach_relaxer,Taipei,3
+196,beach_relaxer,Buenos Aires,3
+197,beach_relaxer,Copenhagen,2
+197,beach_relaxer,Bali,4
+197,beach_relaxer,Nairobi,4
+197,beach_relaxer,San Francisco,3
+197,beach_relaxer,Rome,3
+197,beach_relaxer,Sydney,2
+197,beach_relaxer,Santorini,4
+197,beach_relaxer,Banff,2
+198,foodie_nightlife,Bangkok,4
+198,foodie_nightlife,Athens,5
+198,foodie_nightlife,Cusco,1
+198,foodie_nightlife,Berlin,4
+198,foodie_nightlife,Zurich,3
+198,foodie_nightlife,Nairobi,4
+198,foodie_nightlife,Shanghai,5
+198,foodie_nightlife,Kyoto,3
+198,foodie_nightlife,Cairo,3
+198,foodie_nightlife,Banff,3
+198,foodie_nightlife,Rio de Janeiro,4
+198,foodie_nightlife,Barcelona,5
+198,foodie_nightlife,Hanoi,4
+198,foodie_nightlife,Istanbul,4
+198,foodie_nightlife,Stockholm,3
+198,foodie_nightlife,Dubai,4
+198,foodie_nightlife,Beijing,3
+198,foodie_nightlife,Reykjavik,2
+198,foodie_nightlife,Marrakech,1
+198,foodie_nightlife,Vienna,3
+199,luxury_shopper,Istanbul,2
+199,luxury_shopper,Amsterdam,4
+199,luxury_shopper,Bangkok,4
+199,luxury_shopper,Vienna,4
+199,luxury_shopper,Cusco,2
+199,luxury_shopper,Banff,4
+199,luxury_shopper,Nairobi,2
+199,luxury_shopper,Bali Ubud,2
+199,luxury_shopper,Sydney,4
+199,luxury_shopper,New York City,4
+200,adventure_nature,Rome,3
+200,adventure_nature,Istanbul,4
+200,adventure_nature,San Francisco,4
+200,adventure_nature,Athens,2
+200,adventure_nature,Tokyo,3
+200,adventure_nature,Oslo,4
+200,adventure_nature,Prague,3
+200,adventure_nature,Vienna,4
+200,adventure_nature,Marrakech,5
+200,adventure_nature,Fiji (Nadi),4
+200,adventure_nature,Santorini,2
+201,beach_relaxer,Melbourne,2
+201,beach_relaxer,Prague,4
+201,beach_relaxer,Dubai,3
+201,beach_relaxer,Beijing,3
+201,beach_relaxer,Singapore,3
+201,beach_relaxer,Bali Ubud,5
+201,beach_relaxer,Barcelona,3
+201,beach_relaxer,Venice,3
+202,adventure_nature,Istanbul,3
+202,adventure_nature,New York City,2
+202,adventure_nature,Buenos Aires,3
+202,adventure_nature,Rio de Janeiro,5
+202,adventure_nature,Cancun,3
+202,adventure_nature,Zurich,4
+202,adventure_nature,Nairobi,5
+202,adventure_nature,Santorini,3
+202,adventure_nature,Bali,5
+203,culture_history,Oslo,3
+203,culture_history,Cancun,3
+203,culture_history,Hanoi,4
+203,culture_history,Sydney,3
+203,culture_history,Stockholm,3
+203,culture_history,Venice,4
+203,culture_history,Beijing,5
+203,culture_history,Vienna,5
+203,culture_history,Cairo,4
+203,culture_history,Rome,5
+203,culture_history,Prague,5
+203,culture_history,Amsterdam,5
+203,culture_history,Ho Chi Minh City,3
+203,culture_history,Lisbon,5
+203,culture_history,Berlin,5
+203,culture_history,Marrakech,4
+203,culture_history,Dubai,4
+203,culture_history,San Francisco,3
+203,culture_history,Bali,4
+203,culture_history,Nairobi,4
+204,budget_backpacker,Venice,3
+204,budget_backpacker,Hanoi,3
+204,budget_backpacker,Amsterdam,2
+204,budget_backpacker,Dubai,4
+204,budget_backpacker,San Francisco,5
+204,budget_backpacker,Stockholm,1
+204,budget_backpacker,Seoul,5
+204,budget_backpacker,Rio de Janeiro,2
+204,budget_backpacker,Oslo,4
+204,budget_backpacker,Siem Reap,5
+204,budget_backpacker,London,3
+204,budget_backpacker,Nairobi,4
+204,budget_backpacker,Vienna,4
+204,budget_backpacker,Melbourne,5
+204,budget_backpacker,Cancun,3
+204,budget_backpacker,Rome,5
+204,budget_backpacker,Fiji (Nadi),4
+204,budget_backpacker,Zurich,3
+204,budget_backpacker,Cape Town,5
+204,budget_backpacker,Sydney,3
+205,budget_backpacker,Amsterdam,3
+205,budget_backpacker,Kyoto,2
+205,budget_backpacker,Bali,4
+205,budget_backpacker,Cusco,4
+205,budget_backpacker,Shanghai,3
+205,budget_backpacker,Copenhagen,5
+205,budget_backpacker,Santorini,3
+205,budget_backpacker,Singapore,3
+205,budget_backpacker,Dubai,2
+205,budget_backpacker,Berlin,3
+205,budget_backpacker,Buenos Aires,5
+205,budget_backpacker,Rio de Janeiro,1
+205,budget_backpacker,Cape Town,4
+205,budget_backpacker,Fiji (Nadi),3
+206,beach_relaxer,Chiang Mai,4
+206,beach_relaxer,Ho Chi Minh City,3
+206,beach_relaxer,Banff,1
+206,beach_relaxer,Singapore,3
+206,beach_relaxer,Siem Reap,2
+206,beach_relaxer,Cairo,3
+206,beach_relaxer,Cape Town,4
+206,beach_relaxer,San Francisco,1
+206,beach_relaxer,Beijing,2
+206,beach_relaxer,Santorini,4
+206,beach_relaxer,Interlaken,2
+206,beach_relaxer,Venice,2
+206,beach_relaxer,Istanbul,4
+206,beach_relaxer,Athens,3
+206,beach_relaxer,Barcelona,3
+206,beach_relaxer,Rio de Janeiro,3
+206,beach_relaxer,Bali Ubud,5
+207,luxury_shopper,Madrid,4
+207,luxury_shopper,Vienna,3
+207,luxury_shopper,Ho Chi Minh City,3
+207,luxury_shopper,Banff,4
+207,luxury_shopper,Singapore,5
+207,luxury_shopper,Cairo,3
+207,luxury_shopper,Santorini,4
+207,luxury_shopper,Buenos Aires,4
+207,luxury_shopper,Lisbon,4
+207,luxury_shopper,Berlin,2
+207,luxury_shopper,San Francisco,3
+208,adventure_nature,Chiang Mai,4
+208,adventure_nature,Taipei,3
+208,adventure_nature,Shanghai,3
+208,adventure_nature,Reykjavik,5
+208,adventure_nature,Singapore,4
+208,adventure_nature,Queenstown,5
+208,adventure_nature,Oslo,4
+208,adventure_nature,Zurich,4
+208,adventure_nature,Barcelona,4
+208,adventure_nature,Buenos Aires,3
+208,adventure_nature,Rome,2
+208,adventure_nature,Vienna,4
+208,adventure_nature,Bangkok,2
+208,adventure_nature,Banff,5
+208,adventure_nature,Madrid,3
+208,adventure_nature,Lisbon,3
+208,adventure_nature,Tokyo,4
+208,adventure_nature,Santorini,4
+208,adventure_nature,Cancun,4
+209,budget_backpacker,Melbourne,5
+209,budget_backpacker,New York City,5
+209,budget_backpacker,Bali,4
+209,budget_backpacker,Cusco,5
+209,budget_backpacker,Fiji (Nadi),3
+209,budget_backpacker,Stockholm,3
+209,budget_backpacker,Queenstown,3
+209,budget_backpacker,Seoul,5
+210,adventure_nature,Berlin,2
+210,adventure_nature,Prague,3
+210,adventure_nature,Reykjavik,5
+210,adventure_nature,Queenstown,5
+210,adventure_nature,Chiang Mai,3
+210,adventure_nature,Sydney,5
+210,adventure_nature,Amsterdam,4
+210,adventure_nature,Santorini,4
+210,adventure_nature,Taipei,4
+210,adventure_nature,Bali,4
+210,adventure_nature,Athens,4
+210,adventure_nature,Buenos Aires,4
+210,adventure_nature,Melbourne,3
+210,adventure_nature,Interlaken,4
+210,adventure_nature,Beijing,3
+211,culture_history,Buenos Aires,4
+211,culture_history,Athens,5
+211,culture_history,Bangkok,3
+211,culture_history,Santorini,4
+211,culture_history,Stockholm,5
+211,culture_history,Madrid,4
+211,culture_history,San Francisco,5
+211,culture_history,Siem Reap,3
+211,culture_history,Taipei,4
+211,culture_history,Singapore,5
+211,culture_history,Cancun,3
+211,culture_history,Barcelona,4
+211,culture_history,Bali,3
+211,culture_history,Cape Town,4
+211,culture_history,Oslo,5
+211,culture_history,Cusco,4
+211,culture_history,Lisbon,5
+212,adventure_nature,Rome,4
+212,adventure_nature,Amsterdam,3
+212,adventure_nature,Ho Chi Minh City,2
+212,adventure_nature,Nairobi,5
+212,adventure_nature,Barcelona,3
+212,adventure_nature,Tokyo,3
+212,adventure_nature,Cusco,3
+212,adventure_nature,Cancun,3
+212,adventure_nature,Banff,5
+212,adventure_nature,Cape Town,5
+212,adventure_nature,Interlaken,5
+212,adventure_nature,Buenos Aires,4
+212,adventure_nature,Madrid,2
+212,adventure_nature,Dubai,3
+212,adventure_nature,Fiji (Nadi),3
+212,adventure_nature,Oslo,5
+212,adventure_nature,Beijing,3
+212,adventure_nature,Chiang Mai,4
+212,adventure_nature,Singapore,3
+213,adventure_nature,Stockholm,4
+213,adventure_nature,Nairobi,5
+213,adventure_nature,New York City,4
+213,adventure_nature,Bali,3
+213,adventure_nature,Interlaken,4
+213,adventure_nature,Marrakech,4
+213,adventure_nature,Paris,3
+213,adventure_nature,Buenos Aires,2
+213,adventure_nature,Madrid,3
+213,adventure_nature,Cusco,5
+213,adventure_nature,San Francisco,5
+213,adventure_nature,Tokyo,3
+213,adventure_nature,Barcelona,2
+213,adventure_nature,Lisbon,3
+213,adventure_nature,Siem Reap,4
+213,adventure_nature,Sydney,5
+213,adventure_nature,Seoul,3
+213,adventure_nature,Melbourne,3
+214,foodie_nightlife,Sydney,5
+214,foodie_nightlife,New York City,5
+214,foodie_nightlife,Taipei,3
+214,foodie_nightlife,London,5
+214,foodie_nightlife,Shanghai,4
+214,foodie_nightlife,Nairobi,2
+214,foodie_nightlife,Kuala Lumpur,5
+214,foodie_nightlife,Dubai,4
+214,foodie_nightlife,San Francisco,3
+214,foodie_nightlife,Athens,2
+214,foodie_nightlife,Seoul,5
+214,foodie_nightlife,Interlaken,3
+214,foodie_nightlife,Cusco,2
+214,foodie_nightlife,Melbourne,5
+215,budget_backpacker,Hanoi,5
+215,budget_backpacker,Tokyo,4
+215,budget_backpacker,Buenos Aires,5
+215,budget_backpacker,Chiang Mai,5
+215,budget_backpacker,Kyoto,2
+215,budget_backpacker,Singapore,3
+215,budget_backpacker,Reykjavik,3
+215,budget_backpacker,Dubai,5
+215,budget_backpacker,Seoul,4
+215,budget_backpacker,Fiji (Nadi),3
+216,culture_history,Rio de Janeiro,3
+216,culture_history,Barcelona,5
+216,culture_history,Reykjavik,2
+216,culture_history,Tokyo,5
+216,culture_history,London,5
+216,culture_history,Cairo,4
+216,culture_history,Santorini,4
+216,culture_history,Marrakech,4
+216,culture_history,Rome,5
+216,culture_history,Cancun,2
+216,culture_history,Banff,2
+216,culture_history,Cusco,4
+216,culture_history,Melbourne,4
+216,culture_history,Kyoto,5
+216,culture_history,Prague,5
+216,culture_history,Cape Town,3
+216,culture_history,Hanoi,3
+216,culture_history,Oslo,3
+216,culture_history,Ho Chi Minh City,4
+217,culture_history,Cusco,5
+217,culture_history,Reykjavik,3
+217,culture_history,Siem Reap,5
+217,culture_history,Melbourne,4
+217,culture_history,Marrakech,5
+217,culture_history,Dubai,3
+217,culture_history,Singapore,4
+217,culture_history,Seoul,4
+217,culture_history,Taipei,5
+217,culture_history,Istanbul,5
+218,culture_history,New York City,4
+218,culture_history,Amsterdam,5
+218,culture_history,Fiji (Nadi),3
+218,culture_history,Seoul,5
+218,culture_history,Copenhagen,5
+218,culture_history,Banff,4
+218,culture_history,Tokyo,3
+218,culture_history,Lisbon,4
+218,culture_history,San Francisco,5
+218,culture_history,Santorini,5
+218,culture_history,Bali,3
+218,culture_history,Interlaken,2
+218,culture_history,Prague,5
+219,beach_relaxer,London,2
+219,beach_relaxer,Chiang Mai,4
+219,beach_relaxer,Venice,4
+219,beach_relaxer,Istanbul,4
+219,beach_relaxer,Cancun,5
+219,beach_relaxer,Reykjavik,2
+219,beach_relaxer,Madrid,3
+219,beach_relaxer,Banff,2
+219,beach_relaxer,Kyoto,2
+219,beach_relaxer,Stockholm,2
+219,beach_relaxer,San Francisco,3
+219,beach_relaxer,Bali Ubud,4
+219,beach_relaxer,Seoul,3
+219,beach_relaxer,Fiji (Nadi),5
+219,beach_relaxer,Cairo,4
+219,beach_relaxer,Zurich,3
+220,adventure_nature,Cancun,4
+220,adventure_nature,Lisbon,2
+220,adventure_nature,Amsterdam,3
+220,adventure_nature,Singapore,2
+220,adventure_nature,Reykjavik,5
+220,adventure_nature,Oslo,4
+220,adventure_nature,Hanoi,3
+220,adventure_nature,San Francisco,5
+220,adventure_nature,Kuala Lumpur,3
+220,adventure_nature,Berlin,3
+220,adventure_nature,Santorini,3
+220,adventure_nature,Istanbul,4
+221,beach_relaxer,Nairobi,2
+221,beach_relaxer,Cusco,3
+221,beach_relaxer,Siem Reap,5
+221,beach_relaxer,Rio de Janeiro,4
+221,beach_relaxer,Copenhagen,2
+221,beach_relaxer,Chiang Mai,4
+221,beach_relaxer,Venice,3
+221,beach_relaxer,Zurich,2
+221,beach_relaxer,Reykjavik,1
+221,beach_relaxer,Beijing,2
+221,beach_relaxer,Oslo,3
+222,budget_backpacker,Marrakech,5
+222,budget_backpacker,Rio de Janeiro,3
+222,budget_backpacker,Bangkok,5
+222,budget_backpacker,Banff,2
+222,budget_backpacker,Prague,4
+222,budget_backpacker,Seoul,4
+222,budget_backpacker,Istanbul,4
+222,budget_backpacker,Vienna,3
+222,budget_backpacker,Bali,3
+222,budget_backpacker,Barcelona,4
+222,budget_backpacker,Cancun,3
+222,budget_backpacker,Santorini,4
+222,budget_backpacker,Lisbon,4
+222,budget_backpacker,Venice,3
+222,budget_backpacker,Beijing,3
+222,budget_backpacker,Fiji (Nadi),2
+222,budget_backpacker,Cusco,5
+223,culture_history,Santorini,5
+223,culture_history,Fiji (Nadi),3
+223,culture_history,Ho Chi Minh City,3
+223,culture_history,Barcelona,4
+223,culture_history,Hanoi,4
+223,culture_history,Prague,5
+223,culture_history,Bangkok,3
+223,culture_history,Taipei,4
+223,culture_history,New York City,5
+223,culture_history,Kuala Lumpur,4
+223,culture_history,Reykjavik,4
+223,culture_history,Kyoto,5
+223,culture_history,Marrakech,5
+223,culture_history,Cape Town,3
+224,foodie_nightlife,Buenos Aires,4
+224,foodie_nightlife,Bali,2
+224,foodie_nightlife,Seoul,4
+224,foodie_nightlife,Vienna,3
+224,foodie_nightlife,Marrakech,2
+224,foodie_nightlife,Nairobi,3
+224,foodie_nightlife,Paris,4
+224,foodie_nightlife,Zurich,2
+224,foodie_nightlife,Amsterdam,4
+224,foodie_nightlife,Rio de Janeiro,5
+224,foodie_nightlife,Sydney,4
+225,beach_relaxer,Ho Chi Minh City,3
+225,beach_relaxer,Dubai,1
+225,beach_relaxer,Singapore,2
+225,beach_relaxer,Lisbon,3
+225,beach_relaxer,Bangkok,4
+225,beach_relaxer,Hanoi,3
+225,beach_relaxer,London,3
+225,beach_relaxer,Berlin,3
+225,beach_relaxer,Beijing,4
+225,beach_relaxer,Nairobi,2
+225,beach_relaxer,Marrakech,2
+225,beach_relaxer,Prague,4
+225,beach_relaxer,Amsterdam,2
+225,beach_relaxer,Cape Town,4
+225,beach_relaxer,Bali,5
+225,beach_relaxer,Buenos Aires,2
+225,beach_relaxer,Fiji (Nadi),5
+225,beach_relaxer,Queenstown,2
+225,beach_relaxer,Shanghai,3
+226,foodie_nightlife,Kyoto,3
+226,foodie_nightlife,Lisbon,5
+226,foodie_nightlife,Athens,5
+226,foodie_nightlife,Kuala Lumpur,5
+226,foodie_nightlife,Ho Chi Minh City,5
+226,foodie_nightlife,Prague,5
+226,foodie_nightlife,Cancun,5
+226,foodie_nightlife,New York City,4
+226,foodie_nightlife,Amsterdam,4
+226,foodie_nightlife,Madrid,5
+226,foodie_nightlife,Santorini,2
+226,foodie_nightlife,Singapore,4
+226,foodie_nightlife,Hanoi,4
+226,foodie_nightlife,Melbourne,5
+226,foodie_nightlife,Sydney,4
+226,foodie_nightlife,Queenstown,3
+226,foodie_nightlife,Banff,1
+227,culture_history,San Francisco,3
+227,culture_history,Hanoi,5
+227,culture_history,Vienna,5
+227,culture_history,Singapore,3
+227,culture_history,Tokyo,4
+227,culture_history,Ho Chi Minh City,4
+227,culture_history,Fiji (Nadi),3
+227,culture_history,Seoul,4
+227,culture_history,Dubai,2
+228,culture_history,Tokyo,3
+228,culture_history,Buenos Aires,3
+228,culture_history,Cairo,4
+228,culture_history,London,5
+228,culture_history,Reykjavik,3
+228,culture_history,Bali Ubud,3
+228,culture_history,Madrid,5
+228,culture_history,Rome,5
+228,culture_history,Istanbul,4
+228,culture_history,Kuala Lumpur,4
+228,culture_history,Beijing,4
+228,culture_history,Shanghai,2
+228,culture_history,Berlin,4
+228,culture_history,Cusco,4
+228,culture_history,Banff,2
+229,budget_backpacker,Santorini,3
+229,budget_backpacker,Berlin,3
+229,budget_backpacker,Dubai,3
+229,budget_backpacker,Barcelona,4
+229,budget_backpacker,Bali Ubud,4
+229,budget_backpacker,Cairo,5
+229,budget_backpacker,Siem Reap,4
+229,budget_backpacker,Cusco,5
+229,budget_backpacker,Rome,2
+229,budget_backpacker,Kyoto,2
+229,budget_backpacker,Fiji (Nadi),4
+229,budget_backpacker,Reykjavik,3
+229,budget_backpacker,Rio de Janeiro,3
+229,budget_backpacker,Tokyo,5
+229,budget_backpacker,Bangkok,5
+229,budget_backpacker,Cancun,1
+229,budget_backpacker,Interlaken,4
+229,budget_backpacker,Ho Chi Minh City,5
+229,budget_backpacker,Buenos Aires,5
+230,beach_relaxer,Dubai,4
+230,beach_relaxer,Bali Ubud,4
+230,beach_relaxer,London,3
+230,beach_relaxer,Singapore,2
+230,beach_relaxer,Seoul,3
+230,beach_relaxer,Cape Town,3
+230,beach_relaxer,Barcelona,4
+230,beach_relaxer,Lisbon,3
+230,beach_relaxer,Oslo,2
+230,beach_relaxer,Nairobi,3
+230,beach_relaxer,Interlaken,2
+230,beach_relaxer,Hanoi,2
+230,beach_relaxer,Chiang Mai,4
+230,beach_relaxer,Cusco,4
+230,beach_relaxer,Bangkok,3
+230,beach_relaxer,Cairo,3
+231,beach_relaxer,Bali Ubud,4
+231,beach_relaxer,Rio de Janeiro,3
+231,beach_relaxer,Tokyo,1
+231,beach_relaxer,Cairo,3
+231,beach_relaxer,Sydney,4
+231,beach_relaxer,Copenhagen,2
+231,beach_relaxer,Ho Chi Minh City,4
+231,beach_relaxer,Nairobi,4
+231,beach_relaxer,Siem Reap,3
+231,beach_relaxer,Cancun,5
+231,beach_relaxer,Istanbul,3
+231,beach_relaxer,Berlin,2
+231,beach_relaxer,Paris,2
+231,beach_relaxer,Athens,2
+231,beach_relaxer,Santorini,4
+231,beach_relaxer,Banff,1
+231,beach_relaxer,Taipei,2
+231,beach_relaxer,Zurich,3
+231,beach_relaxer,Singapore,3
+231,beach_relaxer,Cape Town,4
+232,luxury_shopper,Lisbon,4
+232,luxury_shopper,Tokyo,5
+232,luxury_shopper,Athens,3
+232,luxury_shopper,Sydney,4
+232,luxury_shopper,Ho Chi Minh City,3
+232,luxury_shopper,Rio de Janeiro,3
+232,luxury_shopper,New York City,5
+232,luxury_shopper,Bali Ubud,3
+232,luxury_shopper,Oslo,2
+232,luxury_shopper,Amsterdam,5
+232,luxury_shopper,Singapore,5
+232,luxury_shopper,Beijing,3
+232,luxury_shopper,Paris,5
+232,luxury_shopper,Taipei,1
+232,luxury_shopper,Shanghai,5
+232,luxury_shopper,Reykjavik,3
+232,luxury_shopper,Berlin,2
+232,luxury_shopper,San Francisco,4
+232,luxury_shopper,Marrakech,2
+232,luxury_shopper,Cusco,3
+233,budget_backpacker,Bali,4
+233,budget_backpacker,Madrid,4
+233,budget_backpacker,Barcelona,3
+233,budget_backpacker,Venice,2
+233,budget_backpacker,Kuala Lumpur,3
+233,budget_backpacker,Lisbon,5
+233,budget_backpacker,Rome,5
+233,budget_backpacker,Reykjavik,3
+233,budget_backpacker,Rio de Janeiro,2
+234,foodie_nightlife,Shanghai,3
+234,foodie_nightlife,Bali Ubud,2
+234,foodie_nightlife,Melbourne,5
+234,foodie_nightlife,Bangkok,4
+234,foodie_nightlife,Chiang Mai,2
+234,foodie_nightlife,Nairobi,2
+234,foodie_nightlife,Kuala Lumpur,5
+234,foodie_nightlife,Seoul,5
+234,foodie_nightlife,Sydney,3
+234,foodie_nightlife,Beijing,2
+234,foodie_nightlife,Cape Town,3
+234,foodie_nightlife,Venice,3
+234,foodie_nightlife,Paris,5
+234,foodie_nightlife,Interlaken,3
+234,foodie_nightlife,Fiji (Nadi),3
+234,foodie_nightlife,Copenhagen,5
+234,foodie_nightlife,Vienna,5
+235,foodie_nightlife,Oslo,3
+235,foodie_nightlife,Kyoto,3
+235,foodie_nightlife,Istanbul,5
+235,foodie_nightlife,Prague,4
+235,foodie_nightlife,Banff,2
+235,foodie_nightlife,Siem Reap,2
+235,foodie_nightlife,Copenhagen,5
+235,foodie_nightlife,Zurich,4
+235,foodie_nightlife,Reykjavik,2
+235,foodie_nightlife,Ho Chi Minh City,5
+235,foodie_nightlife,Beijing,3
+235,foodie_nightlife,Singapore,5
+235,foodie_nightlife,Rio de Janeiro,5
+235,foodie_nightlife,Athens,4
+235,foodie_nightlife,Amsterdam,5
+235,foodie_nightlife,Lisbon,4
+235,foodie_nightlife,Chiang Mai,1
+235,foodie_nightlife,Tokyo,4
+235,foodie_nightlife,Cusco,1
+235,foodie_nightlife,Barcelona,4
+236,adventure_nature,Bali Ubud,4
+236,adventure_nature,Ho Chi Minh City,3
+236,adventure_nature,Buenos Aires,3
+236,adventure_nature,Siem Reap,3
+236,adventure_nature,Vienna,3
+236,adventure_nature,Kuala Lumpur,3
+236,adventure_nature,Banff,5
+236,adventure_nature,Beijing,3
+236,adventure_nature,Amsterdam,2
+236,adventure_nature,Cancun,3
+236,adventure_nature,Venice,4
+236,adventure_nature,Zurich,4
+236,adventure_nature,Stockholm,3
+236,adventure_nature,Seoul,3
+236,adventure_nature,Lisbon,3
+236,adventure_nature,Tokyo,3
+236,adventure_nature,Berlin,3
+236,adventure_nature,Singapore,3
+236,adventure_nature,Santorini,3
+237,adventure_nature,San Francisco,4
+237,adventure_nature,Rio de Janeiro,5
+237,adventure_nature,Marrakech,4
+237,adventure_nature,Bali Ubud,4
+237,adventure_nature,Cancun,3
+237,adventure_nature,Madrid,3
+237,adventure_nature,Taipei,4
+237,adventure_nature,London,3
+237,adventure_nature,Fiji (Nadi),5
+237,adventure_nature,Barcelona,2
+237,adventure_nature,Venice,4
+237,adventure_nature,Reykjavik,4
+237,adventure_nature,Copenhagen,3
+237,adventure_nature,Bali,4
+237,adventure_nature,Dubai,4
+237,adventure_nature,Sydney,3
+237,adventure_nature,Santorini,3
+237,adventure_nature,Prague,4
+238,foodie_nightlife,Rio de Janeiro,3
+238,foodie_nightlife,Sydney,5
+238,foodie_nightlife,Tokyo,4
+238,foodie_nightlife,Taipei,2
+238,foodie_nightlife,Dubai,5
+238,foodie_nightlife,Athens,4
+238,foodie_nightlife,Cairo,2
+238,foodie_nightlife,Melbourne,5
+238,foodie_nightlife,Interlaken,3
+238,foodie_nightlife,Bali,1
+238,foodie_nightlife,Buenos Aires,4
+238,foodie_nightlife,Nairobi,4
+238,foodie_nightlife,Banff,3
+238,foodie_nightlife,Oslo,2
+239,budget_backpacker,Nairobi,3
+239,budget_backpacker,Cancun,2
+239,budget_backpacker,Bali Ubud,4
+239,budget_backpacker,Bangkok,5
+239,budget_backpacker,Siem Reap,3
+239,budget_backpacker,Kyoto,4
+239,budget_backpacker,Ho Chi Minh City,5
+239,budget_backpacker,Taipei,5
+239,budget_backpacker,Seoul,4
+239,budget_backpacker,Melbourne,4
+239,budget_backpacker,Amsterdam,4
+239,budget_backpacker,Sydney,3
+239,budget_backpacker,Rio de Janeiro,2
+239,budget_backpacker,Madrid,5
+239,budget_backpacker,Berlin,3
+239,budget_backpacker,Dubai,3
+240,foodie_nightlife,Barcelona,5
+240,foodie_nightlife,Tokyo,5
+240,foodie_nightlife,San Francisco,5
+240,foodie_nightlife,Banff,3
+240,foodie_nightlife,Kyoto,3
+240,foodie_nightlife,Madrid,4
+240,foodie_nightlife,Buenos Aires,5
+240,foodie_nightlife,Melbourne,5
+240,foodie_nightlife,Cape Town,4
+240,foodie_nightlife,Bali Ubud,1
+240,foodie_nightlife,Fiji (Nadi),4
+240,foodie_nightlife,Cancun,5
+240,foodie_nightlife,Reykjavik,1
+240,foodie_nightlife,Interlaken,3
+240,foodie_nightlife,New York City,4
+240,foodie_nightlife,Prague,4
+240,foodie_nightlife,Athens,5
+240,foodie_nightlife,Marrakech,3
+240,foodie_nightlife,Rome,4
+241,culture_history,Seoul,4
+241,culture_history,Stockholm,4
+241,culture_history,Hanoi,5
+241,culture_history,Melbourne,4
+241,culture_history,Reykjavik,4
+241,culture_history,Rio de Janeiro,1
+241,culture_history,Cusco,4
+241,culture_history,Prague,5
+241,culture_history,Marrakech,2
+241,culture_history,Taipei,5
+241,culture_history,Shanghai,4
+241,culture_history,Rome,4
+241,culture_history,Cape Town,4
+241,culture_history,Bangkok,2
+241,culture_history,Singapore,3
+241,culture_history,Bali Ubud,4
+241,culture_history,Lisbon,4
+241,culture_history,Fiji (Nadi),2
+242,beach_relaxer,Bali,5
+242,beach_relaxer,Sydney,3
+242,beach_relaxer,Athens,4
+242,beach_relaxer,Fiji (Nadi),5
+242,beach_relaxer,Rome,3
+242,beach_relaxer,Cairo,3
+242,beach_relaxer,Tokyo,1
+242,beach_relaxer,San Francisco,1
+242,beach_relaxer,Oslo,2
+242,beach_relaxer,Prague,3
+242,beach_relaxer,Queenstown,3
+242,beach_relaxer,Lisbon,4
+242,beach_relaxer,Cancun,5
+242,beach_relaxer,Melbourne,4
+243,budget_backpacker,Nairobi,4
+243,budget_backpacker,Reykjavik,3
+243,budget_backpacker,Stockholm,3
+243,budget_backpacker,Bali,4
+243,budget_backpacker,Buenos Aires,4
+243,budget_backpacker,Amsterdam,4
+243,budget_backpacker,Dubai,3
+243,budget_backpacker,Tokyo,5
+243,budget_backpacker,Zurich,4
+243,budget_backpacker,Interlaken,3
+243,budget_backpacker,Sydney,1
+243,budget_backpacker,Seoul,4
+243,budget_backpacker,Rome,3
+243,budget_backpacker,Madrid,5
+243,budget_backpacker,Lisbon,4
+243,budget_backpacker,Santorini,4
+244,adventure_nature,Kuala Lumpur,4
+244,adventure_nature,Sydney,4
+244,adventure_nature,Oslo,4
+244,adventure_nature,Queenstown,5
+244,adventure_nature,Marrakech,3
+244,adventure_nature,Taipei,4
+244,adventure_nature,Cancun,3
+244,adventure_nature,Stockholm,4
+245,luxury_shopper,Queenstown,4
+245,luxury_shopper,Dubai,5
+245,luxury_shopper,Zurich,3
+245,luxury_shopper,Copenhagen,4
+245,luxury_shopper,Kuala Lumpur,3
+245,luxury_shopper,Bangkok,4
+245,luxury_shopper,Fiji (Nadi),2
+245,luxury_shopper,Berlin,3
+245,luxury_shopper,Barcelona,2
+245,luxury_shopper,Ho Chi Minh City,3
+245,luxury_shopper,Banff,3
+245,luxury_shopper,San Francisco,3
+245,luxury_shopper,Chiang Mai,3
+245,luxury_shopper,Amsterdam,4
+246,beach_relaxer,Cairo,2
+246,beach_relaxer,Buenos Aires,3
+246,beach_relaxer,Chiang Mai,3
+246,beach_relaxer,Beijing,2
+246,beach_relaxer,Siem Reap,4
+246,beach_relaxer,New York City,1
+246,beach_relaxer,Rome,3
+246,beach_relaxer,Interlaken,2
+246,beach_relaxer,Paris,3
+246,beach_relaxer,Dubai,2
+246,beach_relaxer,London,1
+246,beach_relaxer,Stockholm,2
+247,luxury_shopper,Vienna,3
+247,luxury_shopper,Reykjavik,4
+247,luxury_shopper,Queenstown,2
+247,luxury_shopper,Bali,3
+247,luxury_shopper,London,5
+247,luxury_shopper,Bangkok,4
+247,luxury_shopper,Siem Reap,2
+247,luxury_shopper,Beijing,3
+247,luxury_shopper,Ho Chi Minh City,3
+247,luxury_shopper,Nairobi,1
+247,luxury_shopper,Stockholm,5
+247,luxury_shopper,Istanbul,2
+247,luxury_shopper,San Francisco,3
+247,luxury_shopper,Rio de Janeiro,3
+247,luxury_shopper,Venice,3
+247,luxury_shopper,Buenos Aires,3
+247,luxury_shopper,Barcelona,5
+247,luxury_shopper,Tokyo,5
+247,luxury_shopper,Shanghai,4
+247,luxury_shopper,Cancun,5
+248,adventure_nature,Paris,4
+248,adventure_nature,Rio de Janeiro,5
+248,adventure_nature,Taipei,5
+248,adventure_nature,Venice,3
+248,adventure_nature,Bali,4
+248,adventure_nature,Sydney,4
+248,adventure_nature,Athens,1
+248,adventure_nature,Queenstown,4
+248,adventure_nature,London,3
+248,adventure_nature,Kuala Lumpur,4
+248,adventure_nature,Hanoi,3
+249,adventure_nature,Rio de Janeiro,4
+249,adventure_nature,Banff,5
+249,adventure_nature,Hanoi,4
+249,adventure_nature,Dubai,4
+249,adventure_nature,Siem Reap,4
+249,adventure_nature,Cape Town,5
+249,adventure_nature,Reykjavik,5
+249,adventure_nature,Melbourne,3
+249,adventure_nature,Beijing,3
+250,adventure_nature,Kyoto,5
+250,adventure_nature,Queenstown,5
+250,adventure_nature,Rio de Janeiro,3
+250,adventure_nature,Bangkok,4
+250,adventure_nature,Prague,4
+250,adventure_nature,Copenhagen,4
+250,adventure_nature,Marrakech,2
+250,adventure_nature,Cusco,4
+250,adventure_nature,Vienna,4
+250,adventure_nature,Melbourne,3
+250,adventure_nature,Hanoi,2
+250,adventure_nature,Shanghai,3
+250,adventure_nature,Paris,3
+250,adventure_nature,Santorini,2
+250,adventure_nature,Lisbon,4
+250,adventure_nature,Oslo,4
+250,adventure_nature,Siem Reap,5
+251,foodie_nightlife,Singapore,5
+251,foodie_nightlife,Kuala Lumpur,4
+251,foodie_nightlife,Ho Chi Minh City,5
+251,foodie_nightlife,Interlaken,4
+251,foodie_nightlife,Queenstown,3
+251,foodie_nightlife,Shanghai,4
+251,foodie_nightlife,Reykjavik,4
+251,foodie_nightlife,Cusco,1
+251,foodie_nightlife,Banff,3
+251,foodie_nightlife,Bangkok,5
+251,foodie_nightlife,Athens,3
+251,foodie_nightlife,Berlin,3
+251,foodie_nightlife,Taipei,5
+252,luxury_shopper,Istanbul,1
+252,luxury_shopper,Melbourne,4
+252,luxury_shopper,Bangkok,3
+252,luxury_shopper,Berlin,3
+252,luxury_shopper,Beijing,2
+252,luxury_shopper,Cairo,3
+252,luxury_shopper,Sydney,4
+252,luxury_shopper,Rome,3
+253,luxury_shopper,Cape Town,1
+253,luxury_shopper,Dubai,5
+253,luxury_shopper,New York City,5
+253,luxury_shopper,Singapore,5
+253,luxury_shopper,Vienna,2
+253,luxury_shopper,Copenhagen,4
+253,luxury_shopper,Bali Ubud,3
+253,luxury_shopper,Amsterdam,4
+253,luxury_shopper,Madrid,3
+253,luxury_shopper,Istanbul,2
+253,luxury_shopper,Athens,2
+253,luxury_shopper,Shanghai,4
+253,luxury_shopper,Bali,5
+253,luxury_shopper,Seoul,5
+253,luxury_shopper,Reykjavik,3
+253,luxury_shopper,Kyoto,2
+253,luxury_shopper,Tokyo,5
+253,luxury_shopper,Oslo,3
+253,luxury_shopper,Hanoi,3
+253,luxury_shopper,Banff,2
+254,culture_history,Oslo,4
+254,culture_history,Athens,5
+254,culture_history,Rome,4
+254,culture_history,Taipei,5
+254,culture_history,Vienna,5
+254,culture_history,Bangkok,3
+254,culture_history,Queenstown,4
+254,culture_history,Santorini,4
+254,culture_history,Melbourne,5
+254,culture_history,Zurich,3
+254,culture_history,Interlaken,3
+254,culture_history,Tokyo,3
+254,culture_history,Dubai,4
+254,culture_history,Beijing,5
+254,culture_history,Copenhagen,4
+254,culture_history,Sydney,4
+254,culture_history,Reykjavik,3
+254,culture_history,Marrakech,5
+254,culture_history,Berlin,5
+255,adventure_nature,Cusco,4
+255,adventure_nature,Lisbon,4
+255,adventure_nature,Barcelona,3
+255,adventure_nature,Vienna,4
+255,adventure_nature,London,2
+255,adventure_nature,Copenhagen,4
+255,adventure_nature,Sydney,5
+255,adventure_nature,Shanghai,2
+255,adventure_nature,Madrid,2
+255,adventure_nature,Taipei,5
+255,adventure_nature,Oslo,3
+255,adventure_nature,Tokyo,3
+255,adventure_nature,Rio de Janeiro,5
+255,adventure_nature,Paris,2
+255,adventure_nature,Athens,2
+255,adventure_nature,Marrakech,4
+255,adventure_nature,Rome,3
+255,adventure_nature,Prague,3
+255,adventure_nature,Interlaken,5
+256,luxury_shopper,Fiji (Nadi),3
+256,luxury_shopper,Santorini,4
+256,luxury_shopper,Berlin,4
+256,luxury_shopper,Cancun,3
+256,luxury_shopper,Melbourne,5
+256,luxury_shopper,Siem Reap,2
+256,luxury_shopper,Reykjavik,3
+256,luxury_shopper,Rome,2
+256,luxury_shopper,Tokyo,4
+256,luxury_shopper,Beijing,1
+256,luxury_shopper,San Francisco,3
+256,luxury_shopper,Seoul,4
+257,foodie_nightlife,Marrakech,2
+257,foodie_nightlife,Taipei,4
+257,foodie_nightlife,Zurich,3
+257,foodie_nightlife,Bali Ubud,2
+257,foodie_nightlife,Interlaken,3
+257,foodie_nightlife,Prague,3
+257,foodie_nightlife,Rio de Janeiro,4
+257,foodie_nightlife,Rome,4
+258,culture_history,Madrid,4
+258,culture_history,Paris,5
+258,culture_history,Rome,5
+258,culture_history,Amsterdam,5
+258,culture_history,Copenhagen,4
+258,culture_history,Bali Ubud,3
+258,culture_history,London,4
+258,culture_history,Santorini,4
+258,culture_history,Hanoi,4
+258,culture_history,Banff,1
+258,culture_history,Nairobi,4
+258,culture_history,Cape Town,3
+258,culture_history,Queenstown,3
+258,culture_history,San Francisco,5
+258,culture_history,Venice,4
+258,culture_history,Sydney,4
+259,culture_history,Venice,4
+259,culture_history,Sydney,4
+259,culture_history,Kyoto,5
+259,culture_history,Tokyo,4
+259,culture_history,Istanbul,5
+259,culture_history,Stockholm,3
+259,culture_history,Beijing,5
+259,culture_history,Dubai,3
+259,culture_history,Banff,4
+259,culture_history,Santorini,4
+259,culture_history,Ho Chi Minh City,3
+259,culture_history,London,5
+259,culture_history,Copenhagen,3
+259,culture_history,Oslo,4
+259,culture_history,Hanoi,4
+259,culture_history,Kuala Lumpur,5
+259,culture_history,Cusco,5
+260,budget_backpacker,Bangkok,5
+260,budget_backpacker,Hanoi,5
+260,budget_backpacker,Marrakech,5
+260,budget_backpacker,Athens,4
+260,budget_backpacker,Madrid,4
+260,budget_backpacker,Chiang Mai,5
+260,budget_backpacker,Zurich,2
+260,budget_backpacker,Buenos Aires,4
+260,budget_backpacker,Melbourne,5
+260,budget_backpacker,Lisbon,3
+260,budget_backpacker,Paris,4
+260,budget_backpacker,San Francisco,4
+260,budget_backpacker,Kuala Lumpur,4
+260,budget_backpacker,New York City,4
+260,budget_backpacker,Dubai,3
+260,budget_backpacker,Cairo,4
+260,budget_backpacker,Oslo,3
+261,foodie_nightlife,Rome,3
+261,foodie_nightlife,Amsterdam,3
+261,foodie_nightlife,Cairo,1
+261,foodie_nightlife,Banff,3
+261,foodie_nightlife,Istanbul,3
+261,foodie_nightlife,Rio de Janeiro,4
+261,foodie_nightlife,Oslo,3
+261,foodie_nightlife,Cape Town,4
+261,foodie_nightlife,Bangkok,4
+261,foodie_nightlife,Singapore,5
+261,foodie_nightlife,London,4
+261,foodie_nightlife,Interlaken,4
+261,foodie_nightlife,Stockholm,4
+262,culture_history,London,5
+262,culture_history,Bali Ubud,2
+262,culture_history,Hanoi,4
+262,culture_history,Prague,5
+262,culture_history,Beijing,5
+262,culture_history,Santorini,4
+262,culture_history,Nairobi,3
+262,culture_history,Lisbon,4
+263,adventure_nature,Marrakech,5
+263,adventure_nature,Singapore,4
+263,adventure_nature,Seoul,3
+263,adventure_nature,Istanbul,4
+263,adventure_nature,Cape Town,5
+263,adventure_nature,Berlin,3
+263,adventure_nature,Dubai,4
+263,adventure_nature,Rome,4
+263,adventure_nature,Siem Reap,4
+264,budget_backpacker,Hanoi,4
+264,budget_backpacker,Marrakech,5
+264,budget_backpacker,Venice,4
+264,budget_backpacker,Amsterdam,1
+264,budget_backpacker,Kuala Lumpur,4
+264,budget_backpacker,Prague,2
+264,budget_backpacker,Istanbul,4
+264,budget_backpacker,Fiji (Nadi),3
+264,budget_backpacker,Buenos Aires,5
+264,budget_backpacker,Rome,4
+264,budget_backpacker,Nairobi,3
+264,budget_backpacker,Queenstown,3
+264,budget_backpacker,Beijing,4
+264,budget_backpacker,Bali Ubud,4
+264,budget_backpacker,New York City,4
+265,budget_backpacker,Seoul,4
+265,budget_backpacker,Athens,3
+265,budget_backpacker,Cairo,3
+265,budget_backpacker,Amsterdam,2
+265,budget_backpacker,Fiji (Nadi),4
+265,budget_backpacker,Rome,4
+265,budget_backpacker,Taipei,3
+265,budget_backpacker,Stockholm,2
+265,budget_backpacker,Bali,4
+265,budget_backpacker,Prague,2
+265,budget_backpacker,San Francisco,4
+265,budget_backpacker,Melbourne,4
+265,budget_backpacker,Chiang Mai,5
+265,budget_backpacker,Cape Town,5
+266,budget_backpacker,Barcelona,4
+266,budget_backpacker,Reykjavik,2
+266,budget_backpacker,Lisbon,3
+266,budget_backpacker,Fiji (Nadi),4
+266,budget_backpacker,Zurich,3
+266,budget_backpacker,Santorini,5
+266,budget_backpacker,Bali,5
+266,budget_backpacker,Cancun,2
+267,culture_history,Prague,5
+267,culture_history,Banff,3
+267,culture_history,Tokyo,5
+267,culture_history,Paris,4
+267,culture_history,Bali Ubud,3
+267,culture_history,Zurich,4
+267,culture_history,London,5
+267,culture_history,Hanoi,3
+267,culture_history,Sydney,4
+267,culture_history,New York City,3
+267,culture_history,Barcelona,4
+267,culture_history,Siem Reap,4
+267,culture_history,Amsterdam,4
+267,culture_history,Cancun,1
+267,culture_history,Cusco,5
+267,culture_history,Seoul,4
+267,culture_history,Venice,4
+267,culture_history,Copenhagen,5
+268,foodie_nightlife,Madrid,5
+268,foodie_nightlife,San Francisco,4
+268,foodie_nightlife,Chiang Mai,3
+268,foodie_nightlife,Santorini,1
+268,foodie_nightlife,Dubai,3
+268,foodie_nightlife,London,4
+268,foodie_nightlife,Stockholm,3
+268,foodie_nightlife,Sydney,4
+268,foodie_nightlife,Vienna,2
+268,foodie_nightlife,Fiji (Nadi),4
+268,foodie_nightlife,Taipei,4
+268,foodie_nightlife,Beijing,5
+268,foodie_nightlife,Marrakech,1
+268,foodie_nightlife,Cusco,2
+268,foodie_nightlife,Interlaken,3
+268,foodie_nightlife,Banff,3
+268,foodie_nightlife,Athens,3
+269,budget_backpacker,Amsterdam,3
+269,budget_backpacker,Tokyo,4
+269,budget_backpacker,Bali Ubud,4
+269,budget_backpacker,Stockholm,3
+269,budget_backpacker,Bangkok,5
+269,budget_backpacker,Kyoto,2
+269,budget_backpacker,Barcelona,4
+269,budget_backpacker,Nairobi,3
+269,budget_backpacker,Kuala Lumpur,5
+269,budget_backpacker,Madrid,4
+269,budget_backpacker,Bali,5
+269,budget_backpacker,Istanbul,4
+270,foodie_nightlife,London,5
+270,foodie_nightlife,Chiang Mai,2
+270,foodie_nightlife,Shanghai,4
+270,foodie_nightlife,Melbourne,5
+270,foodie_nightlife,Santorini,3
+270,foodie_nightlife,Prague,5
+270,foodie_nightlife,Singapore,5
+270,foodie_nightlife,Madrid,5
+270,foodie_nightlife,Reykjavik,3
+270,foodie_nightlife,Cancun,4
+270,foodie_nightlife,Bangkok,5
+270,foodie_nightlife,Hanoi,4
+270,foodie_nightlife,Cusco,2
+270,foodie_nightlife,Interlaken,4
+270,foodie_nightlife,Paris,4
+270,foodie_nightlife,Taipei,4
+270,foodie_nightlife,Queenstown,3
+270,foodie_nightlife,Dubai,4
+271,beach_relaxer,Singapore,1
+271,beach_relaxer,Venice,4
+271,beach_relaxer,Shanghai,3
+271,beach_relaxer,Sydney,2
+271,beach_relaxer,Buenos Aires,4
+271,beach_relaxer,Vienna,2
+271,beach_relaxer,Queenstown,4
+271,beach_relaxer,Oslo,1
+271,beach_relaxer,Taipei,2
+271,beach_relaxer,Bangkok,3
+271,beach_relaxer,Stockholm,2
+271,beach_relaxer,Rio de Janeiro,4
+271,beach_relaxer,Cairo,2
+271,beach_relaxer,Banff,2
+271,beach_relaxer,Copenhagen,2
+271,beach_relaxer,Athens,3
+272,culture_history,Madrid,5
+272,culture_history,Chiang Mai,4
+272,culture_history,Kyoto,5
+272,culture_history,Marrakech,4
+272,culture_history,Kuala Lumpur,3
+272,culture_history,Stockholm,3
+272,culture_history,London,4
+272,culture_history,Siem Reap,4
+272,culture_history,Bali,3
+272,culture_history,Reykjavik,2
+272,culture_history,Cape Town,3
+272,culture_history,Santorini,2
+272,culture_history,San Francisco,4
+272,culture_history,Berlin,5
+272,culture_history,Beijing,4
+272,culture_history,Amsterdam,3
+272,culture_history,Rio de Janeiro,3
+272,culture_history,Rome,5
+272,culture_history,Vienna,5
+272,culture_history,Melbourne,4
+273,beach_relaxer,Seoul,4
+273,beach_relaxer,Cancun,5
+273,beach_relaxer,Interlaken,1
+273,beach_relaxer,Barcelona,3
+273,beach_relaxer,Dubai,2
+273,beach_relaxer,Cusco,2
+273,beach_relaxer,San Francisco,3
+273,beach_relaxer,Buenos Aires,4
+273,beach_relaxer,Santorini,5
+273,beach_relaxer,Oslo,2
+273,beach_relaxer,Venice,2
+273,beach_relaxer,Bali Ubud,4
+273,beach_relaxer,Cairo,3
+273,beach_relaxer,Taipei,3
+273,beach_relaxer,Paris,3
+273,beach_relaxer,Fiji (Nadi),5
+274,adventure_nature,Oslo,5
+274,adventure_nature,Venice,3
+274,adventure_nature,Taipei,4
+274,adventure_nature,Rome,2
+274,adventure_nature,London,3
+274,adventure_nature,Kyoto,4
+274,adventure_nature,Amsterdam,4
+274,adventure_nature,Paris,3
+274,adventure_nature,Melbourne,4
+274,adventure_nature,Barcelona,2
+275,adventure_nature,Hanoi,4
+275,adventure_nature,Sydney,4
+275,adventure_nature,Reykjavik,5
+275,adventure_nature,Queenstown,5
+275,adventure_nature,Interlaken,5
+275,adventure_nature,Melbourne,3
+275,adventure_nature,Buenos Aires,3
+275,adventure_nature,Zurich,4
+275,adventure_nature,Santorini,4
+275,adventure_nature,Rome,3
+275,adventure_nature,Chiang Mai,4
+275,adventure_nature,Seoul,3
+275,adventure_nature,Oslo,4
+275,adventure_nature,Rio de Janeiro,4
+275,adventure_nature,Cape Town,5
+276,foodie_nightlife,Kyoto,4
+276,foodie_nightlife,London,4
+276,foodie_nightlife,Copenhagen,4
+276,foodie_nightlife,Rome,4
+276,foodie_nightlife,Cairo,2
+276,foodie_nightlife,Nairobi,2
+276,foodie_nightlife,Melbourne,4
+276,foodie_nightlife,New York City,5
+276,foodie_nightlife,Rio de Janeiro,3
+276,foodie_nightlife,Amsterdam,5
+277,beach_relaxer,Nairobi,3
+277,beach_relaxer,Reykjavik,1
+277,beach_relaxer,Istanbul,2
+277,beach_relaxer,Marrakech,2
+277,beach_relaxer,Hanoi,3
+277,beach_relaxer,Beijing,4
+277,beach_relaxer,Madrid,1
+277,beach_relaxer,Zurich,1
+277,beach_relaxer,Lisbon,4
+277,beach_relaxer,San Francisco,2
+277,beach_relaxer,Ho Chi Minh City,4
+278,budget_backpacker,Cairo,5
+278,budget_backpacker,Shanghai,2
+278,budget_backpacker,Istanbul,4
+278,budget_backpacker,Santorini,1
+278,budget_backpacker,Nairobi,3
+278,budget_backpacker,Sydney,3
+278,budget_backpacker,Taipei,5
+278,budget_backpacker,Vienna,2
+278,budget_backpacker,Cancun,2
+278,budget_backpacker,Fiji (Nadi),3
+278,budget_backpacker,Cape Town,4
+279,budget_backpacker,Buenos Aires,3
+279,budget_backpacker,Shanghai,3
+279,budget_backpacker,Berlin,4
+279,budget_backpacker,Kuala Lumpur,3
+279,budget_backpacker,Prague,4
+279,budget_backpacker,Paris,4
+279,budget_backpacker,Kyoto,3
+279,budget_backpacker,Rio de Janeiro,2
+279,budget_backpacker,Cape Town,4
+279,budget_backpacker,Madrid,4
+279,budget_backpacker,Tokyo,4
+279,budget_backpacker,Sydney,4
+280,luxury_shopper,Seoul,4
+280,luxury_shopper,Shanghai,3
+280,luxury_shopper,Fiji (Nadi),2
+280,luxury_shopper,Rio de Janeiro,4
+280,luxury_shopper,Stockholm,4
+280,luxury_shopper,Kuala Lumpur,3
+280,luxury_shopper,Madrid,3
+280,luxury_shopper,Berlin,2
+280,luxury_shopper,San Francisco,3
+280,luxury_shopper,Paris,4
+280,luxury_shopper,Tokyo,5
+280,luxury_shopper,Buenos Aires,3
+281,culture_history,Bali Ubud,3
+281,culture_history,Zurich,5
+281,culture_history,Kuala Lumpur,4
+281,culture_history,Bali,3
+281,culture_history,Buenos Aires,3
+281,culture_history,New York City,4
+281,culture_history,Amsterdam,5
+281,culture_history,Fiji (Nadi),3
+281,culture_history,Melbourne,5
+281,culture_history,Cairo,5
+281,culture_history,Vienna,3
+281,culture_history,San Francisco,4
+281,culture_history,Nairobi,4
+281,culture_history,Banff,4
+281,culture_history,Cape Town,4
+281,culture_history,London,5
+281,culture_history,Athens,5
+281,culture_history,Prague,5
+282,luxury_shopper,Bangkok,4
+282,luxury_shopper,Melbourne,4
+282,luxury_shopper,Amsterdam,4
+282,luxury_shopper,Beijing,2
+282,luxury_shopper,Paris,5
+282,luxury_shopper,Rome,2
+282,luxury_shopper,Buenos Aires,4
+282,luxury_shopper,Cancun,3
+282,luxury_shopper,Reykjavik,2
+282,luxury_shopper,Stockholm,4
+282,luxury_shopper,Copenhagen,5
+282,luxury_shopper,Bali Ubud,3
+283,culture_history,Marrakech,3
+283,culture_history,Cusco,4
+283,culture_history,Siem Reap,3
+283,culture_history,Tokyo,4
+283,culture_history,Venice,5
+283,culture_history,Bali Ubud,3
+283,culture_history,Beijing,5
+283,culture_history,Banff,2
+283,culture_history,New York City,5
+283,culture_history,Hanoi,4
+283,culture_history,Santorini,4
+283,culture_history,Copenhagen,4
+283,culture_history,Dubai,3
+283,culture_history,Sydney,5
+283,culture_history,Chiang Mai,3
+283,culture_history,Oslo,4
+283,culture_history,Kyoto,4
+283,culture_history,Amsterdam,5
+283,culture_history,Nairobi,3
+284,budget_backpacker,Bangkok,5
+284,budget_backpacker,Paris,4
+284,budget_backpacker,Cusco,4
+284,budget_backpacker,Sydney,3
+284,budget_backpacker,Fiji (Nadi),3
+284,budget_backpacker,Cairo,4
+284,budget_backpacker,Barcelona,3
+284,budget_backpacker,Santorini,2
+285,budget_backpacker,Madrid,3
+285,budget_backpacker,Athens,5
+285,budget_backpacker,Ho Chi Minh City,5
+285,budget_backpacker,Santorini,3
+285,budget_backpacker,Melbourne,4
+285,budget_backpacker,Rio de Janeiro,2
+285,budget_backpacker,Barcelona,3
+285,budget_backpacker,Beijing,3
+285,budget_backpacker,Marrakech,5
+285,budget_backpacker,Cairo,5
+285,budget_backpacker,Copenhagen,5
+285,budget_backpacker,Shanghai,2
+285,budget_backpacker,Bali Ubud,4
+286,budget_backpacker,Kuala Lumpur,4
+286,budget_backpacker,Oslo,3
+286,budget_backpacker,San Francisco,4
+286,budget_backpacker,Buenos Aires,5
+286,budget_backpacker,Istanbul,4
+286,budget_backpacker,Beijing,4
+286,budget_backpacker,Venice,3
+286,budget_backpacker,Kyoto,3
+286,budget_backpacker,Melbourne,5
+286,budget_backpacker,Tokyo,5
+286,budget_backpacker,Vienna,2
+286,budget_backpacker,Siem Reap,5
+286,budget_backpacker,Bangkok,5
+286,budget_backpacker,Singapore,4
+286,budget_backpacker,Cape Town,5
+286,budget_backpacker,Lisbon,5
+286,budget_backpacker,Ho Chi Minh City,5
+286,budget_backpacker,Seoul,4
+286,budget_backpacker,Rome,4
+286,budget_backpacker,Paris,5
+287,foodie_nightlife,Melbourne,5
+287,foodie_nightlife,Athens,4
+287,foodie_nightlife,Cancun,5
+287,foodie_nightlife,Banff,3
+287,foodie_nightlife,Reykjavik,2
+287,foodie_nightlife,Oslo,4
+287,foodie_nightlife,Bangkok,4
+287,foodie_nightlife,Interlaken,3
+287,foodie_nightlife,San Francisco,4
+287,foodie_nightlife,Zurich,3
+287,foodie_nightlife,Vienna,4
+287,foodie_nightlife,Hanoi,4
+287,foodie_nightlife,Paris,4
+287,foodie_nightlife,Cusco,2
+287,foodie_nightlife,Marrakech,1
+287,foodie_nightlife,Tokyo,5
+287,foodie_nightlife,Rome,5
+287,foodie_nightlife,Sydney,5
+287,foodie_nightlife,Cape Town,4
+288,beach_relaxer,Athens,4
+288,beach_relaxer,Amsterdam,3
+288,beach_relaxer,Bali Ubud,4
+288,beach_relaxer,Bangkok,2
+288,beach_relaxer,Barcelona,5
+288,beach_relaxer,Bali,5
+288,beach_relaxer,Zurich,4
+288,beach_relaxer,London,2
+288,beach_relaxer,Berlin,4
+289,beach_relaxer,Berlin,3
+289,beach_relaxer,Prague,3
+289,beach_relaxer,Singapore,1
+289,beach_relaxer,Amsterdam,3
+289,beach_relaxer,Siem Reap,3
+289,beach_relaxer,Marrakech,3
+289,beach_relaxer,Sydney,3
+289,beach_relaxer,Stockholm,1
+289,beach_relaxer,Reykjavik,2
+289,beach_relaxer,Queenstown,2
+289,beach_relaxer,Athens,2
+289,beach_relaxer,Vienna,2
+289,beach_relaxer,Taipei,3
+289,beach_relaxer,Istanbul,3
+289,beach_relaxer,Rome,2
+289,beach_relaxer,Venice,1
+290,culture_history,Banff,3
+290,culture_history,Lisbon,4
+290,culture_history,Cusco,4
+290,culture_history,Queenstown,2
+290,culture_history,Nairobi,3
+290,culture_history,Ho Chi Minh City,3
+290,culture_history,Kyoto,5
+290,culture_history,Bali,3
+290,culture_history,Cancun,3
+290,culture_history,Singapore,3
+290,culture_history,Cairo,5
+290,culture_history,Interlaken,4
+290,culture_history,Shanghai,4
+290,culture_history,Seoul,5
+290,culture_history,Taipei,4
+290,culture_history,Bali Ubud,3
+290,culture_history,Istanbul,5
+290,culture_history,Prague,5
+291,beach_relaxer,London,2
+291,beach_relaxer,Zurich,2
+291,beach_relaxer,Cusco,3
+291,beach_relaxer,Cape Town,4
+291,beach_relaxer,Vienna,1
+291,beach_relaxer,Taipei,3
+291,beach_relaxer,Melbourne,1
+291,beach_relaxer,Nairobi,3
+292,adventure_nature,Venice,4
+292,adventure_nature,Santorini,2
+292,adventure_nature,Barcelona,4
+292,adventure_nature,Dubai,4
+292,adventure_nature,Marrakech,4
+292,adventure_nature,Athens,2
+292,adventure_nature,San Francisco,5
+292,adventure_nature,Banff,5
+292,adventure_nature,London,2
+292,adventure_nature,Beijing,3
+292,adventure_nature,Istanbul,2
+292,adventure_nature,Reykjavik,5
+292,adventure_nature,Tokyo,2
+292,adventure_nature,Paris,3
+292,adventure_nature,Stockholm,3
+292,adventure_nature,Kyoto,4
+292,adventure_nature,Cairo,2
+292,adventure_nature,Kuala Lumpur,2
+292,adventure_nature,Queenstown,5
+292,adventure_nature,Singapore,4
+293,foodie_nightlife,Chiang Mai,3
+293,foodie_nightlife,Stockholm,3
+293,foodie_nightlife,Bali,1
+293,foodie_nightlife,Berlin,4
+293,foodie_nightlife,Singapore,4
+293,foodie_nightlife,Seoul,5
+293,foodie_nightlife,Bali Ubud,3
+293,foodie_nightlife,Venice,2
+293,foodie_nightlife,Vienna,2
+293,foodie_nightlife,Cape Town,5
+293,foodie_nightlife,Buenos Aires,4
+293,foodie_nightlife,Sydney,4
+294,budget_backpacker,Zurich,3
+294,budget_backpacker,Bali Ubud,5
+294,budget_backpacker,Tokyo,4
+294,budget_backpacker,Cancun,2
+294,budget_backpacker,Athens,4
+294,budget_backpacker,Fiji (Nadi),4
+294,budget_backpacker,Cairo,4
+294,budget_backpacker,Cape Town,4
+294,budget_backpacker,Kyoto,3
+294,budget_backpacker,Copenhagen,4
+294,budget_backpacker,Chiang Mai,5
+294,budget_backpacker,New York City,4
+294,budget_backpacker,Prague,3
+294,budget_backpacker,Reykjavik,3
+295,culture_history,Shanghai,5
+295,culture_history,Rio de Janeiro,3
+295,culture_history,Vienna,5
+295,culture_history,Chiang Mai,4
+295,culture_history,Venice,5
+295,culture_history,Kuala Lumpur,3
+295,culture_history,Cairo,5
+295,culture_history,Copenhagen,4
+295,culture_history,London,5
+296,culture_history,Rome,5
+296,culture_history,New York City,3
+296,culture_history,Stockholm,4
+296,culture_history,Paris,5
+296,culture_history,Hanoi,5
+296,culture_history,Queenstown,4
+296,culture_history,Cape Town,3
+296,culture_history,Sydney,5
+296,culture_history,Athens,5
+296,culture_history,Chiang Mai,2
+296,culture_history,Melbourne,5
+296,culture_history,Copenhagen,4
+296,culture_history,Istanbul,5
+296,culture_history,Marrakech,4
+296,culture_history,Reykjavik,3
+296,culture_history,Berlin,5
+296,culture_history,Bangkok,5
+296,culture_history,Kyoto,5
+297,luxury_shopper,Fiji (Nadi),3
+297,luxury_shopper,Chiang Mai,3
+297,luxury_shopper,Vienna,3
+297,luxury_shopper,San Francisco,2
+297,luxury_shopper,Bali Ubud,3
+297,luxury_shopper,Banff,3
+297,luxury_shopper,Sydney,4
+297,luxury_shopper,Copenhagen,4
+297,luxury_shopper,Marrakech,1
+297,luxury_shopper,Lisbon,4
+297,luxury_shopper,Cusco,3
+298,adventure_nature,Kuala Lumpur,2
+298,adventure_nature,Siem Reap,4
+298,adventure_nature,Paris,3
+298,adventure_nature,Kyoto,4
+298,adventure_nature,Tokyo,3
+298,adventure_nature,Banff,5
+298,adventure_nature,Istanbul,3
+298,adventure_nature,Taipei,4
+298,adventure_nature,Athens,4
+298,adventure_nature,Queenstown,5
+298,adventure_nature,Santorini,3
+298,adventure_nature,Dubai,5
+298,adventure_nature,Nairobi,5
+298,adventure_nature,Rio de Janeiro,4
+298,adventure_nature,Hanoi,2
+298,adventure_nature,Oslo,5
+298,adventure_nature,Chiang Mai,3
+298,adventure_nature,Zurich,5
+299,budget_backpacker,Rome,4
+299,budget_backpacker,Santorini,3
+299,budget_backpacker,Zurich,3
+299,budget_backpacker,Tokyo,3
+299,budget_backpacker,Amsterdam,3
+299,budget_backpacker,Sydney,5
+299,budget_backpacker,Shanghai,2
+299,budget_backpacker,Melbourne,4
+299,budget_backpacker,Rio de Janeiro,2
+299,budget_backpacker,London,1
+299,budget_backpacker,Madrid,4
+300,adventure_nature,Santorini,3
+300,adventure_nature,Fiji (Nadi),4
+300,adventure_nature,Amsterdam,3
+300,adventure_nature,Rome,3
+300,adventure_nature,New York City,3
+300,adventure_nature,Tokyo,3
+300,adventure_nature,Berlin,2
+300,adventure_nature,Prague,3

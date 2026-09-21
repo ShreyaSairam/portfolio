@@ -1,0 +1,151 @@
+match_id,player,team,minute,second,x,y,end_x,end_y,body_part,technique,shot_type,outcome,xg,is_goal
+7530,Kylian Mbappé Lottin,France,1,31,114.0,56.0,120.0,44.0,Left Foot,Normal,Open Play,Saved,0.011586021,False
+7530,Paul Pogba,France,4,11,94.0,28.0,120.0,38.0,Right Foot,Normal,Free Kick,Saved,0.050655685,False
+7530,Antoine Griezmann,France,5,37,95.0,43.0,120.0,43.6,Right Foot,Half Volley,Open Play,Saved,0.054453943,False
+7530,Antoine Griezmann,France,7,47,109.0,31.0,110.0,35.0,Head,Normal,Open Play,Blocked,0.33887884,False
+7530,Mathew Leckie,Australia,11,50,110.0,34.0,120.0,35.4,Head,Normal,Open Play,Off T,0.06711661,False
+7530,Mathew Leckie,Australia,16,43,105.0,32.0,119.0,43.8,Head,Normal,Open Play,Saved,0.072877616,False
+7530,Lucas Hernández Pi,France,32,34,109.0,26.0,113.0,41.0,Left Foot,Normal,Open Play,Blocked,0.064092785,False
+7530,Aziz Eraltay Behich,Australia,44,52,101.0,21.0,120.0,45.0,Right Foot,Normal,Open Play,Off T,0.012084869,False
+7530,Antoine Griezmann,France,57,9,108.0,40.0,119.0,43.8,Left Foot,Normal,Penalty,Goal,0.7835,True
+7530,Antoine Griezmann,France,58,24,104.0,37.0,114.0,44.0,Left Foot,Normal,Open Play,Blocked,0.09026888,False
+7530,Antoine Griezmann,France,58,26,104.0,43.0,120.0,45.4,Right Foot,Normal,Open Play,Off T,0.06915687,False
+7530,Mile Jedinak,Australia,61,16,109.0,41.0,120.0,42.0,Right Foot,Normal,Penalty,Goal,0.7835,True
+7530,Samuel Yves Umtiti,France,68,26,86.0,30.0,94.0,30.0,Left Foot,Normal,Open Play,Blocked,0.007040045,False
+7530,Benjamin Pavard,France,71,56,95.0,42.0,120.0,42.0,Right Foot,Normal,Open Play,Off T,0.030792372,False
+7530,Lucas Hernández Pi,France,83,31,100.0,31.0,120.0,39.7,Right Foot,Normal,Open Play,Off T,0.05179903,False
+7530,Nabil Fekir,France,87,30,100.0,63.0,108.0,56.0,Left Foot,Normal,Free Kick,Blocked,0.009332593,False
+7530,Josh Risdon,Australia,93,56,97.0,47.0,107.0,45.0,Left Foot,Normal,Open Play,Blocked,0.044451967,False
+7546,Édison Michael Flores Peralta,Peru,1,31,96.0,43.0,98.0,43.0,Left Foot,Normal,Open Play,Blocked,0.04638079,False
+7546,Víctor Yoshimar Yotún Flores,Peru,5,46,62.0,36.0,120.0,36.4,Left Foot,Normal,Open Play,Off T,0.002964359,False
+7546,Antoine Griezmann,France,10,2,114.0,54.0,120.0,46.1,Right Foot,Normal,Open Play,Off T,0.040895715,False
+7546,Paul Pogba,France,11,6,88.0,54.0,120.0,35.2,Right Foot,Normal,Open Play,Off T,0.009108837,False
+7546,Raphaël Varane,France,13,44,115.0,34.0,120.0,46.0,Head,Normal,Open Play,Off T,0.10144759,False
+7546,Antoine Griezmann,France,15,19,102.0,51.0,114.0,41.7,Right Foot,Half Volley,Open Play,Saved,0.051455326,False
+7546,Édison Michael Flores Peralta,Peru,23,24,97.0,27.0,120.0,46.7,Left Foot,Normal,Open Play,Off T,0.027215322,False
+7546,José Paolo Guerrero Gonzáles,Peru,30,16,110.0,33.0,119.0,38.5,Left Foot,Normal,Open Play,Saved,0.20325628,False
+7546,Kylian Mbappé Lottin,France,32,51,112.0,38.0,118.0,37.0,Right Foot,Backheel,Open Play,Saved,0.27977735,False
+7546,Olivier Giroud,France,33,36,109.0,29.0,110.0,30.0,Left Foot,Normal,Open Play,Blocked,0.09149722,False
+7546,Kylian Mbappé Lottin,France,33,38,119.0,41.0,120.0,40.5,Right Foot,Volley,Open Play,Goal,0.9293175,True
+7546,Lucas Hernández Pi,France,42,22,109.0,27.0,119.0,41.1,Left Foot,Normal,Open Play,Saved,0.053871572,False
+7546,Lucas Hernández Pi,France,42,24,112.0,29.0,120.0,46.9,Left Foot,Volley,Open Play,Off T,0.115647,False
+7546,Pedro Jesús Aquino Sánchez,Peru,49,53,93.0,39.0,120.0,36.0,Right Foot,Normal,Open Play,Post,0.032040957,False
+7546,Christian Alberto Cueva Bravo,Peru,57,30,101.0,30.0,104.0,34.0,Right Foot,Normal,Open Play,Blocked,0.049853675,False
+7546,André Martín Carrillo Díaz,Peru,60,41,94.0,37.0,120.0,39.9,Right Foot,Normal,Open Play,Off T,0.03232524,False
+7546,José Paolo Guerrero Gonzáles,Peru,66,31,105.0,40.0,105.0,33.0,Head,Normal,Open Play,Wayward,0.10677668,False
+7546,Luis Jan Piers Advíncula Castrillón,Peru,67,4,98.0,61.0,120.0,42.2,Left Foot,Normal,Open Play,Off T,0.009771249,False
+7546,Jefferson Agustín Farfán Guadalupe,Peru,73,22,116.0,29.0,120.0,35.0,Left Foot,Volley,Open Play,Off T,0.046855085,False
+7546,Ousmane Dembélé,France,81,7,105.0,44.0,120.0,34.8,Left Foot,Half Volley,Open Play,Off T,0.07033722,False
+7546,José Paolo Guerrero Gonzáles,Peru,87,1,87.0,43.0,119.0,42.8,Right Foot,Normal,Free Kick,Saved,0.02880108,False
+7546,Blaise Matuidi,France,91,26,97.0,40.0,120.0,34.2,Left Foot,Volley,Open Play,Off T,0.039226346,False
+7546,José Paolo Guerrero Gonzáles,Peru,92,35,107.0,30.0,120.0,33.9,Head,Normal,Open Play,Off T,0.038980518,False
+7546,Olivier Giroud,France,93,46,106.0,32.0,107.0,33.0,Left Foot,Normal,Open Play,Blocked,0.07983788,False
+7563,Olivier Giroud,France,14,21,106.0,28.0,120.0,36.2,Left Foot,Normal,Open Play,Saved,0.08902341,False
+7563,Raphaël Varane,France,15,31,112.0,42.0,120.0,48.1,Head,Normal,Open Play,Off T,0.07222413,False
+7563,Ousmane Dembélé,France,32,48,99.0,60.0,120.0,33.3,Right Foot,Normal,Open Play,Off T,0.009843999,False
+7563,Antoine Griezmann,France,38,52,101.0,60.0,119.0,41.1,Left Foot,Normal,Open Play,Saved,0.010871868,False
+7563,Ousmane Dembélé,France,44,46,96.0,59.0,120.0,39.3,Left Foot,Normal,Open Play,Off T,0.009946421,False
+7563,Christian Dannemann Eriksen,Denmark,46,15,95.0,51.0,100.0,52.0,Right Foot,Normal,Open Play,Blocked,0.019755723,False
+7563,Antoine Griezmann,France,50,39,92.0,53.0,119.0,43.8,Left Foot,Normal,Open Play,Saved,0.021117477,False
+7563,Christian Dannemann Eriksen,Denmark,53,37,81.0,44.0,119.0,38.9,Right Foot,Normal,Free Kick,Saved,0.008512876,False
+7563,Thomas Lemar,France,54,27,92.0,40.0,97.0,40.0,Left Foot,Normal,Open Play,Blocked,0.026648624,False
+7563,Christian Dannemann Eriksen,Denmark,58,16,101.0,37.0,120.0,34.4,Right Foot,Half Volley,Open Play,Off T,0.07888575,False
+7563,Viktor Fischer,Denmark,62,23,91.0,33.0,111.0,35.0,Left Foot,Normal,Open Play,Blocked,0.026548343,False
+7563,Henrik Dalsgaard,Denmark,65,58,104.0,66.0,113.0,49.0,Left Foot,Normal,Open Play,Blocked,0.0052553928,False
+7563,Nabil Fekir,France,69,29,101.0,19.0,120.0,35.4,Left Foot,Normal,Open Play,Off T,0.009661348,False
+7563,Olivier Giroud,France,73,33,108.0,33.0,120.0,49.1,Head,Normal,Open Play,Off T,0.09807604,False
+7563,Olivier Giroud,France,78,28,102.0,54.0,120.0,36.6,Left Foot,Half Volley,Open Play,Off T,0.03951678,False
+7563,Nabil Fekir,France,81,52,96.0,49.0,117.0,37.0,Left Foot,Normal,Open Play,Saved,0.031210398,False
+7580,Antoine Griezmann,France,8,24,95.0,50.0,120.0,43.0,Left Foot,Normal,Free Kick,Post,0.06554038,False
+7580,Antoine Griezmann,France,12,42,108.0,40.0,120.0,38.3,Left Foot,Normal,Penalty,Goal,0.7835,True
+7580,Paul Pogba,France,20,33,102.0,33.0,120.0,44.4,Right Foot,Normal,Free Kick,Off T,0.09104843,False
+7580,Éver Maximiliano David Banega,Argentina,21,21,96.0,27.0,102.0,30.0,Right Foot,Normal,Open Play,Blocked,0.027343327,False
+7580,Ángel Fabián Di María Hernández,Argentina,40,43,90.0,38.0,120.0,44.0,Left Foot,Normal,Open Play,Goal,0.023531355,True
+7580,Lionel Andrés Messi Cuccittini,Argentina,47,35,104.0,56.0,112.0,45.0,Left Foot,Normal,Open Play,Blocked,0.026417136,False
+7580,Gabriel Iván Mercado,Argentina,47,35,111.0,42.0,119.0,43.4,Left Foot,Normal,Open Play,Goal,0.28001544,True
+7580,Antoine Griezmann,France,55,12,116.0,45.0,120.0,46.3,Right Foot,Normal,Open Play,Off T,0.17972884,False
+7580,Benjamin Pavard,France,56,48,100.0,56.0,120.0,36.2,Right Foot,Half Volley,Open Play,Goal,0.024150338,True
+7580,Blaise Matuidi,France,63,6,108.0,35.0,112.0,37.0,Left Foot,Normal,Open Play,Blocked,0.07552241,False
+7580,Kylian Mbappé Lottin,France,63,8,112.0,30.0,120.0,39.5,Left Foot,Normal,Open Play,Goal,0.117784284,True
+7580,Lionel Andrés Messi Cuccittini,Argentina,65,57,95.0,24.0,104.0,27.0,Left Foot,Normal,Free Kick,Blocked,0.030227054,False
+7580,Lionel Andrés Messi Cuccittini,Argentina,65,58,96.0,22.0,108.0,34.0,Left Foot,Half Volley,Open Play,Blocked,0.008551168,False
+7580,Kylian Mbappé Lottin,France,67,49,107.0,51.0,120.0,36.2,Right Foot,Normal,Open Play,Goal,0.22098207,True
+7580,Olivier Giroud,France,69,56,108.0,27.0,119.0,35.4,Left Foot,Normal,Open Play,Off T,0.07977028,False
+7580,Nicolás Hernán Otamendi,Argentina,72,39,114.0,36.0,114.0,36.0,Right Foot,Normal,Open Play,Wayward,0.19252568,False
+7580,Lionel Andrés Messi Cuccittini,Argentina,84,18,107.0,49.0,119.0,41.1,Right Foot,Normal,Open Play,Saved,0.17476669,False
+7580,Sergio Leonel Agüero del Castillo,Argentina,85,27,106.0,48.0,108.0,49.0,Right Foot,Normal,Open Play,Blocked,0.15172864,False
+7580,Ángel Fabián Di María Hernández,Argentina,89,3,114.0,55.0,116.0,49.0,Left Foot,Normal,Open Play,Blocked,0.017985687,False
+7580,Sergio Leonel Agüero del Castillo,Argentina,92,2,112.0,37.0,119.0,36.4,Head,Normal,Open Play,Goal,0.19387953,True
+7580,Ángel Fabián Di María Hernández,Argentina,94,54,113.0,38.0,118.0,65.0,Right Foot,Volley,Open Play,Wayward,0.31958774,False
+8649,Cristhian Ricardo Stuani Curbelo,Uruguay,4,53,112.0,56.0,117.0,4.0,Right Foot,Normal,Open Play,Wayward,0.013982514,False
+8649,Lucas Hernández Pi,France,6,1,91.0,22.0,108.0,39.0,Left Foot,Normal,Open Play,Wayward,0.0074050077,False
+8649,Raphaël Varane,France,10,13,112.0,48.0,120.0,47.9,Head,Normal,Open Play,Off T,0.052411623,False
+8649,N'Golo Kanté,France,11,41,96.0,45.0,97.0,45.0,Right Foot,Normal,Open Play,Blocked,0.035039734,False
+8649,José María Giménez de Vargas,Uruguay,13,22,109.0,32.0,117.0,37.2,Head,Normal,Open Play,Saved,0.07621632,False
+8649,Kylian Mbappé Lottin,France,14,49,115.0,48.0,120.0,39.3,Head,Lob,Open Play,Off T,0.15214236,False
+8649,Paul Pogba,France,18,6,84.0,45.0,120.0,47.1,Right Foot,Normal,Open Play,Off T,0.006310853,False
+8649,Matías Vecino Falero,Uruguay,34,59,108.0,50.0,118.0,43.6,Right Foot,Half Volley,Open Play,Saved,0.16249157,False
+8649,Raphaël Varane,France,39,29,109.0,44.0,120.0,36.6,Head,Normal,Open Play,Goal,0.13011009,True
+8649,Nahitan Michel Nández Acosta,Uruguay,41,41,89.0,30.0,118.0,41.5,Left Foot,Half Volley,Open Play,Saved,0.015601887,False
+8649,José Martín Cáceres Silva,Uruguay,43,5,108.0,38.0,118.0,36.2,Head,Normal,Open Play,Saved,0.07886938,False
+8649,Diego Roberto Godín Leal,Uruguay,43,7,118.0,34.0,120.0,35.4,Left Foot,Half Volley,Open Play,Off T,0.20940804,False
+8649,Benjamin Pavard,France,52,28,86.0,51.0,120.0,47.3,Right Foot,Volley,Open Play,Off T,0.006393214,False
+8649,Rodrigo Bentancur Colmán,Uruguay,55,9,101.0,54.0,120.0,33.9,Left Foot,Normal,Open Play,Off T,0.030082064,False
+8649,José Martín Cáceres Silva,Uruguay,58,3,104.0,62.0,120.0,33.9,Right Foot,Half Volley,Open Play,Off T,0.007943283,False
+8649,Antoine Griezmann,France,60,46,97.0,21.0,120.0,40.9,Left Foot,Normal,Open Play,Goal,0.009682582,True
+8649,Cristian Gabriel Rodríguez Barrotti,Uruguay,63,15,96.0,34.0,108.0,39.0,Left Foot,Volley,Open Play,Blocked,0.032165024,False
+8649,Cristian Gabriel Rodríguez Barrotti,Uruguay,63,17,99.0,35.0,120.0,34.8,Left Foot,Normal,Open Play,Off T,0.066435196,False
+8649,Corentin Tolisso,France,72,17,99.0,32.0,120.0,44.4,Right Foot,Normal,Open Play,Off T,0.06060878,False
+8649,Olivier Giroud,France,75,31,102.0,52.0,120.0,34.8,Left Foot,Half Volley,Open Play,Off T,0.046135314,False
+8649,Antoine Griezmann,France,88,37,90.0,44.0,120.0,39.9,Left Foot,Normal,Free Kick,Off T,0.0325434,False
+8655,Eden Hazard,Belgium,14,59,109.0,23.0,120.0,46.3,Left Foot,Normal,Open Play,Off T,0.02582844,False
+8655,Blaise Matuidi,France,17,45,92.0,38.0,117.0,38.1,Left Foot,Half Volley,Open Play,Saved,0.024187952,False
+8655,Eden Hazard,Belgium,18,32,107.0,21.0,116.0,39.0,Right Foot,Normal,Open Play,Blocked,0.012269703,False
+8655,Toby Alderweireld,Belgium,21,0,105.0,41.0,119.0,36.6,Left Foot,Normal,Open Play,Saved,0.103834964,False
+8655,Olivier Giroud,France,22,41,103.0,48.0,120.0,46.1,Left Foot,Normal,Open Play,Off T,0.27923512,False
+8655,Olivier Giroud,France,30,31,108.0,44.0,120.0,46.1,Head,Normal,Open Play,Off T,0.08539717,False
+8655,Olivier Giroud,France,31,51,107.0,32.0,111.0,30.0,Left Foot,Normal,Open Play,Wayward,0.13975486,False
+8655,Antoine Griezmann,France,32,8,98.0,30.0,120.0,43.4,Right Foot,Normal,Open Play,Off T,0.039881397,False
+8655,Olivier Giroud,France,33,12,109.0,36.0,120.0,48.1,Left Foot,Normal,Open Play,Off T,0.16416734,False
+8655,Antoine Griezmann,France,36,5,91.0,32.0,120.0,46.9,Left Foot,Normal,Open Play,Off T,0.026532186,False
+8655,Antoine Griezmann,France,38,42,96.0,50.0,100.0,45.0,Left Foot,Normal,Open Play,Blocked,0.028874304,False
+8655,Benjamin Pavard,France,38,58,114.0,53.0,117.0,37.4,Right Foot,Normal,Open Play,Saved,0.07446188,False
+8655,Blaise Matuidi,France,41,10,105.0,30.0,109.0,32.0,Head,Normal,Open Play,Wayward,0.10427744,False
+8655,Antoine Griezmann,France,44,10,96.0,57.0,102.0,53.0,Left Foot,Normal,Free Kick,Blocked,0.028889349,False
+8655,Romelu Lukaku Menama,Belgium,47,0,111.0,40.0,120.0,39.9,Head,Normal,Open Play,Off T,0.1676629,False
+8655,Olivier Giroud,France,50,2,107.0,31.0,109.0,33.0,Right Foot,Normal,Open Play,Blocked,0.09775021,False
+8655,Samuel Yves Umtiti,France,50,35,118.0,47.0,120.0,43.6,Head,Normal,Open Play,Goal,0.0802673,True
+8655,Blaise Matuidi,France,55,37,99.0,30.0,102.0,31.0,Left Foot,Normal,Open Play,Blocked,0.05599482,False
+8655,Olivier Giroud,France,55,48,112.0,34.0,113.0,35.0,Left Foot,Normal,Open Play,Blocked,0.10079972,False
+8655,Toby Alderweireld,Belgium,57,26,93.0,60.0,120.0,41.9,Right Foot,Normal,Open Play,Off T,0.006324989,False
+8655,Kevin De Bruyne,Belgium,60,47,107.0,38.0,117.0,39.0,Right Foot,Volley,Open Play,Wayward,0.07526151,False
+8655,Marouane Fellaini-Bakkioui,Belgium,64,32,108.0,40.0,120.0,45.4,Head,Normal,Open Play,Off T,0.12076645,False
+8655,Olivier Giroud,France,66,56,100.0,32.0,120.0,34.6,Left Foot,Normal,Open Play,Off T,0.047261972,False
+8655,Kevin De Bruyne,Belgium,75,14,95.0,34.0,120.0,34.0,Left Foot,Normal,Open Play,Off T,0.037019253,False
+8655,Paul Pogba,France,78,19,108.0,42.0,120.0,33.9,Head,Normal,Open Play,Off T,0.06375324,False
+8655,Axel Witsel,Belgium,80,40,91.0,27.0,119.0,41.9,Right Foot,Normal,Open Play,Saved,0.017900085,False
+8655,Antoine Griezmann,France,92,22,103.0,46.0,116.0,37.2,Right Foot,Normal,Open Play,Saved,0.084246874,False
+8655,Corentin Tolisso,France,95,16,107.0,31.0,116.0,44.0,Left Foot,Normal,Open Play,Saved,0.15595363,False
+8658,Domagoj Vida,Croatia,20,51,112.0,49.0,119.0,36.6,Head,Normal,Open Play,Off T,0.12795697,False
+8658,Ivan Rakitić,Croatia,23,34,108.0,29.0,120.0,47.5,Left Foot,Volley,Open Play,Off T,0.06950906,False
+8658,Ivan Perišić,Croatia,27,53,105.0,32.0,120.0,43.6,Left Foot,Half Volley,Open Play,Goal,0.08394905,True
+8658,Antoine Griezmann,France,37,56,108.0,40.0,120.0,37.6,Left Foot,Normal,Penalty,Goal,0.7835,True
+8658,Ante Rebić,Croatia,39,25,108.0,41.0,116.0,41.0,Left Foot,Half Volley,Open Play,Wayward,0.10217809,False
+8658,Ivan Perišić,Croatia,42,47,117.0,34.0,115.0,35.0,Head,Normal,Open Play,Blocked,0.11224287,False
+8658,Dejan Lovren,Croatia,42,50,113.0,26.0,113.0,29.0,Right Foot,Half Volley,Open Play,Blocked,0.046404753,False
+8658,Domagoj Vida,Croatia,45,17,115.0,40.0,120.0,46.9,Head,Normal,Open Play,Off T,0.14083989,False
+8658,Antoine Griezmann,France,46,10,95.0,45.0,119.0,38.9,Left Foot,Normal,Open Play,Saved,0.03339769,False
+8658,Ante Rebić,Croatia,47,2,108.0,26.0,119.0,38.9,Left Foot,Normal,Open Play,Saved,0.07285214,False
+8658,Dejan Lovren,Croatia,47,32,110.0,33.0,116.0,45.0,Head,Normal,Open Play,Wayward,0.055352274,False
+8658,Šime Vrsaljko,Croatia,49,34,91.0,48.0,120.0,33.3,Right Foot,Volley,Open Play,Off T,0.017269997,False
+8658,Kylian Mbappé Lottin,France,51,35,115.0,55.0,118.0,39.9,Right Foot,Normal,Open Play,Saved,0.01856424,False
+8658,Paul Pogba,France,58,32,99.0,41.0,107.0,39.0,Right Foot,Normal,Open Play,Blocked,0.052249614,False
+8658,Paul Pogba,France,58,33,102.0,39.0,120.0,37.6,Left Foot,Normal,Open Play,Goal,0.08626537,True
+8658,Olivier Giroud,France,60,46,112.0,29.0,114.0,40.0,Left Foot,Overhead Kick,Open Play,Wayward,0.06951273,False
+8658,Ante Rebić,Croatia,63,52,96.0,29.0,100.0,29.0,Right Foot,Normal,Open Play,Blocked,0.034007873,False
+8658,Kylian Mbappé Lottin,France,64,36,94.0,40.0,120.0,37.0,Right Foot,Normal,Open Play,Goal,0.04485787,True
+8658,Mario Mandžukić,Croatia,68,8,114.0,43.0,120.0,36.6,Right Foot,Normal,Open Play,Goal,0.5631902,True
+8658,Šime Vrsaljko,Croatia,75,1,78.0,40.0,119.0,32.7,Right Foot,Normal,Open Play,Off T,0.0050148317,False
+8658,Ivan Rakitić,Croatia,77,13,101.0,30.0,107.0,34.0,Left Foot,Normal,Open Play,Blocked,0.042465996,False
+8658,Nabil Fekir,France,86,25,98.0,61.0,117.0,37.4,Left Foot,Normal,Open Play,Saved,0.009616094,False
+8658,Ivan Rakitić,Croatia,88,9,90.0,24.0,120.0,46.5,Right Foot,Normal,Open Play,Off T,0.007053695,False

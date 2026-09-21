@@ -1,0 +1,8 @@
+match_id,date,stage,home_team,away_team,home_score,away_score,stadium
+7530,2018-06-16,Group Stage,France,Australia,2,1,Ak Bars Arena
+7546,2018-06-21,Group Stage,France,Peru,1,0,Ekaterinburg Arena
+7563,2018-06-26,Group Stage,Denmark,France,0,0,Stadion Luzhniki
+7580,2018-06-30,Round of 16,France,Argentina,4,3,Ak Bars Arena
+8649,2018-07-06,Quarter-finals,Uruguay,France,0,2,Stadion Nizhny Novgorod (Nizhniy Novgorod)
+8655,2018-07-10,Semi-finals,France,Belgium,1,0,Saint-Petersburg Stadium ( Gazprom Arena )
+8658,2018-07-15,Final,France,Croatia,4,2,Stadion Luzhniki

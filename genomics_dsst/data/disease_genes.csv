@@ -1,0 +1,957 @@
+disease_id,disease_name,gene_symbol
+ORPHA:33364,Trichothiodystrophy,AARS1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,AARS1
+ORPHA:2995,Baraitser-Winter cerebrofrontofacial syndrome,ACTB
+ORPHA:2995,Baraitser-Winter cerebrofrontofacial syndrome,ACTG1
+ORPHA:816,Sjögren-Larsson syndrome,ALDH3A2
+ORPHA:254892,Autosomal dominant progressive external ophthalmoplegia,SLC25A4
+OMIM:253200,"Mucopolysaccharidosis, type VI",ARSB
+ORPHA:567,22q11.2 deletion syndrome,ARVCF
+OMIM:615574,Asparagine synthetase deficiency,ASNS
+ORPHA:1606,1p36 deletion syndrome,RERE
+OMIM:616975,"Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart",RERE
+ORPHA:494344,RERE-related neurodevelopmental syndrome,RERE
+ORPHA:2131,Alternating hemiplegia of childhood,ATP1A2
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,ATP1A2
+ORPHA:2131,Alternating hemiplegia of childhood,ATP1A3
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,ATP1A3
+OMIM:617403,"Cutis laxa, autosomal recessive, type IID",ATP6V1A
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,ATP6V1A
+ORPHA:79500,DOORS syndrome,ATP6V1B2
+OMIM:617402,"Cutis laxa, autosomal recessive, type IIC",ATP6V1E1
+OMIM:309580,"Intellectual disability-hypotonic facies syndrome, X-linked",ATRX
+OMIM:301040,Alpha-thalassemia/impaired intellectual development syndrome,ATRX
+ORPHA:847,X-linked alpha-thalassemia-intellectual disability syndrome,ATRX
+OMIM:209900,Bardet-Biedl syndrome 1,BBS1
+ORPHA:110,Bardet-Biedl syndrome,BBS1
+ORPHA:110,Bardet-Biedl syndrome,BBS2
+ORPHA:110,Bardet-Biedl syndrome,BBS4
+ORPHA:261330,Distal 22q11.2 microdeletion syndrome,BCR
+OMIM:607932,"Microphthalmia, syndromic 6",BMP4
+OMIM:621510,Congenital myopathy 29 with contractures,DST
+ORPHA:84,Fanconi anemia,BRCA1
+OMIM:115150,Cardiofaciocutaneous syndrome 1,BRAF
+ORPHA:648,Noonan syndrome,BRAF
+OMIM:163950,Noonan syndrome 1,BRAF
+ORPHA:1340,Cardiofaciocutaneous syndrome,BRAF
+ORPHA:84,Fanconi anemia,BRCA2
+OMIM:257300,Mosaic variegated aneuploidy syndrome 1,BUB1B
+ORPHA:2131,Alternating hemiplegia of childhood,CACNA1A
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,CACNA1A
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,CACNA1B
+OMIM:620029,"Neurodevelopmental disorder with hypotonia, language delay, and skeletal defects with or without seizures",CACNA1C
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,CACNA1E
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,CACNA2D1
+OMIM:617799,"Intellectual developmental disorder, autosomal dominant 54",CAMK2B
+ORPHA:33364,Trichothiodystrophy,CARS1
+ORPHA:648,Noonan syndrome,CBL
+OMIM:613563,Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia,CBL
+ORPHA:394,Homocystinuria due to cystathionine beta-synthase deficiency,CBS
+OMIM:616737,Takenouchi-Kosaki syndrome,CDC42
+ORPHA:487796,Takenouchi-Kosaki syndrome,CDC42
+OMIM:211380,Elsahy-Waters syndrome,CDH11
+OMIM:618205,Snijders Blok-Campeau syndrome,CHD3
+ORPHA:167,Chédiak-Higashi syndrome,LYST
+OMIM:265000,Escobar syndrome,CHRNG
+ORPHA:2990,Autosomal recessive multiple pterygium syndrome,CHRNG
+ORPHA:90324,Cockayne syndrome type 3,ERCC8
+OMIM:216400,"Cockayne syndrome, type A",ERCC8
+OMIM:619512,Neurodevelopmental disorder with hypotonia and brain abnormalities,CLCN3
+ORPHA:485350,CLCN4-related X-linked intellectual disability syndrome,CLCN4
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,CLTC
+ORPHA:567,22q11.2 deletion syndrome,COMT
+OMIM:608836,"Carnitine palmitoyltransferase II deficiency, lethal neonatal",CPT2
+ORPHA:353277,Rubinstein-Taybi syndrome due to CREBBP mutations,CREBBP
+OMIM:180849,Rubinstein-Taybi syndrome 1,CREBBP
+ORPHA:353281,Rubinstein-Taybi syndrome due to 16p13.3 microdeletion,CREBBP
+OMIM:618332,Menke-Hennekam syndrome 1,CREBBP
+ORPHA:261330,Distal 22q11.2 microdeletion syndrome,CRKL
+OMIM:618476,"Brain abnormalities, neurodegeneration, and dysosteosclerosis",CSF1R
+OMIM:617062,Okur-Chung neurodevelopmental syndrome,CSNK2A1
+ORPHA:280,Wolf-Hirschhorn syndrome,CTBP1
+OMIM:194190,Wolf-Hirschhorn syndrome,CTBP1
+OMIM:619426,White-Kernohan syndrome,DDB1
+ORPHA:818,Smith-Lemli-Opitz syndrome,DHCR7
+OMIM:270400,Smith-Lemli-Opitz syndrome,DHCR7
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,DNM1
+ORPHA:86309,DPAGT1-CDG,DPAGT1
+ORPHA:1675,Dihydropyrimidine dehydrogenase deficiency,DPYD
+OMIM:618494,"Congenital hypotonia, epilepsy, developmental delay, and digital anomalies",ATN1
+OMIM:616331,"Robinow syndrome, autosomal dominant 2",DVL1
+OMIM:180700,"Robinow syndrome, autosomal dominant 1",DVL1
+ORPHA:3107,Autosomal dominant Robinow syndrome,DVL1
+ORPHA:3107,Autosomal dominant Robinow syndrome,DVL3
+OMIM:616894,"Robinow syndrome, autosomal dominant 3",DVL3
+ORPHA:464311,Intellectual disability syndrome due to a DYRK1A point mutation,DYRK1A
+ORPHA:268261,DYRK1A-related intellectual disability syndrome due to 21q22.13q22.2 microdeletion,DYRK1A
+OMIM:614104,"Intellectual developmental disorder, autosomal dominant 7",DYRK1A
+OMIM:618947,Arthrogryposis multiplex congenita 5,TOR1A
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,EEF1A2
+OMIM:614976,Carpenter syndrome 2,MEGF8
+OMIM:620455,"Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures",EIF4A2
+ORPHA:904,Williams syndrome,ELN
+OMIM:194050,Williams-Beuren syndrome,ELN
+OMIM:621285,"Intellectual developmental disorder, autosomal dominant 76",MARK2
+ORPHA:353284,Rubinstein-Taybi syndrome due to EP300 haploinsufficiency,EP300
+OMIM:180849,Rubinstein-Taybi syndrome 1,EP300
+ORPHA:33364,Trichothiodystrophy,ERCC2
+ORPHA:33364,Trichothiodystrophy,ERCC3
+ORPHA:84,Fanconi anemia,ERCC4
+ORPHA:90324,Cockayne syndrome type 3,ERCC6
+OMIM:214150,Cerebrooculofacioskeletal syndrome 1,ERCC6
+OMIM:133540,"Cockayne syndrome, type B",ERCC6
+ORPHA:508533,Skeletal dysplasia-T-cell immunodeficiency-developmental delay syndrome,EXTL3
+OMIM:617425,Immunoskeletal dysplasia with neurodevelopmental abnormalities,EXTL3
+OMIM:277590,Weaver syndrome,EZH2
+ORPHA:84,Fanconi anemia,FANCA
+ORPHA:84,Fanconi anemia,FANCC
+ORPHA:84,Fanconi anemia,FANCD2
+ORPHA:84,Fanconi anemia,FANCE
+ORPHA:84,Fanconi anemia,FANCB
+ORPHA:84,Fanconi anemia,FANCF
+ORPHA:84,Fanconi anemia,FANCG
+ORPHA:2462,Shprintzen-Goldberg syndrome,FBN1
+OMIM:236670,"Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 1",FKTN
+OMIM:620887,Multiple mitochondrial dysfunctions syndrome 9B,FDXR
+ORPHA:373,Simpson-Golabi-Behmel syndrome,GPC4
+OMIM:305400,Aarskog-Scott syndrome,FGD1
+ORPHA:915,Aarskog-Scott syndrome,FGD1
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,FGF8
+ORPHA:93924,Lobar holoprosencephaly,FGF8
+ORPHA:93925,Alobar holoprosencephaly,FGF8
+ORPHA:220386,Semilobar holoprosencephaly,FGF8
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,FGF12
+OMIM:166250,Osteoglophonic dysplasia,FGFR1
+ORPHA:93924,Lobar holoprosencephaly,FGFR1
+ORPHA:220386,Semilobar holoprosencephaly,FGFR1
+ORPHA:794,Saethre-Chotzen syndrome,FGFR3
+OMIM:101200,Apert syndrome,FGFR2
+ORPHA:794,Saethre-Chotzen syndrome,FGFR2
+OMIM:613454,"Rett syndrome, congenital variant",FOXG1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,FOXG1
+ORPHA:2308,Jacobsen syndrome,FLI1
+OMIM:304120,"Otopalatodigital syndrome, type II",FLNA
+OMIM:309350,Melnick-Needles syndrome,FLNA
+OMIM:230000,Fucosidosis,FUCA1
+ORPHA:3107,Autosomal dominant Robinow syndrome,FZD2
+OMIM:619525,"Congenital disorder of glycosylation, type IIw",SLC37A4
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,GABRA2
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,GABRA5
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,GABRB2
+ORPHA:1606,1p36 deletion syndrome,GABRD
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,GABRG2
+OMIM:619124,Developmental and epileptic encephalopathy 89,GAD1
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,GAS1
+ORPHA:93924,Lobar holoprosencephaly,GAS1
+ORPHA:93925,Alobar holoprosencephaly,GAS1
+ORPHA:220386,Semilobar holoprosencephaly,GAS1
+ORPHA:251071,8p23.1 microdeletion syndrome,GATA4
+OMIM:608013,"Gaucher disease, perinatal lethal",GBA1
+ORPHA:2710,Oculodentodigital dysplasia,GJA1
+OMIM:612474,"Chromosome 1q21.1 deletion syndrome, 1.35-mb",GJA5
+OMIM:612474,"Chromosome 1q21.1 deletion syndrome, 1.35-mb",GJA8
+OMIM:312870,"Simpson-Golabi-Behmel syndrome, type 1",GPC3
+ORPHA:373,Simpson-Golabi-Behmel syndrome,GPC3
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,GLI2
+ORPHA:93924,Lobar holoprosencephaly,GLI2
+ORPHA:93925,Alobar holoprosencephaly,GLI2
+ORPHA:220386,Semilobar holoprosencephaly,GLI2
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,GNAO1
+OMIM:616973,"Intellectual developmental disorder, autosomal dominant 42",GNB1
+OMIM:619503,Neurodevelopmental disorder with hypotonia and dysmorphic facies,GNB2
+OMIM:252940,"Mucopolysaccharidosis, type IIID",GNS
+ORPHA:567,22q11.2 deletion syndrome,GP1BB
+ORPHA:364028,X-linked intellectual disability due to GRIA3 mutations,GRIA3
+OMIM:619580,Neurodevelopmental disorder with impaired language and ataxia and with or without seizures,GRIK2
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,GRIN1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,GRIN2D
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,GRM7
+ORPHA:33364,Trichothiodystrophy,GTF2E2
+ORPHA:904,Williams syndrome,GTF2I
+OMIM:621071,Mitochondrial DNA depletion syndrome 21,GUK1
+OMIM:253220,Mucopolysaccharidosis VII,GUSB
+OMIM:619720,Bryant-Li-Bhoj neurodevelopmental syndrome 1,H3-3A
+OMIM:616977,"Intellectual developmental disorder, autosomal dominant 43",HIVEP2
+OMIM:620083,Neurodevelopmental disorder with craniofacial dysmorphism and skeletal defects,HNRNPH1
+OMIM:300986,"Intellectual developmental disorder, X-linked syndromic, Bain type",HNRNPH2
+ORPHA:453504,Neurodevelopmental disorder-craniofacial dysmorphism-cardiac defect-skeletal anomalies syndrome due to a point mutation,HNRNPK
+OMIM:616580,Au-Kline syndrome,HNRNPK
+ORPHA:352665,Neurodevelopmental disorder-craniofacial dysmorphism-cardiac defect-skeletal anomalies syndrome due to 9q21.3 microdeletion,HNRNPK
+OMIM:218040,Costello syndrome,HRAS
+OMIM:261515,D-bifunctional protein deficiency,HSD17B4
+ORPHA:800,Schwartz-Jampel syndrome,HSPG2
+ORPHA:1606,1p36 deletion syndrome,HSPG2
+OMIM:255800,"Schwartz-jampel syndrome, type 1",HSPG2
+OMIM:607014,Hurler syndrome,IDUA
+OMIM:270450,"Insulin-Like growth factor I, resistance to",IGF1R
+OMIM:621354,"Neurodevelopmental disorder with growth impairment, quadriparesis, and poor or absent speech",INPP4A
+OMIM:176270,Prader-Willi syndrome,-
+OMIM:117360,"Spinocerebellar ataxia 29, congenital nonprogressive",ITPR1
+OMIM:206700,Gillespie syndrome,ITPR1
+OMIM:621254,Immunodeficiency 133 with ectodermal dysplasia with or without peripheral neuropathy,ITPR3
+OMIM:620098,Developmental delay with variable intellectual disability and dysmorphic facies,JARID2
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,KCNA1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,KCNA2
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,KCNB1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,KCNC2
+OMIM:135500,Zimmermann-Laband syndrome 1,KCNH1
+OMIM:115150,Cardiofaciocutaneous syndrome 1,KRAS
+ORPHA:648,Noonan syndrome,KRAS
+OMIM:609942,Noonan syndrome 3,KRAS
+ORPHA:1340,Cardiofaciocutaneous syndrome,KRAS
+OMIM:619297,KINSSHIP syndrome,AFF3
+ORPHA:280,Wolf-Hirschhorn syndrome,LETM1
+OMIM:194190,Wolf-Hirschhorn syndrome,LETM1
+OMIM:601559,Stuve-Wiedemann syndrome,LIFR
+ORPHA:904,Williams syndrome,LIMK1
+OMIM:139210,Myhre syndrome,SMAD4
+ORPHA:1272,Aymé-Gripp syndrome,MAF
+OMIM:601088,Ayme-Gripp syndrome,MAF
+ORPHA:309282,"Alpha-mannosidosis, infantile form",MAN2B1
+OMIM:300055,"Intellectual developmental disorder, X-linked syndromic 13",MECP2
+OMIM:300260,"Intellectual developmental disorder, X-linked syndromic, Lubs type",MECP2
+OMIM:212066,"Congenital disorder of glycosylation, type IIa",MGAT2
+ORPHA:2745,Opitz GBBB syndrome,MID1
+ORPHA:319182,Wiedemann-Steiner syndrome,KMT2A
+OMIM:605130,Wiedemann-Steiner syndrome,KMT2A
+OMIM:256810,Mitochondrial DNA depletion syndrome 6 (hepatocerebral type),MPV17
+ORPHA:550,MELAS,MT-CO1
+ORPHA:550,MELAS,MT-CO2
+ORPHA:550,MELAS,MT-CO3
+ORPHA:550,MELAS,MT-ND1
+ORPHA:550,MELAS,MT-ND4
+ORPHA:550,MELAS,MT-ND5
+ORPHA:550,MELAS,MT-ND6
+ORPHA:550,MELAS,MT-TF
+ORPHA:550,MELAS,MT-TH
+ORPHA:550,MELAS,MT-TL1
+ORPHA:2131,Alternating hemiplegia of childhood,MT-TL2
+ORPHA:550,MELAS,MT-TQ
+ORPHA:550,MELAS,MT-TS1
+ORPHA:550,MELAS,MT-TS2
+ORPHA:550,MELAS,MT-TW
+OMIM:193700,"Arthrogryposis, distal, type 2A (Freeman-Sheldon)",MYH3
+ORPHA:2990,Autosomal recessive multiple pterygium syndrome,MYH3
+OMIM:251260,Nijmegen breakage syndrome,NBN
+ORPHA:649,Norrie disease,NDP
+OMIM:618253,"Mitochondrial complex I deficiency, nuclear type 33",NDUFA6
+OMIM:618226,"Mitochondrial complex I deficiency, nuclear type 5",NDUFS1
+OMIM:252010,"Mitochondrial complex I deficiency, nuclear type 1",NDUFS4
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,NEUROD2
+ORPHA:363700,Neurofibromatosis type 1 due to NF1 mutation or intragenic deletion,NF1
+OMIM:602535,Marshall-Smith syndrome,NFIX
+ORPHA:447980,19p13.3 microduplication syndrome,NFIX
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,NODAL
+ORPHA:93924,Lobar holoprosencephaly,NODAL
+ORPHA:93925,Alobar holoprosencephaly,NODAL
+ORPHA:220386,Semilobar holoprosencephaly,NODAL
+ORPHA:466791,Macrocephaly-intellectual disability-left ventricular non compaction syndrome,NONO
+OMIM:300967,"Intellectual developmental disorder, X-linked syndromic 34",NONO
+OMIM:618672,"Intellectual developmental disorder with speech delay, autism, and dysmorphic facies",CNOT3
+ORPHA:955,Hajdu-Cheney syndrome,NOTCH2
+OMIM:102500,Hajdu-Cheney syndrome,NOTCH2
+OMIM:621295,"Cerebral arteriopathy, autosomal recessive, with subcortical infarcts and leukoencephalopathy 1",NOTCH3
+ORPHA:110,Bardet-Biedl syndrome,NPHP1
+ORPHA:648,Noonan syndrome,NRAS
+OMIM:613224,Noonan syndrome 6,NRAS
+OMIM:619833,Neurodevelopmental disorder with neuromuscular and skeletal abnormalities,NRCAM
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,NTRK2
+ORPHA:1507,Autosomal recessive Robinow syndrome,ROR2
+OMIM:268310,"Robinow syndrome, autosomal recessive",ROR2
+ORPHA:534,Oculocerebrorenal syndrome of Lowe,OCRL
+OMIM:224690,Meier-Gorlin syndrome 1,ORC1
+OMIM:277400,"Methylmalonic aciduria and homocystinuria, cblC type",PRDX1
+OMIM:614961,"Pontocerebellar hypoplasia, type 8",CHMP1A
+ORPHA:439822,PDE4D haploinsufficiency syndrome,PDE4D
+OMIM:214100,Peroxisome biogenesis disorder 1A (Zellweger),PEX1
+OMIM:300868,Multiple congenital anomalies-hypotonia-seizures syndrome 2,PIGA
+OMIM:301072,Neurodevelopmental disorder with epilepsy and hemochromatosis,PIGA
+OMIM:212065,"Congenital disorder of glycosylation, type Ia",PMM2
+ORPHA:79318,PMM2-CDG,PMM2
+OMIM:607459,"Sensory ataxic neuropathy, dysarthria, and ophthalmoparesis",POLG
+ORPHA:254892,Autosomal dominant progressive external ophthalmoplegia,POLG
+OMIM:619743,Combined oxidative phosphorylation deficiency 55,POLRMT
+OMIM:617506,Noonan syndrome-like disorder with loose anagen hair 2,PPP1CB
+OMIM:618354,Neurodevelopmental disorder and language delay with or without structural brain abnormalities,PPP2CA
+OMIM:621185,Houge-Janssens syndrome 4,PPP2R5C
+ORPHA:457279,Houge-Janssens syndrome type 1,PPP2R5D
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,PPP3CA
+OMIM:620005,Primordial dwarfism-immunodeficiency-lipodystrophy syndrome,PRIM1
+ORPHA:1606,1p36 deletion syndrome,PRKCZ
+OMIM:619087,Noonan syndrome 13,MAPK1
+ORPHA:261330,Distal 22q11.2 microdeletion syndrome,MAPK1
+OMIM:115150,Cardiofaciocutaneous syndrome 1,MAP2K1
+OMIM:163950,Noonan syndrome 1,MAP2K1
+ORPHA:1340,Cardiofaciocutaneous syndrome,MAP2K1
+OMIM:115150,Cardiofaciocutaneous syndrome 1,MAP2K2
+ORPHA:1340,Cardiofaciocutaneous syndrome,MAP2K2
+OMIM:617516,Stankiewicz-Isidor syndrome,PSMD12
+OMIM:621495,STAD syndrome,PTBP1
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,PTCH1
+ORPHA:93924,Lobar holoprosencephaly,PTCH1
+ORPHA:93925,Alobar holoprosencephaly,PTCH1
+ORPHA:220386,Semilobar holoprosencephaly,PTCH1
+ORPHA:648,Noonan syndrome,PTPN11
+OMIM:163950,Noonan syndrome 1,PTPN11
+OMIM:614866,Peroxisome biogenesis disorder 5A (Zellweger),PEX2
+OMIM:612940,"Cutis laxa, autosomal recessive, type IIB",PYCR1
+OMIM:621535,Spinocerebellar ataxia 52,RAB3A
+ORPHA:500159,Microcephaly-corpus callosum and cerebellar vermis hypoplasia-facial dysmorphism-intellectual disability syndrome,RAC1
+OMIM:617751,"Intellectual developmental disorder, autosomal dominant 48",RAC1
+ORPHA:199,Cornelia de Lange syndrome,RAD21
+ORPHA:84,Fanconi anemia,RAD51
+ORPHA:84,Fanconi anemia,RAD51C
+ORPHA:648,Noonan syndrome,RAF1
+OMIM:620654,Thrombocytopenia 11 with multiple congenital anomalies and dysmorphic facies,RAP1B
+ORPHA:648,Noonan syndrome,RASA2
+ORPHA:261349,2p15p16.1 microdeletion syndrome,REL
+OMIM:618027,Coffin-Siris syndrome 7,DPF2
+ORPHA:1465,Coffin-Siris syndrome,DPF2
+ORPHA:904,Williams syndrome,RFC2
+OMIM:621010,Morimoto-Ryu-Malicdan neuromuscular syndrome,RFC4
+ORPHA:648,Noonan syndrome,RIT1
+ORPHA:459070,X-linked intellectual disability-cerebellar hypoplasia-spondylo-epiphyseal dysplasia syndrome,RPL10
+OMIM:300998,"Intellectual developmental disorder, X-linked syndromic 35",RPL10
+ORPHA:192,Coffin-Lowry syndrome,RPS6KA3
+OMIM:303600,Coffin-Lowry syndrome,RPS6KA3
+ORPHA:648,Noonan syndrome,RRAS
+ORPHA:567,22q11.2 deletion syndrome,RREB1
+OMIM:619229,Kohlschutter-Tonz syndrome-like,SATB1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,SCN1A
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,SCN1B
+ORPHA:2131,Alternating hemiplegia of childhood,SCN2A
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,SCN2A
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,SCN3A
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,SCN8A
+OMIM:621067,"Neurodevelopmental disorder with poor growth, absent speech, progressive ataxia, and dysmorphic facies",SEL1L
+OMIM:621421,Ramond-Elliott neurodevelopmental syndrome,TRA2B
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,SHH
+ORPHA:93924,Lobar holoprosencephaly,SHH
+ORPHA:93925,Alobar holoprosencephaly,SHH
+ORPHA:220386,Semilobar holoprosencephaly,SHH
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,STIL
+ORPHA:93924,Lobar holoprosencephaly,STIL
+ORPHA:93925,Alobar holoprosencephaly,STIL
+ORPHA:220386,Semilobar holoprosencephaly,STIL
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,SIX3
+ORPHA:93924,Lobar holoprosencephaly,SIX3
+ORPHA:93925,Alobar holoprosencephaly,SIX3
+ORPHA:220386,Semilobar holoprosencephaly,SIX3
+ORPHA:1606,1p36 deletion syndrome,SKI
+OMIM:182212,Shprintzen-Goldberg craniosynostosis syndrome,SKI
+ORPHA:2462,Shprintzen-Goldberg syndrome,SKI
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,SLC1A2
+ORPHA:2131,Alternating hemiplegia of childhood,SLC1A3
+ORPHA:2131,Alternating hemiplegia of childhood,SLC2A1
+ORPHA:435638,Proximal 3p25.3 microdeletion syndrome,SLC6A1
+OMIM:300352,Cerebral creatine deficiency syndrome 1,SLC6A8
+ORPHA:435638,Proximal 3p25.3 microdeletion syndrome,SLC6A11
+ORPHA:59,Allan-Herndon-Dudley syndrome,SLC16A2
+OMIM:619293,Blepharophimosis-impaired intellectual development syndrome,SMARCA2
+OMIM:601358,Nicolaides-Baraitser syndrome,SMARCA2
+ORPHA:1465,Coffin-Siris syndrome,SMARCA4
+OMIM:614609,Coffin-Siris syndrome 4,SMARCA4
+OMIM:614608,Coffin-Siris syndrome 3,SMARCB1
+ORPHA:1465,Coffin-Siris syndrome,SMARCB1
+ORPHA:1465,Coffin-Siris syndrome,SMARCC2
+ORPHA:1465,Coffin-Siris syndrome,SMARCD1
+ORPHA:1465,Coffin-Siris syndrome,SMARCE1
+OMIM:309583,"Intellectual developmental disorder, X-linked syndromic, Snyder-Robinson type",SMS
+ORPHA:3063,"X-linked intellectual disability, Snyder type",SMS
+ORPHA:177907,Prader-Willi syndrome due to translocation,SNRPN
+ORPHA:500150,ZTTK syndrome,SON
+OMIM:617140,Zttk syndrome,SON
+ORPHA:648,Noonan syndrome,SOS1
+ORPHA:648,Noonan syndrome,SOS2
+ORPHA:1465,Coffin-Siris syndrome,SOX4
+OMIM:114290,Campomelic dysplasia,SOX9
+ORPHA:1465,Coffin-Siris syndrome,SOX11
+OMIM:619475,"Developmental delay, impaired speech, and behavioral abnormalities",SPTBN1
+ORPHA:505652,CDKL5-deficiency disorder,CDKL5
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,CDKL5
+ORPHA:904,Williams syndrome,STX1A
+OMIM:300966,"Intellectual developmental disorder, X-linked syndromic 33",TAF1
+ORPHA:480907,X-linked intellectual disability-global development delay-facial dysmorphism-sacral caudal remnant syndrome,TAF1
+OMIM:620450,"Intellectual developmental disorder, autosomal dominant 73",TAF4
+OMIM:157800,Cardiospondylocarpofacial syndrome,MAP3K7
+OMIM:617137,Frontometaphyseal dysplasia 2,MAP3K7
+ORPHA:33364,Trichothiodystrophy,TARS1
+ORPHA:567,22q11.2 deletion syndrome,TBX1
+OMIM:188400,Digeorge syndrome,TBX1
+ORPHA:496641,Early-onset progressive diffuse brain atrophy-microcephaly-muscle weakness-optic atrophy syndrome,TBCD
+OMIM:617193,"Encephalopathy, progressive, early-onset, with brain atrophy and thin corpus callosum",TBCD
+OMIM:610954,Pitt-Hopkins syndrome,TCF4
+ORPHA:2896,Pitt-Hopkins syndrome,TCF4
+OMIM:618430,Developmental delay with variable intellectual impairment and behavioral abnormalities,TCF20
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,CRIPTO
+ORPHA:93924,Lobar holoprosencephaly,CRIPTO
+ORPHA:93925,Alobar holoprosencephaly,CRIPTO
+ORPHA:220386,Semilobar holoprosencephaly,CRIPTO
+OMIM:113620,Branchiooculofacial syndrome,TFAP2A
+OMIM:301066,"Intellectual developmental disorder, X-linked, syndromic, with pigmentary mosaicism and coarse facies",TFE3
+OMIM:615582,Loeys-Dietz syndrome 5,TGFB3
+OMIM:609192,Loeys-Dietz syndrome 1,TGFBR1
+OMIM:610168,Loeys-Dietz syndrome 2,TGFBR2
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,TGIF1
+ORPHA:93924,Lobar holoprosencephaly,TGIF1
+ORPHA:93925,Alobar holoprosencephaly,TGIF1
+ORPHA:220386,Semilobar holoprosencephaly,TGIF1
+OMIM:609296,"B-cell immunodeficiency, distal limb anomalies, and urogenital malformations",TOP2B
+OMIM:621034,Neurodevelopmental disorder with speech or visual impairment and brain hypomyelination,CCT3
+OMIM:617061,"Intellectual developmental disorder, autosomal dominant 44, with microcephaly",TRIO
+ORPHA:476126,Micrognathia-recurrent infections-behavioral abnormalities-mild intellectual disability syndrome,TRIO
+ORPHA:567,22q11.2 deletion syndrome,HIRA
+ORPHA:794,Saethre-Chotzen syndrome,TWIST1
+ORPHA:163956,"X-linked intellectual disability, Nascimento type",UBE2A
+ORPHA:567,22q11.2 deletion syndrome,UFD1
+OMIM:300867,Kabuki syndrome 2,KDM6A
+OMIM:147920,Kabuki syndrome 1,KDM6A
+ORPHA:2322,Kabuki syndrome,KDM6A
+ORPHA:904,Williams syndrome,EIF4H
+ORPHA:904,Williams syndrome,CLIP2
+OMIM:194190,Wolf-Hirschhorn syndrome,-
+ORPHA:280,Wolf-Hirschhorn syndrome,NSD2
+OMIM:194190,Wolf-Hirschhorn syndrome,NSD2
+OMIM:619695,Rauch-Steindl syndrome,NSD2
+ORPHA:280,Wolf-Hirschhorn syndrome,NELFA
+OMIM:180700,"Robinow syndrome, autosomal dominant 1",WNT5A
+ORPHA:3107,Autosomal dominant Robinow syndrome,WNT5A
+ORPHA:261349,2p15p16.1 microdeletion syndrome,XPO1
+ORPHA:84,Fanconi anemia,XRCC2
+OMIM:616541,"Short stature, microcephaly, and endocrine dysfunction",XRCC4
+OMIM:617557,Gabriele-De vries syndrome,YY1
+ORPHA:506358,Gabriele-de Vries syndrome,YY1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,YWHAG
+OMIM:618428,Popov-Chang syndrome,YWHAZ
+OMIM:301118,"Intellectual developmental disorder, X-linked syndromic 37",ZFX
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,ZIC2
+ORPHA:93924,Lobar holoprosencephaly,ZIC2
+ORPHA:93925,Alobar holoprosencephaly,ZIC2
+ORPHA:220386,Semilobar holoprosencephaly,ZIC2
+OMIM:176270,Prader-Willi syndrome,MKRN3
+OMIM:618371,Turnpenny-Fry syndrome,PCGF2
+ORPHA:33364,Trichothiodystrophy,RNF113A
+OMIM:619522,Neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities,ZMYM2
+ORPHA:1606,1p36 deletion syndrome,LUZP1
+ORPHA:64,Alström syndrome,ALMS1
+ORPHA:500055,Hao-Fountain syndrome due to 16p13.2 microdeletion,USP7
+OMIM:616268,Arboleda-Tham syndrome,KAT6A
+OMIM:607721,Noonan syndrome-like with loose anagen hair 1,SHOC2
+OMIM:147920,Kabuki syndrome 1,KMT2D
+ORPHA:2322,Kabuki syndrome,KMT2D
+OMIM:620186,"Branchial arch abnormalities, choanal atresia, athelia, hearing loss, and hypothyroidism syndrome",KMT2D
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,AP3B2
+ORPHA:110,Bardet-Biedl syndrome,MKKS
+ORPHA:648,Noonan syndrome,LZTR1
+OMIM:605275,Noonan syndrome 2,LZTR1
+OMIM:301132,Orofaciodigital syndrome XXI,ZRSR2
+ORPHA:480880,X-linked female restricted facial dysmorphism-short stature-choanal atresia-intellectual disability,USP9X
+OMIM:300968,"Intellectual developmental disorder, X-linked 99, syndromic, female-restricted",USP9X
+OMIM:300534,"Intellectual developmental disorder, X-linked syndromic, Claes-Jensen type",KDM5C
+OMIM:301044,"Developmental and epileptic encephalopathy 85, with or without midline brain defects",SMC1A
+OMIM:300590,Cornelia de Lange syndrome 2,SMC1A
+ORPHA:220386,Semilobar holoprosencephaly,SMC1A
+ORPHA:199,Cornelia de Lange syndrome,SMC1A
+OMIM:300855,Ogden syndrome,NAA10
+OMIM:614607,Coffin-Siris syndrome 2,ARID1A
+ORPHA:1465,Coffin-Siris syndrome,ARID1A
+OMIM:618454,Developmental delay with or without dysmorphic facies and autism,TRRAP
+OMIM:619762,Kury-Isidor syndrome,BAP1
+OMIM:619950,Tessadori-van Haaften neurodevelopmental syndrome 3,H4C5
+OMIM:618829,"Nabais Sa-de vries syndrome, type 2",SPOP
+OMIM:300354,"Intellectual developmental disorder, X-linked syndromic, Cabezas type",CUL4B
+ORPHA:85293,"X-linked intellectual disability, Cabezas type",CUL4B
+ORPHA:904,Williams syndrome,FKBP6
+ORPHA:1606,1p36 deletion syndrome,MMP23B
+ORPHA:1606,1p36 deletion syndrome,KCNAB2
+OMIM:621122,Paul-Chao neurodevelopmental syndrome,PPFIA3
+OMIM:617694,Al Kaissi syndrome,CDK10
+OMIM:619004,Deeah syndrome,MADD
+OMIM:619005,"Neurodevelopmental disorder with dysmorphic facies, impaired speech and hypotonia",MADD
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,CASK
+OMIM:300749,Intellectual developmental disorder and microcephaly with pontine and cerebellar hypoplasia,CASK
+ORPHA:163937,"X-linked intellectual disability, Najm type",CASK
+OMIM:617360,"Congenital heart defects, dysmorphic facial features, and intellectual developmental disorder",CDK13
+OMIM:601390,Van Maldergem syndrome 1,DCHS1
+ORPHA:96334,Kagami-Ogata syndrome due to paternal uniparental disomy of chromosome 14,DLK1
+ORPHA:17,Fatal infantile lactic acidosis with methylmalonic aciduria,SUCLG1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,SYNGAP1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,SYNJ1
+OMIM:304340,Pettigrew syndrome,AP1S2
+OMIM:176270,Prader-Willi syndrome,HERC2
+ORPHA:457359,Megalencephaly-severe kyphoscoliosis-overgrowth syndrome,HERC1
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,FOXH1
+ORPHA:93924,Lobar holoprosencephaly,FOXH1
+ORPHA:93925,Alobar holoprosencephaly,FOXH1
+ORPHA:220386,Semilobar holoprosencephaly,FOXH1
+ORPHA:904,Williams syndrome,BAZ1B
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,PIGQ
+OMIM:610759,Cornelia de Lange syndrome 3,SMC3
+ORPHA:199,Cornelia de Lange syndrome,SMC3
+OMIM:621475,Developmental and epileptic encephalopathy 121,LGI1
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,LGI1
+OMIM:236670,"Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 1",LARGE1
+OMIM:621499,Craniosynostosis-scoliosis syndrome,DHRS3
+OMIM:621201,"Neurodevelopmental disorder with dysmorphic facies, brain anomalies, and seizures",GTF3C3
+OMIM:600373,CODAS syndrome,LONP1
+OMIM:617527,"Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies",PLAA
+OMIM:611209,"Congenital disorder of glycosylation, type IIg",COG1
+OMIM:218600,Baller-Gerold syndrome,RECQL4
+OMIM:143095,Spondyloepiphyseal dysplasia with congenital joint dislocations,CHST3
+OMIM:245600,"Multiple joint dislocations, short stature, craniofacial dysmorphism, with or without congenital heart defects",CHST3
+OMIM:280000,CHIME syndrome,PIGL
+ORPHA:247262,Hyperphosphatasia-intellectual disability syndrome,PIGL
+OMIM:618580,"Epileptic encephalopathy, early infantile, 80",PIGB
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,GABBR2
+ORPHA:904,Williams syndrome,GTF2IRD1
+OMIM:619841,Chilton-Okur-Chung neurodevelopmental syndrome,CDC42BPB
+ORPHA:567,22q11.2 deletion syndrome,SEC24C
+OMIM:619194,Neurofacioskeletal syndrome with or without renal agenesis,HS2ST1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,DEPDC5
+OMIM:620719,"Neurodevelopmental disorder with motor abnormalities, seizures, and facial dysmorphism",PUM1
+OMIM:614114,Mosaic variegated aneuploidy syndrome 2,CEP57
+ORPHA:138,CHARGE syndrome,SEMA3E
+OMIM:619056,Neurodevelopmental disorder with speech impairment and dysmorphic facies,SETD1A
+OMIM:621180,Cranioectodermal dysplasia 5,IFT140
+OMIM:266920,Short-rib thoracic dysplasia 9 with or without polydactyly,IFT140
+ORPHA:1001,2q37 microdeletion syndrome,HDAC4
+OMIM:600430,Chromosome 2q37 deletion syndrome,HDAC4
+OMIM:618316,Intellectual developmental disorder with cardiac defects and dysmorphic facies,TMEM94
+ORPHA:261552,Mowat-Wilson syndrome due to a ZEB2 point mutation,ZEB2
+ORPHA:261537,Mowat-Wilson syndrome due to monosomy 2q22,ZEB2
+OMIM:235730,Mowat-Wilson syndrome,ZEB2
+OMIM:617773,"Intellectual developmental disorder, autosomal recessive 61",RUSC2
+ORPHA:3472,Yunis-Varon syndrome,FIG4
+OMIM:216340,Yunis-Varon syndrome,FIG4
+ORPHA:7,3C syndrome,WASHC5
+OMIM:620494,"Neurodevelopmental disorder with impaired language, behavioral abnormalities, and dysmorphic facies",UBAP2L
+OMIM:621384,Developmental delay with variable cardiac and renal congenital anomalies and dysmorphic facies,PAN2
+ORPHA:93932,FG syndrome type 1,MED12
+OMIM:305450,Opitz-Kaveggia syndrome,MED12
+OMIM:300895,"Ohdo syndrome, X-linked",MED12
+OMIM:218000,Agenesis of the corpus callosum with peripheral neuropathy,SLC12A6
+OMIM:604377,"Mitochondrial complex IV deficiency, nuclear type 2",SCO2
+OMIM:621220,Guillouet-Gordon syndrome,MED16
+OMIM:613658,Rajab interstitial lung disease with brain calcifications,FARSB
+OMIM:614388,"Encephalopathy, lethal, due to defective mitochondrial peroxisomal fission 1",DNM1L
+OMIM:309590,"Intellectual developmental disorder, X-linked syndromic, Turner type",HUWE1
+OMIM:309500,Renpenning syndrome,PQBP1
+OMIM:621263,"Neurodevelopmental disorder with behavioral, ear, and skeletal abnormalities",FEM1B
+OMIM:220111,"Mitochondrial complex IV deficiency, nuclear type 5, (French-Canadian)",LRPPRC
+OMIM:620073,Neurodevelopmental disorder with dysmorphic facies and skeletal and brain abnormalities,HNRNPR
+OMIM:154400,"Acrofacial dysostosis 1, Nager type",SF3B4
+OMIM:611174,Hamamy syndrome,IRX5
+ORPHA:1606,1p36 deletion syndrome,UBE4B
+ORPHA:821,Sotos syndrome,APC2
+ORPHA:572798,WARS2-related combined oxidative phosphorylation defect,WARS2
+OMIM:617710,"Neurodevelopmental disorder, mitochondrial, with abnormal movements and lactic acidosis, with or without seizures",WARS2
+OMIM:615673,Myopathy with extrapyramidal signs,MICU1
+ORPHA:300570,Cortical dysgenesis with pontocerebellar hypoplasia due to TUBB3 mutation,TUBB3
+OMIM:620075,"Neurodevelopmental disorder with facial dysmorphism, absent language, and pseudo-Pelger-Huet anomaly",TMEM147
+ORPHA:84,Fanconi anemia,MAD2L2
+ORPHA:85278,Christianson syndrome,SLC9A6
+OMIM:619472,VISS syndrome,IPO8
+OMIM:236670,"Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 1",POMT1
+ORPHA:1606,1p36 deletion syndrome,PDPN
+OMIM:619127,Mandibuloacral dysplasia progeroid syndrome,MTX2
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,CELF2
+OMIM:615502,"Intellectual developmental disorder, autosomal dominant 21",CTCF
+ORPHA:363611,CTCF-related neurodevelopmental disorder,CTCF
+ORPHA:93925,Alobar holoprosencephaly,STAG2
+ORPHA:220386,Semilobar holoprosencephaly,STAG2
+OMIM:301022,"Neurodevelopmental disorder, X-linked, with craniofacial abnormalities",STAG2
+OMIM:182290,Smith-Magenis syndrome,RAI1
+ORPHA:819,Smith-Magenis syndrome,RAI1
+ORPHA:110,Bardet-Biedl syndrome,SDCCAG8
+ORPHA:280,Wolf-Hirschhorn syndrome,CPLX1
+OMIM:194190,Wolf-Hirschhorn syndrome,CPLX1
+ORPHA:2044,Floating-Harbor syndrome,SRCAP
+OMIM:136140,Floating-Harbor syndrome,SRCAP
+OMIM:620700,"Intellectual developmental disorder, autosomal recessive 81",ASCC3
+OMIM:615803,"Pontocerebellar hypoplasia, type 10",CLP1
+OMIM:616734,"Skin creases, congenital symmetric circumferential, 2",MAPRE2
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,SLC38A3
+OMIM:256500,Netherton syndrome,SPINK5
+OMIM:618050,"Intellectual developmental disorder, autosomal dominant 57",TLK2
+ORPHA:110,Bardet-Biedl syndrome,IFT27
+OMIM:620908,Arterial tortuosity-bone fragility syndrome,EMILIN1
+OMIM:264090,Wiedemann-Rautenstrauch syndrome,POLR3A
+ORPHA:3455,Wiedemann-Rautenstrauch syndrome,POLR3A
+OMIM:620852,"Neurodevelopemental disorder with hypotonia, feeding difficulties, facial dysmorphism, and brain abnormalities",WBP4
+ORPHA:254892,Autosomal dominant progressive external ophthalmoplegia,POLG2
+ORPHA:397941,MAN1B1-CDG,MAN1B1
+OMIM:614202,Rafiq syndrome,MAN1B1
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,PNKP
+ORPHA:648,Noonan syndrome,RRAS2
+ORPHA:648,Noonan syndrome,MRAS
+ORPHA:508498,Intellectual disability-cardiac anomalies-short stature-joint laxity syndrome,PUF60
+ORPHA:508488,8q24.3 microdeletion syndrome,PUF60
+OMIM:621337,Cranioectodermal dysplasia 6,CILK1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,CNKSR2
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,TRAK1
+OMIM:617804,Neurodevelopmental disorder with severe motor impairment and absent language,DHX30
+OMIM:614222,Warburg micro syndrome 3,RAB18
+ORPHA:110,Bardet-Biedl syndrome,TRIM32
+ORPHA:93925,Alobar holoprosencephaly,PLCH1
+OMIM:619312,Radio-Tartaglia syndrome,SPEN
+ORPHA:1606,1p36 deletion syndrome,SPEN
+OMIM:621455,"Neurodevelopmental disorder with hypotonia, epilepsy, and absent speech",UNC13A
+OMIM:621456,"Neurodevelopmental disorder with speech delay, movement abnormalities, and seizures",UNC13A
+OMIM:619320,"Intellectual developmental disorder, autosomal dominant 65",KDM4B
+OMIM:619188,"Intellectual developmental disorder, autosomal dominant 64",ZNF292
+ORPHA:647799,MYT1L-related developmental delay-intellectual disability-obesity syndrome,MYT1L
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,CDK19
+OMIM:616364,White-Sutton syndrome,POGZ
+ORPHA:468678,White-Sutton syndrome,POGZ
+OMIM:618505,Stolerman neurodevelopmental syndrome,KDM6B
+OMIM:619777,Developmental and epileptic encephalopathy 100,FBXO28
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,FBXO28
+ORPHA:2131,Alternating hemiplegia of childhood,RHOBTB2
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,RHOBTB2
+OMIM:618004,"Epileptic encephalopathy, early infantile, 64",RHOBTB2
+OMIM:618067,"Epileptic encephalopathy, early infantile, 66",PACS2
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,PACS2
+OMIM:614756,Cerebellar dysfunction with variable cognitive and behavioral abnormalities,CAMTA1
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,DMXL2
+ORPHA:576283,SATB2-associated syndrome due to a pathogenic variant,SATB2
+ORPHA:251019,2q32q33 deletion syndrome,SATB2
+OMIM:612313,Glass syndrome,SATB2
+ORPHA:251028,SATB2-associated syndrome due to a chromosomal rearrangement,SATB2
+OMIM:617201,Periventricular nodular heterotopia 7,NEDD4L
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,SZT2
+OMIM:621570,Cornelia de Lange syndrome 7,MAU2
+ORPHA:199,Cornelia de Lange syndrome,MAU2
+ORPHA:369891,Developmental delay-facial dysmorphism syndrome due to MED13L deficiency,MED13L
+OMIM:615873,Helsmoortel-van der Aa syndrome,ADNP
+ORPHA:404448,Helsmoortel-Van der Aa syndrome,ADNP
+ORPHA:199,Cornelia de Lange syndrome,BRD4
+ORPHA:280633,Multiple congenital anomalies-hypotonia-seizures syndrome,PIGN
+OMIM:614080,Multiple congenital anomalies-hypotonia-seizures syndrome 1,PIGN
+OMIM:176270,Prader-Willi syndrome,NPAP1
+OMIM:212720,Martsolf syndrome 1,RAB3GAP2
+OMIM:122470,Cornelia de Lange syndrome 1,NIPBL
+ORPHA:199,Cornelia de Lange syndrome,NIPBL
+OMIM:616462,"Acrofacial dysostosis, Cincinnati type",POLR1A
+ORPHA:468631,Microcephalic cortical malformations-short stature due to RTTN deficiency,RTTN
+ORPHA:94065,15q24 microdeletion syndrome,SIN3A
+OMIM:613406,Witteveen-Kolk syndrome,SIN3A
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,PARS2
+ORPHA:79282,"Methylmalonic acidemia with homocystinuria, type cblC",MMACHC
+OMIM:277400,"Methylmalonic aciduria and homocystinuria, cblC type",MMACHC
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,NECAP1
+ORPHA:798,Schinzel-Giedion syndrome,SETBP1
+OMIM:616078,"Intellectual developmental disorder, autosomal dominant 29",SETBP1
+OMIM:610042,Pitt-Hopkins like syndrome 1,CNTNAP2
+OMIM:615834,"Intellectual developmental disorder, autosomal dominant 26",AUTS2
+ORPHA:352490,Autism spectrum disorder due to AUTS2 deficiency,AUTS2
+OMIM:259050,Primrose syndrome,ZBTB20
+ORPHA:110,Bardet-Biedl syndrome,IFT172
+OMIM:245600,"Multiple joint dislocations, short stature, craniofacial dysmorphism, with or without congenital heart defects",B3GAT3
+OMIM:615471,Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type),FBXL4
+OMIM:621184,Tayoun-Maawali syndrome,FBXO22
+OMIM:620292,"Neurodevelopmental disorder with language delay and behavioral abnormalities, with or without seizures",AGO1
+ORPHA:904,Williams syndrome,TBL2
+OMIM:621460,"Neurodevelopmental disorder with spasticity, thin corpus callosum, and decreased brain white matter",RPS6KC1
+OMIM:621302,Neurodevelopmental disorder with seizures and joint laxity,RNU5B-1
+OMIM:620851,ReNU syndrome,RNU4-2
+OMIM:621304,Developmental and epileptic encephalopathy 119,RNU2-2
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,CYFIP2
+ORPHA:391372,FOXP1 Syndrome,FOXP1
+ORPHA:444077,Cognitive impairment-coarse facies-heart defects-obesity-pulmonary involvement-short stature-skeletal dysplasia syndrome,AFF4
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,KCNH5
+OMIM:620775,"Neuromuscular disorder, congenital, with dysmorphic facies",FILIP1
+ORPHA:110,Bardet-Biedl syndrome,BBS9
+OMIM:615829,Xia-Gibbs syndrome,AHDC1
+OMIM:621390,"Neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities",KLHL20
+ORPHA:247262,Hyperphosphatasia-intellectual disability syndrome,PGAP2
+OMIM:614207,Hyperphosphatasia with impaired intellectual development syndrome 3,PGAP2
+OMIM:620401,"Intellectual developmental disorder, autosomal recessive 84",SGSM3
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,DLL1
+ORPHA:93924,Lobar holoprosencephaly,DLL1
+ORPHA:93925,Alobar holoprosencephaly,DLL1
+ORPHA:220386,Semilobar holoprosencephaly,DLL1
+ORPHA:7,3C syndrome,CCDC22
+OMIM:621060,"Neurodevelopmental disorder with microcephaly, absent speech, and hypotonia",FLVCR1
+ORPHA:84,Fanconi anemia,UBE2T
+OMIM:148050,KBG syndrome,ANKRD11
+ORPHA:261250,16q24.3 microdeletion syndrome,ANKRD11
+ORPHA:481152,PYCR2-related microcephaly-progressive leukoencephalopathy,PYCR2
+ORPHA:2953,Musculocontractural Ehlers-Danlos syndrome,DSE
+OMIM:236670,"Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 1",POMT2
+OMIM:612289,Fontaine progeroid syndrome,SLC25A24
+OMIM:621528,Meier-Gorlin syndrome 10,DONSON
+OMIM:619325,Coffin-Siris syndrome 12,BICRA
+ORPHA:110,Bardet-Biedl syndrome,SCAPER
+ORPHA:254892,Autosomal dominant progressive external ophthalmoplegia,RRM2B
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,CDON
+ORPHA:93924,Lobar holoprosencephaly,CDON
+ORPHA:93925,Alobar holoprosencephaly,CDON
+ORPHA:220386,Semilobar holoprosencephaly,CDON
+ORPHA:110,Bardet-Biedl syndrome,WDPCP
+OMIM:194050,Williams-Beuren syndrome,MLXIPL
+OMIM:616276,"Coenzyme Q10 deficiency, primary, 7",COQ4
+OMIM:300978,Tonne-Kalscheuer syndrome,RLIM
+ORPHA:33364,Trichothiodystrophy,DBR1
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,PIGP
+ORPHA:466950,Facial dysmorphism-developmental delay-behavioral abnormalities syndrome due to WAC point mutation,WAC
+OMIM:616708,Desanto-Shinawi syndrome,WAC
+ORPHA:284169,Facial dysmorphism-developmental delay-behavioral abnormalities syndrome due to 10p11.21p12.31 microdeletion,WAC
+OMIM:621436,"Microcephaly, progressive, with simplified gyral pattern and cerebellar hypoplasia",CRNKL1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,FZR1
+ORPHA:2273,Ichthyosis follicularis-alopecia-photophobia syndrome,MBTPS2
+OMIM:308205,IFAP syndrome with or without BRESHECK syndrome,MBTPS2
+OMIM:621372,Neurodevelopmental disorder with speech delay and behavioral abnormalities,UBR5
+OMIM:621016,Neurodevelopmental disorder with variable familial hypercholanemia,WDR83OS
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,ACTL6B
+OMIM:621154,"Neurodevelopmental disorder with poor growth, seizures, and brain abnormalities",SPOUT1
+OMIM:618076,Neurodevelopmental disorder with spasticity and poor growth,UFC1
+OMIM:621533,Neurodevelopmental disorder with seizures and impaired intellectual and language development,JKAMP
+ORPHA:369837,Intellectual disability-seizures-hypophosphatasia-ophthalmic-skeletal anomalies syndrome,PIGT
+OMIM:615398,Multiple congenital anomalies-hypotonia-seizures syndrome 3,PIGT
+OMIM:620070,"Neurodevelopmental disorder with short stature, prominent forehead, and feeding difficulties",DPH5
+ORPHA:505237,Early-onset seizures-distal limb anomalies-facial dysmorphism-global developmental delay syndrome,OTUD6B
+OMIM:617452,"Intellectual developmental disorder with dysmorphic facies, seizures, and distal limb anomalies",OTUD6B
+OMIM:201000,Carpenter syndrome 1,RAB23
+ORPHA:261349,2p15p16.1 microdeletion syndrome,BCL11A
+OMIM:194190,Wolf-Hirschhorn syndrome,FGFRL1
+OMIM:617157,"Short stature, brachydactyly, intellectual developmental disability, and seizures",PRMT7
+OMIM:213980,"Craniofacial dysmorphism, skeletal anomalies, and impaired intellectual development 1",TMCO1
+OMIM:618342,"Intellectual developmental disorder with abnormal behavior, microcephaly, and short stature",PUS7
+OMIM:615547,Schaaf-Yang syndrome,MAGEL2
+ORPHA:398069,Schaaf-Yang syndrome,MAGEL2
+OMIM:176270,Prader-Willi syndrome,MAGEL2
+ORPHA:110,Bardet-Biedl syndrome,LZTFL1
+OMIM:617988,Jaberi-Elahi syndrome,GTPBP2
+OMIM:621212,Li-Takada-Miyake syndrome,GON4L
+ORPHA:280,Wolf-Hirschhorn syndrome,PIGG
+OMIM:300166,"Microphthalmia, syndromic 2",BCOR
+OMIM:611091,"Intellectual developmental disorder, autosomal recessive 5",NSUN2
+ORPHA:1606,1p36 deletion syndrome,CASZ1
+ORPHA:110,Bardet-Biedl syndrome,MKS1
+OMIM:249000,Meckel syndrome 1,MKS1
+OMIM:619991,"Liver disease, severe congenital",FOCAD
+OMIM:620428,"Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities",INTS11
+ORPHA:84,Fanconi anemia,FANCL
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,DALRD3
+ORPHA:84,Fanconi anemia,RFWD3
+OMIM:620985,Karayol-Borroto-Haghshenas neurodevelopmental syndrome,MSL2
+OMIM:615761,"Intellectual developmental disorder, autosomal dominant 23",SETD5
+OMIM:617183,Harel-Yoon syndrome,ATAD3A
+ORPHA:110,Bardet-Biedl syndrome,BBS7
+ORPHA:84,Fanconi anemia,FANCI
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,UFSP2
+OMIM:621250,Developmental and epileptic encephalopathy 118,TMEM63B
+ORPHA:96334,Kagami-Ogata syndrome due to paternal uniparental disomy of chromosome 14,MEG3
+OMIM:301056,"Multiple congenital anomalies-neurodevelopmental syndrome, X-linked",OTUD5
+OMIM:618950,Suleiman-El-Hattab syndrome,TASP1
+ORPHA:138,CHARGE syndrome,CHD7
+OMIM:214800,Charge syndrome,CHD7
+OMIM:617729,Galloway-Mowat syndrome 3,OSGEP
+OMIM:239300,Hyperphosphatasia with impaired intellectual development syndrome 1,PIGV
+ORPHA:247262,Hyperphosphatasia-intellectual disability syndrome,PIGV
+ORPHA:329224,Schuurs-Hoeijmakers syndrome,PACS1
+ORPHA:3472,Yunis-Varon syndrome,VAC14
+OMIM:616007,"Cataracts, growth hormone deficiency, sensory neuropathy, sensorineural hearing loss, and skeletal dysplasia",IARS2
+ORPHA:506,Leigh syndrome,IARS2
+OMIM:621328,"Neurodevelopmental disorder with achalasia, polyneuropathy, and alacrima",NDC1
+OMIM:615273,Congenital disorder of deglycosylation 1,NGLY1
+ORPHA:404454,Alacrimia-choreoathetosis-liver dysfunction syndrome,NGLY1
+OMIM:617695,"Pontocerebellar hypoplasia, type 11",TBC1D23
+OMIM:156200,"Intellectual developmental disorder, autosomal dominant 1",MBD5
+ORPHA:75857,6q terminal deletion syndrome,ERMARD
+ORPHA:1596,Distal deletion 15q syndrome,MCTP2
+ORPHA:199,Cornelia de Lange syndrome,HDAC8
+OMIM:300882,Cornelia de Lange syndrome 5,HDAC8
+OMIM:617796,"Intellectual developmental disorder, autosomal dominant 52",ASH1L
+OMIM:621552,Luo-Agrawal neurodevelopmental syndrome,WSB2
+OMIM:301041,"Wieacker-Wolff syndrome, female-restricted",ZC4H2
+OMIM:314580,Wieacker-Wolff syndrome,ZC4H2
+OMIM:607459,"Sensory ataxic neuropathy, dysarthria, and ophthalmoparesis",TWNK
+ORPHA:254892,Autosomal dominant progressive external ophthalmoplegia,TWNK
+OMIM:621381,"Congenital disorder of glycosylation, type IICC",UGGT1
+OMIM:619435,Ritscher-Schinzel syndrome 4,DPYSL5
+ORPHA:7,3C syndrome,DPYSL5
+OMIM:619576,"Cerebellar ataxia, brain abnormalities, and cardiac conduction defects",EXOSC5
+OMIM:621377,Harel-Tora neurodevelopmental syndrome,ATXN7L3
+OMIM:259775,Raine syndrome,FAM20C
+ORPHA:261323,21q22.11q22.12 microdeletion syndrome,KIF15
+OMIM:618268,Trichohepatoneurodevelopmental syndrome,CCDC47
+ORPHA:7,3C syndrome,VPS35L
+OMIM:618659,Neurodevelopmental disorder with dysmorphic facies and distal skeletal anomalies,ZMIZ1
+ORPHA:397709,Intellectual disability-coarse face-macrocephaly-cerebellar hypotrophy syndrome,SNX14
+OMIM:616354,"Spinocerebellar ataxia, autosomal recessive 20",SNX14
+OMIM:620746,Neurodevelopmental disorder with hypotonia and characteristic brain abnormalities,SLC4A10
+ORPHA:79500,DOORS syndrome,TBC1D24
+OMIM:220500,Doors syndrome,TBC1D24
+OMIM:619539,Neuroocular syndrome,PRR12
+ORPHA:1465,Coffin-Siris syndrome,ARID1B
+OMIM:135900,Coffin-Siris syndrome 1,ARID1B
+OMIM:614576,"Congenital disorder of glycosylation, type IIl",COG6
+OMIM:617268,"Neurodevelopmental disorder with hypotonia, seizures, and absent language",HECW2
+OMIM:618052,"Cardiomyopathy, familial hypertrophic 27",ALPK3
+OMIM:613610,Cranioectodermal dysplasia 2,WDR35
+OMIM:619575,Developmental delay with or without intellectual impairment or behavioral abnormalities,TAOK1
+OMIM:621415,"Intellectual developmental disorder, autosomal dominant 77",LRRC7
+OMIM:615032,Intellectual developmental disorder with autism and macrocephaly,CHD8
+OMIM:621566,Davis-Wells syndrome,CACHD1
+OMIM:617865,"Neurodevelopmental disorder with movement abnormalities, abnormal gait, and autistic features",ZSWIM6
+ORPHA:84,Fanconi anemia,FANCM
+OMIM:242840,Vici syndrome,EPG5
+OMIM:621506,Neurodevelopmental disorder with parkinsonism or other movement abnormalities,EPG5
+OMIM:621102,Neurodevelopmental disorder with progressive spasticity and brain abnormalities,EEFSEC
+OMIM:615356,"Muscular dystrophy, limb-girdle, autosomal recessive 18",TRAPPC11
+OMIM:248700,Marden-Walker syndrome,PIEZO2
+ORPHA:2461,Marden-Walker syndrome,PIEZO2
+ORPHA:1606,1p36 deletion syndrome,PRDM16
+OMIM:615777,Desbuquois dysplasia 2,XYLT1
+OMIM:615846,Aicardi-Goutieres syndrome 7,IFIH1
+OMIM:620939,"Myelofibrosis, congenital, with anemia, neutropenia, developmental delay, and ocular abnormalities",RBSN
+ORPHA:821,Sotos syndrome,NSD1
+OMIM:117550,Sotos syndrome,NSD1
+ORPHA:1507,Autosomal recessive Robinow syndrome,NXN
+OMIM:621512,Meier-Gorlin syndrome 9,GINS3
+ORPHA:2092,Focal dermal hypoplasia,PORCN
+OMIM:620330,"Intellectual developmental disorder, autosomal dominant 71, with behavioral abnormalities",RFX7
+OMIM:617303,Mucopolysaccharidosis-Plus syndrome,VPS33A
+ORPHA:505248,Mucopolysaccharidosis-like syndrome with congenital heart defects and hematopoietic disorders,VPS33A
+OMIM:620771,Jeffries-Lakhani neurodevelopmental syndrome,CRELD1
+ORPHA:79324,ALG12-CDG,ALG12
+OMIM:209900,Bardet-Biedl syndrome 1,CCDC28B
+OMIM:236670,"Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 1",FKRP
+OMIM:252500,Mucolipidosis II alpha/beta,GNPTAB
+OMIM:615546,Van maldergem syndrome 2,FAT4
+OMIM:602342,Pierpont syndrome,TBL1XR1
+ORPHA:84,Fanconi anemia,PALB2
+ORPHA:110,Bardet-Biedl syndrome,BBS10
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,SLC25A22
+ORPHA:79328,ALG9-CDG,ALG9
+OMIM:610253,Kleefstra syndrome 1,EHMT1
+ORPHA:96147,Kleefstra syndrome due to 9q34 microdeletion,EHMT1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,UBA5
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,DHDDS
+OMIM:619534,"Biliary, renal, neurologic, and skeletal syndrome",IFT56
+OMIM:234200,Neurodegeneration with brain iron accumulation 1,PANK2
+OMIM:620224,"Neurodevelopmental disorder with hypotonia, dysmorphic facies, and skeletal anomalies, with or without seizures",TRPM3
+OMIM:615802,"Neurodevelopmental disorder with dysmorphic features, spasticity, and brain abnormalities",PGAP1
+ORPHA:110,Bardet-Biedl syndrome,IFT74
+ORPHA:110,Bardet-Biedl syndrome,CEP290
+OMIM:618089,Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities,FBXO11
+OMIM:621379,Neurocardiorenal malformation syndrome,TM2D3
+OMIM:617616,Skraban-Deardorff syndrome,WDR26
+ORPHA:513456,Intellectual disability-seizures-abnormal gait-facial dysmorphism syndrome,WDR26
+ORPHA:84,Fanconi anemia,FAAP100
+OMIM:615485,Bainbridge-Ropers syndrome,ASXL3
+OMIM:616271,"3-Methylglutaconic aciduria with cataracts, neurologic involvement, and neutropenia",CLPB
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,TRIM8
+ORPHA:464738,Basel-Vanagaite-Smirin-Yosef syndrome,MED25
+OMIM:616449,Basel-Vanagaite-Smirin-Yosef syndrome,MED25
+ORPHA:84,Fanconi anemia,BRIP1
+OMIM:209900,Bardet-Biedl syndrome 1,ARL6
+ORPHA:110,Bardet-Biedl syndrome,ARL6
+OMIM:617822,Alkuraya-Kucinskas syndrome,BLTP1
+ORPHA:904,Williams syndrome,GTF2IRD2
+OMIM:230740,GAPO syndrome,ANTXR1
+OMIM:618164,"Cardiac, facial, and digital anomalies with developmental delay",TRAF7
+ORPHA:904,Williams syndrome,DNAJC30
+OMIM:620785,Neurodevelopmental disorder with progressive movement abnormalities,ACBD6
+OMIM:611182,"Congenital disorder of glycosylation, type IIh",COG8
+OMIM:621265,Nil-Deshwar neurodevelopmental syndrome,DOT1L
+ORPHA:84,Fanconi anemia,SLX4
+OMIM:621474,Neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities,KDM2B
+ORPHA:247262,Hyperphosphatasia-intellectual disability syndrome,PIGO
+ORPHA:391408,Primary microcephaly-mild intellectual disability-young-onset diabetes syndrome,PPP1R15B
+OMIM:251300,Galloway-Mowat syndrome 1,WDR73
+ORPHA:93926,Midline interhemispheric variant of holoprosencephaly,DISP1
+ORPHA:93924,Lobar holoprosencephaly,DISP1
+ORPHA:93925,Alobar holoprosencephaly,DISP1
+ORPHA:220386,Semilobar holoprosencephaly,DISP1
+ORPHA:110,Bardet-Biedl syndrome,CEP19
+ORPHA:247262,Hyperphosphatasia-intellectual disability syndrome,PIGY
+OMIM:606232,Phelan-Mcdermid syndrome,SHANK3
+OMIM:607906,"Congenital disorder of glycosylation, type Ii",ALG2
+OMIM:621182,"Neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities",NAV3
+OMIM:244450,Kaufman oculocerebrofacial syndrome,UBE3B
+ORPHA:457395,Progressive spondyloepimetaphyseal dysplasia-short stature-short fourth metatarsals-intellectual disability syndrome,RSPRY1
+OMIM:620663,"Spondyloepimetaphyseal dysplasia, Guo-Campeau type",ERI1
+OMIM:620662,Hoxha-Aliu syndrome,ERI1
+OMIM:620371,"Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity",ESAM
+OMIM:608779,"Congenital disorder of glycosylation, type IIe",COG7
+ORPHA:110,Bardet-Biedl syndrome,BBIP1
+ORPHA:247262,Hyperphosphatasia-intellectual disability syndrome,PGAP3
+ORPHA:391408,Primary microcephaly-mild intellectual disability-young-onset diabetes syndrome,TRMT10A
+OMIM:616900,"Hypotonia, infantile, with psychomotor retardation and characteristic facies 3",TBCK
+ORPHA:488632,TBCK-related encephalopathy-severe hypotonia-craniofacial dysmorphism syndrome,TBCK
+OMIM:618143,Glycosylphosphatidylinositol biosynthesis defect 18,PIGS
+ORPHA:363528,Intellectual disability-strabismus syndrome,ADAT3
+ORPHA:2953,Musculocontractural Ehlers-Danlos syndrome,CHST14
+OMIM:601776,"Ehlers-Danlos syndrome, musculocontractural type 1",CHST14
+OMIM:614969,"Pontocerebellar hypoplasia, type 7",TOE1
+ORPHA:904,Williams syndrome,BUD23
+OMIM:621199,Neurodevelopmental disorder with ataxia and brain abnormalities,PTPMT1
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,NUS1
+OMIM:618872,Nizon-Isidor syndrome,MED12L
+OMIM:620113,"Neurodevelopmental disorder with growth retardation, dysmorphic facies, and corpus callosum abnormalities",FRA10AC1
+ORPHA:110,Bardet-Biedl syndrome,TTC8
+ORPHA:536467,B3GALT6-related spondylodysplastic Ehlers-Danlos syndrome,B3GALT6
+OMIM:615663,Warburg micro syndrome 4,TBC1D20
+OMIM:618590,"Neurodevelopmental disorder with brain anomalies, seizures, and scoliosis",PIGU
+OMIM:619383,"Neurodevelopmental disorder with hypotonia, facial dysmorphism, and brain abnormalities",PPP1R21
+ORPHA:110,Bardet-Biedl syndrome,BBS5
+ORPHA:110,Bardet-Biedl syndrome,SCLT1
+ORPHA:904,Williams syndrome,TMEM270
+ORPHA:33364,Trichothiodystrophy,MPLKIP
+OMIM:300373,Osteopathia striata with cranial sclerosis,AMER1
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,SLC32A1
+OMIM:621100,"Intellectual developmental disorder, autosomal recessive 83",KICS2
+OMIM:261540,Peters-plus syndrome,B3GLCT
+ORPHA:709,Peters plus syndrome,B3GLCT
+OMIM:176270,Prader-Willi syndrome,PWAR1
+OMIM:235510,Hennekam lymphangiectasia-lymphedema syndrome,CCBE1
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,SIK1
+OMIM:621192,Craniofaciocardiohepatic syndrome,AMOTL1
+ORPHA:904,Williams syndrome,METTL27
+ORPHA:904,Williams syndrome,VPS37D
+OMIM:268300,Roberts-SC phocomelia syndrome,ESCO2
+ORPHA:110,Bardet-Biedl syndrome,CFAP418
+OMIM:216550,Cohen syndrome,VPS13B
+ORPHA:193,Cohen syndrome,VPS13B
+OMIM:621608,Developmental and epileptic encephalopathy 122,MDGA2
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,MDGA2
+ORPHA:110,Bardet-Biedl syndrome,BBS12
+ORPHA:1934,Early infantile developmental and epileptic encephalopathy,ARX
+OMIM:605039,Bohring-Opitz syndrome,ASXL1
+OMIM:617808,Coffin-Siris syndrome 6,ARID2
+ORPHA:1465,Coffin-Siris syndrome,ARID2
+ORPHA:648,Noonan syndrome,SPRED2
+OMIM:619745,Noonan syndrome 14,SPRED2
+ORPHA:567,22q11.2 deletion syndrome,JMJD1C
+OMIM:617330,"Hypotonia, ataxia, and delayed development syndrome",EBF3
+ORPHA:96148,Distal deletion 10q syndrome,EBF3
+ORPHA:562528,Congenital limbs-face contractures-hypotonia-developmental delay syndrome,NALCN
+OMIM:615419,"Hypotonia, infantile, with psychomotor retardation and characteristic facies 1",NALCN
+OMIM:620250,"Neurodevelopmental disorder with seizures, spasticity, and complete or partial agenesis of the corpus callosum",HECTD4
+OMIM:616579,"Intellectual developmental disorder, autosomal dominant 40",CHAMP1
+OMIM:610443,Koolen-De Vries syndrome,KANSL1
+ORPHA:247262,Hyperphosphatasia-intellectual disability syndrome,PIGW
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,SLC13A5
+OMIM:616801,"Hypotonia, infantile, with psychomotor retardation and characteristic facies 2",UNC80
+OMIM:621049,Pan-Chung-Bellen syndrome,FRYL
+OMIM:249420,Frank-ter Haar syndrome,SH3PXD2B
+OMIM:176270,Prader-Willi syndrome,SNORD115-1
+OMIM:300912,"Intellectual developmental disorder, X-linked 98",NEXMIF
+ORPHA:442835,Non-specific early-onset epileptic encephalopathy,HCN1
+OMIM:200990,Acrocallosal syndrome,KIF7
+OMIM:619488,DEGCAGS syndrome,ZNF699
+ORPHA:96334,Kagami-Ogata syndrome due to paternal uniparental disomy of chromosome 14,RTL1
+OMIM:254940,Carey-Fineman-Ziter syndrome,MYMK
+OMIM:621344,Dursun-Ozgul neurodevelopmental syndrome,ELFN1
+ORPHA:33364,Trichothiodystrophy,GTF2H5
+ORPHA:904,Williams syndrome,NCF1
+OMIM:620987,"Neurodegeneration, infantile-onset, with optic atrophy and brain abnormalities",BORCS8
+OMIM:176270,Prader-Willi syndrome,PWRN1
+OMIM:176270,Prader-Willi syndrome,SNORD116-1
+OMIM:619487,Aicardi-Goutieres syndrome 9,RNU7-1
+OMIM:210710,"Microcephalic osteodysplastic primordial dwarfism, type I",RNU4ATAC
+ORPHA:2636,Microcephalic osteodysplastic primordial dwarfism types I and III,RNU4ATAC
+OMIM:621585,Mendez-Johnson immunoneurologic syndrome,RNU6ATAC
+OMIM:621012,"Neurodevelopmental disorder with dysmorphic facies, absent speech and ambulation, and brain abnormalities",CHASERR
