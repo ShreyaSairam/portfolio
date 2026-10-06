@@ -15,10 +15,22 @@ st.set_page_config(page_title="Shreya Sairam: Project Demos", page_icon="📁", 
 
 def home_page():
     st.title("Shreya Sairam: Project Demos")
-    st.caption("Five working projects, each a live app. Pick one from the sidebar. "
+    st.caption("Seven projects, each one live. Pick one from the sidebar. "
                "Code: github.com/ShreyaSairam/portfolio")
 
     projects = [
+        {
+            "title": "Out of Phase: Who Does Your Battery Work For?",
+            "desc": "Energy research on real Sydney and Delhi data: batteries follow the regional price, but the "
+                    "local grid peaks at different times. Includes an interactive battery demo.",
+            "stack": "Python, optimisation, AEMO and Ausgrid data",
+        },
+        {
+            "title": "Lumen: Smart Precinct Platform",
+            "desc": "FEIT Hackathon 2026, SMEC Spot Prize. Privacy safe pedestrian counting and shade aware "
+                    "walking routes for Cremorne. Team project.",
+            "stack": "YOLO, crowd forecasting, digital twin",
+        },
         {
             "title": "Football Analytics: France at the 2018 World Cup",
             "desc": "Shot maps with expected goals (xG), team comparison, a player explorer and pass "
@@ -59,36 +71,21 @@ def home_page():
                 st.write(p["desc"])
                 st.caption(f"**Stack:** {p['stack']}")
 
-    st.subheader("Also on my portfolio")
-    c1, c2 = st.columns(2)
-    with c1:
-        with st.container(border=True):
-            st.markdown("**Out of Phase** (energy research)")
-            st.write("Do batteries paid by the market price help or hurt the local grid? Real data from Sydney "
-                     "and Delhi, with an interactive battery demo.")
-            st.link_button("Open Out of Phase", "https://shreyasairam.github.io/out-of-phase/")
-    with c2:
-        with st.container(border=True):
-            st.markdown("**Lumen** (FEIT Hackathon 2026, SMEC Spot Prize)")
-            st.write("Team project: privacy safe pedestrian counting and shade aware walking routes for Cremorne.")
-            st.link_button("Open Lumen", "https://lumen.yuanhaofeng.com/")
-
     st.divider()
     st.caption("Everything here runs on open data. Databases reset when the app restarts. "
                "Full portfolio: shreyasairam.github.io")
 
 
 home = st.Page(home_page, title="Home", icon="🏠", default=True)
+out_of_phase = st.Page("views/out_of_phase.py", title="Out of Phase", icon="🔋")
+lumen = st.Page("views/lumen.py", title="Lumen", icon="🚶")
 football = st.Page("views/football.py", title="Football Analytics", icon="⚽")
 signspeak = st.Page("views/signspeak.py", title="SignSpeak", icon="🤟")
 wanderwise = st.Page("views/wanderwise.py", title="WanderWise", icon="🧭")
 attendance = st.Page("views/attendance.py", title="Attendance System", icon="🧑‍💼")
 genomics = st.Page("views/genomics.py", title="Genetic Testing", icon="🧬")
 
-nav = st.navigation([home, football, signspeak, wanderwise, attendance, genomics])
+nav = st.navigation([home, out_of_phase, lumen, football, signspeak, wanderwise, attendance, genomics])
 with st.sidebar:
-    st.caption("More projects")
-    st.link_button("Out of Phase (energy)", "https://shreyasairam.github.io/out-of-phase/", width="stretch")
-    st.link_button("Lumen (hackathon)", "https://lumen.yuanhaofeng.com/", width="stretch")
     st.link_button("Full portfolio", "https://shreyasairam.github.io", width="stretch")
 nav.run()
