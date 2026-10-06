@@ -59,8 +59,23 @@ def home_page():
                 st.write(p["desc"])
                 st.caption(f"**Stack:** {p['stack']}")
 
+    st.subheader("Also on my portfolio")
+    c1, c2 = st.columns(2)
+    with c1:
+        with st.container(border=True):
+            st.markdown("**Out of Phase** (energy research)")
+            st.write("Do batteries paid by the market price help or hurt the local grid? Real data from Sydney "
+                     "and Delhi, with an interactive battery demo.")
+            st.link_button("Open Out of Phase", "https://shreyasairam.github.io/out-of-phase/")
+    with c2:
+        with st.container(border=True):
+            st.markdown("**Lumen** (FEIT Hackathon 2026, SMEC Spot Prize)")
+            st.write("Team project: privacy safe pedestrian counting and shade aware walking routes for Cremorne.")
+            st.link_button("Open Lumen", "https://lumen.yuanhaofeng.com/")
+
     st.divider()
-    st.caption("Everything here runs on open data. Databases reset when the app restarts.")
+    st.caption("Everything here runs on open data. Databases reset when the app restarts. "
+               "Full portfolio: shreyasairam.github.io")
 
 
 home = st.Page(home_page, title="Home", icon="🏠", default=True)
@@ -71,4 +86,9 @@ attendance = st.Page("views/attendance.py", title="Attendance System", icon="�
 genomics = st.Page("views/genomics.py", title="Genetic Testing", icon="🧬")
 
 nav = st.navigation([home, football, signspeak, wanderwise, attendance, genomics])
+with st.sidebar:
+    st.caption("More projects")
+    st.link_button("Out of Phase (energy)", "https://shreyasairam.github.io/out-of-phase/", width="stretch")
+    st.link_button("Lumen (hackathon)", "https://lumen.yuanhaofeng.com/", width="stretch")
+    st.link_button("Full portfolio", "https://shreyasairam.github.io", width="stretch")
 nav.run()
