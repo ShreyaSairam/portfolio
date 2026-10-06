@@ -11,6 +11,16 @@ disease-symptom-gene knowledge graph sourced from OMIM/Orphanet/HPOA."*
 — it doesn't replace clinical genetics referral or expert interpretation,
 and the app says so.
 
+## What the GP sees
+
+- A **recommended test** for the whole case (single gene, targeted panel, or exome/genome sequencing) with the reason and the genes to include.
+- **Candidate conditions**, each with the symptoms it explains, its genes, a score and a High / Moderate / Low confidence.
+- **Example cases** (Noonan, NF1, Prader-Willi presentations) to try in one click, and a log of **recent cases** in SQLite.
+
+## Ranking
+
+Common symptoms (seizures, headache) appear across hundreds of conditions and say little; rare ones narrow things down. Each symptom is weighted by its information content, log(conditions / conditions with that symptom). A condition's score is 70% weighted recall (how much of the patient's symptom information it explains) plus 30% coverage (how much of its own profile the patient shows).
+
 ## Setup
 
 ```bash

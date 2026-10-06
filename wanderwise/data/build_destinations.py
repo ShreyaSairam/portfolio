@@ -75,6 +75,28 @@ DESTINATIONS = [
     ("Banff", "Canada", "North America", "Cold", 3, 150, "Jun-Sep", "nature|adventure"),
 ]
 
+# Approximate city-centre coordinates (latitude, longitude), used for live
+# weather lookups and distance from the traveller's location.
+COORDS = {
+    "Bali": (-8.65, 115.22), "Bangkok": (13.76, 100.50), "Chiang Mai": (18.79, 98.98),
+    "Hanoi": (21.03, 105.85), "Ho Chi Minh City": (10.82, 106.63), "Siem Reap": (13.36, 103.86),
+    "Kuala Lumpur": (3.14, 101.69), "Singapore": (1.35, 103.82), "Tokyo": (35.68, 139.69),
+    "Kyoto": (35.01, 135.77), "Seoul": (37.57, 126.98), "Beijing": (39.90, 116.40),
+    "Shanghai": (31.23, 121.47), "Taipei": (25.03, 121.57), "Bali Ubud": (-8.51, 115.26),
+    "Queenstown": (-45.03, 168.66), "Sydney": (-33.87, 151.21), "Melbourne": (-37.81, 144.96),
+    "Fiji (Nadi)": (-17.80, 177.42), "Reykjavik": (64.15, -21.94), "Oslo": (59.91, 10.75),
+    "Stockholm": (59.33, 18.07), "Copenhagen": (55.68, 12.57), "Amsterdam": (52.37, 4.90),
+    "Paris": (48.86, 2.35), "London": (51.51, -0.13), "Berlin": (52.52, 13.40),
+    "Barcelona": (41.39, 2.17), "Madrid": (40.42, -3.70), "Rome": (41.90, 12.50),
+    "Venice": (45.44, 12.32), "Santorini": (36.39, 25.46), "Athens": (37.98, 23.73),
+    "Lisbon": (38.72, -9.14), "Prague": (50.08, 14.44), "Vienna": (48.21, 16.37),
+    "Zurich": (47.38, 8.54), "Interlaken": (46.69, 7.86), "Dubai": (25.20, 55.27),
+    "Istanbul": (41.01, 28.98), "Marrakech": (31.63, -8.01), "Cape Town": (-33.92, 18.42),
+    "Nairobi": (-1.29, 36.82), "Cairo": (30.04, 31.24), "New York City": (40.71, -74.01),
+    "San Francisco": (37.77, -122.42), "Cancun": (21.16, -86.85), "Rio de Janeiro": (-22.91, -43.17),
+    "Buenos Aires": (-34.60, -58.38), "Cusco": (-13.53, -71.97), "Banff": (51.18, -115.57),
+}
+
 
 def main():
     with open(OUT_PATH, "w", newline="") as f:
@@ -89,9 +111,11 @@ def main():
                 "avg_daily_cost_usd",
                 "best_season",
                 "activities",
+                "lat",
+                "lon",
             ]
         )
-        writer.writerows(DESTINATIONS)
+        writer.writerows(row + COORDS[row[0]] for row in DESTINATIONS)
     print(f"Wrote {len(DESTINATIONS)} destinations to {OUT_PATH}")
 
 

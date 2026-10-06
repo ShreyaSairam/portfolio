@@ -125,7 +125,7 @@ def get_recommendations(
     return result[
         [
             "name", "country", "region", "climate", "budget_level",
-            "avg_daily_cost_usd", "best_season", "activities",
+            "avg_daily_cost_usd", "best_season", "activities", "lat", "lon",
             "match_score", "content_score", "collab_score",
         ]
     ].reset_index(drop=True)

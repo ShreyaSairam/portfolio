@@ -10,7 +10,7 @@ Patterns Histograms), both from OpenCV's contrib module, trained on the
 ```bash
 # from the repo root, if not already done (AT&T faces are ~5MB, committed by default):
 bash scripts/fetch_raw_data.sh
-python train_model.py   # trains the LBPH recognizer -> lbph_model.yml
+python train_model.py   # optional: the app trains it automatically if missing
 streamlit run app.py
 ```
 
@@ -29,9 +29,14 @@ only `opencv-contrib-python` has the `cv2.face` module LBPH lives in).
   resizing to 100x100 — matching training and inference framing this way
   measurably improves accuracy (93.8% vs. 86% when the model is trained
   on un-cropped source images instead).
-- **Attendance log** — `recognizer.mark_attendance()` appends a
-  timestamped row to `attendance.csv`, and won't mark the same person
-  twice on the same day.
+- **Attendance register** (`att_db.py`, SQLite) — set the class start time
+  and a grace period. Each check-in is stored once per person per day as
+  *present* or *late*; *absent* students are everyone on the 12-student
+  roster with no check-in, found with a SQL `LEFT JOIN`. Check in from
+  the sample gallery, your webcam (`st.camera_input`) or an uploaded
+  photo. Faces the model doesn't know are refused, not guessed.
+- **First run** — the trained model isn't committed (35 MB); the app
+  trains it from `data/att_faces/` in about 4 seconds if it's missing.
 - **Roster** — `roster.py` maps the 40 anonymous AT&T subject IDs to
   placeholder employee names/departments for the demo UI. Edit it to
   rename people, or replace the training data with your own enrolled

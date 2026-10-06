@@ -1,111 +1,65 @@
-# Shreya Sairam — Project Portfolio
+# Shreya Sairam: Project Demos
 
-Five working projects from my resume, each a real, runnable implementation
-(not a mockup), plus a Streamlit dashboard that ties them together.
+Five working projects in one Streamlit app. Each one runs on real or openly licensed data and keeps its records in SQLite.
 
-| Project | What it does | Real data used |
+**Live app:** https://shreyasairam-projects.streamlit.app
+**Portfolio:** https://shreyasairam.github.io
+
+| Project | What it does | Key techniques |
 |---|---|---|
-| [Football Analytics](football_dashboard/) | Team comparison, shot maps (xG), player explorer, heatmaps for France's 2018 World Cup run | [StatsBomb open data](https://github.com/statsbomb/open-data) |
-| [SignSpeak](signspeak/) | Sign-language digit recognition (HOG + SVM), 86% accuracy | [Sign Language Digits Dataset](https://github.com/ardamavi/Sign-Language-Digits-Dataset) |
-| [WanderWise](wanderwise/) | Hybrid (content + collaborative) travel recommender over 51 destinations | Hand-curated destination data + simulated ratings (see project README) |
-| [Facial Recognition Attendance System](attendance_system/) | Face detection + recognition (Haar + LBPH), 93.8% accuracy, attendance logging | [AT&T/ORL Database of Faces](https://github.com/wihoho/FaceRecognition) |
-| [Genetic Testing Decision-Support Tool](genomics_dsst/) | Symptom → disease → gene matching and test-strategy suggestion | [Human Phenotype Ontology](https://github.com/obophenotype/human-phenotype-ontology) |
+| [Football Analytics](football_dashboard/) | France's 2018 World Cup: shot maps with expected goals (xG), team comparison, player explorer, pass heatmaps and a read-only SQL explorer | pandas, Plotly, SQLite, StatsBomb open data |
+| [SignSpeak](signspeak/) | Reads ASL letters A to Y from a webcam, 95.2% accuracy on 7,172 separate test images; demo mode spells words without a camera | HOG features, PCA, SVM, streamlit-webrtc |
+| [WanderWise](wanderwise/) | Hybrid travel recommender with live weather, your location, a Gemini chat assistant, accounts and saved favourites | content plus collaborative filtering, Open-Meteo, Gemini API, PBKDF2 password hashing |
+| [Attendance System](attendance_system/) | Check in by webcam or photo; present, late and absent against the class start time | Haar cascade, LBPH face recognition (93.8% held-out accuracy), SQL LEFT JOIN for absentees |
+| [Genetic Testing Decision Support](genomics_dsst/) | A GP enters symptoms and gets ranked genetic conditions, the genes behind them, a confidence level and one recommended test | information-weighted symptom matching, Human Phenotype Ontology |
 
-Each project also has its own README with more detail on how it works and
-its own `streamlit run app.py`.
-
-## Setup
+## Run it locally
 
 ```bash
-git clone <this-repo-url>
-cd <repo>
+git clone https://github.com/ShreyaSairam/portfolio
+cd portfolio
 pip install -r requirements.txt
+streamlit run dashboard/Home.py
 ```
 
-**Important:** `opencv-contrib-python` (used by the attendance system for
-face recognition) conflicts with plain `opencv-python` /
-`opencv-python-headless` if more than one is installed — they all provide
-a `cv2` module and only one wins. If you already have `opencv-python`
-installed, remove it first:
+Everything the app needs is in the repo: processed data, the SignSpeak model, and the face images. The face model trains itself in a few seconds on first run, and the SQLite databases are created automatically.
+
+**Optional, for real AI chat answers in WanderWise:** get a free key at https://aistudio.google.com/apikey, copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.toml` and paste it in. Without a key, WanderWise answers from the trip facts and says so.
+
+## Rebuild the data and models from scratch
 
 ```bash
-pip uninstall -y opencv-python opencv-python-headless
-```
-
-Some large source datasets are downloaded on demand rather than committed
-to the repo (see `.gitignore`). Two scripts handle setup:
-
-```bash
-bash scripts/fetch_raw_data.sh   # downloads raw StatsBomb/HPO/dataset files
-bash scripts/build_all.sh        # processes data + trains all models
-```
-
-Both are idempotent — safe to re-run, they skip anything already present.
-`build_all.sh` takes under a minute total (the slowest step is HPO parsing).
-
-## Running the dashboard
-
-```bash
-cd dashboard
-streamlit run Home.py
-```
-
-This opens a hub with all five projects as pages in the sidebar. Each
-project also runs standalone:
-
-```bash
-cd football_dashboard && streamlit run app.py
-cd signspeak && streamlit run app.py
-cd wanderwise && streamlit run app.py
-cd attendance_system && streamlit run app.py
-cd genomics_dsst && streamlit run app.py
+bash scripts/fetch_raw_data.sh   # downloads StatsBomb, Sign Language MNIST, AT&T faces, HPO
+bash scripts/build_all.sh        # processes the data and retrains every model
 ```
 
 ## Tests
 
 ```bash
-cd tests
-python -m pytest test_projects.py -v
+python -m pytest tests -q
 ```
 
-Smoke tests that each project's core logic (data loading, prediction,
-recommendation ranking) runs correctly against the built data/models.
+Checks the core logic of all five projects: SQL queries and the read-only guard, letter predictions on held-out images, recommendations, account security, face recognition, present/late/absent logic, and disease ranking.
 
-## Repo layout
+## Deploy (Streamlit Community Cloud)
+
+1. Sign in at https://share.streamlit.io with GitHub.
+2. Create app → this repo, branch `main`, main file `dashboard/Home.py`, Python 3.12.
+3. Optional: in Advanced settings → Secrets, add `GOOGLE_API_KEY = "..."`.
+
+Each project has a direct link: `/football`, `/signspeak`, `/wanderwise`, `/attendance`, `/genomics`.
+
+## Layout
 
 ```
-portfolio/
-├── dashboard/              # hub Streamlit app (all 5 projects as pages)
-├── football_dashboard/     # project 1 (standalone Streamlit app)
-├── signspeak/               # project 2
-├── wanderwise/               # project 3
-├── attendance_system/       # project 4
-├── genomics_dsst/            # project 5
-├── data/                    # shared raw source data (mostly gitignored)
-├── scripts/                 # fetch_raw_data.sh, build_all.sh
-├── tests/                   # cross-project smoke tests
-└── requirements.txt
+dashboard/            hub app: Home.py plus one page per project
+football_dashboard/   app.py, fb_db.py (SQLite), prepare_data.py
+signspeak/            app.py, sign_engine.py, sign_db.py, train.py, model.joblib
+wanderwise/           app.py, recommender.py, ww_services.py, ww_db.py, data/
+attendance_system/    app.py, recognizer.py, att_db.py, train_model.py
+genomics_dsst/        app.py, engine.py, gx_db.py, prepare_data.py, data/
+data/                 AT&T faces (committed); raw downloads (ignored)
+tests/                pytest smoke tests
 ```
 
-## Notes on scope and honesty
-
-A couple of these are demo-scale versions of the real idea, and each
-project's own README says exactly where:
-
-- **SignSpeak** classifies still images (upload or sample), not a live
-  webcam feed — this environment has no camera. The same feature-extraction
-  and prediction functions drop straight into a `cv2.VideoCapture` loop for
-  real-time use on a machine with a webcam.
-- **Attendance System** likewise works from an uploaded photo rather than
-  a live camera feed, for the same reason.
-- **WanderWise**'s collaborative-filtering half runs on *simulated* user
-  ratings (there's no public dataset of real travellers rating these 51
-  destinations) — the content-based half runs on real, hand-curated
-  destination attributes. `wanderwise/data/build_ratings.py` explains why
-  and how.
-- **Genetic Testing DSST** is a teaching/demo decision-support tool built
-  on real HPO/OMIM data, not a diagnostic device — the app says so.
-
-Everything else (StatsBomb match data, the Sign Language Digits Dataset,
-the AT&T faces dataset, the HPO ontology and annotations) is real, openly
-licensed data, not synthetic filler.
+Data sources and licences are listed in [DATA_LICENSES.md](DATA_LICENSES.md).

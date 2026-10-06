@@ -13,8 +13,8 @@ echo "== Football Analytics: building match/shot/pass CSVs =="
 (cd "$ROOT_DIR/football_dashboard" && python3 prepare_data.py)
 
 echo ""
-echo "== SignSpeak: extracting HOG features + training SVM =="
-(cd "$ROOT_DIR/signspeak" && python3 preprocess.py && python3 train.py)
+echo "== SignSpeak: HOG features + PCA + SVM on Sign Language MNIST =="
+(cd "$ROOT_DIR/signspeak" && python3 train.py)
 
 echo ""
 echo "== WanderWise: building destinations + synthetic ratings =="

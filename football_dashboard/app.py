@@ -18,6 +18,8 @@ import plotly.graph_objects as go
 import plotly.express as px
 import streamlit as st
 
+import fb_db
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(HERE, "data")
 
@@ -27,11 +29,24 @@ PITCH_WIDTH = 80
 
 @st.cache_data
 def load_data():
-    matches = pd.read_csv(os.path.join(DATA_DIR, "matches.csv"))
-    shots = pd.read_csv(os.path.join(DATA_DIR, "shots.csv"))
-    passes = pd.read_csv(os.path.join(DATA_DIR, "passes.csv"))
-    stats = pd.read_csv(os.path.join(DATA_DIR, "player_match_stats.csv"))
-    return matches, shots, passes, stats
+    return fb_db.load_all()
+
+
+def tab_sql():
+    st.markdown(
+        "The dashboard reads from a SQLite database (`football.db`) with tables "
+        "`matches`, `teams`, `players`, `events` and `player_match_stats`. Pick a query "
+        "or write your own. It runs read-only."
+    )
+    pick = st.selectbox("Sample query", list(fb_db.SAMPLE_QUERIES), key="fb_sql_pick")
+    sql = st.text_area("SQL", value=fb_db.SAMPLE_QUERIES[pick], height=190, key=f"fb_sql_{pick}")
+    if st.button("Run query", type="primary", key="fb_sql_run"):
+        try:
+            df = fb_db.read_only(sql)
+            st.dataframe(df, hide_index=True, width="stretch")
+            st.caption(f"{len(df)} rows")
+        except Exception as e:
+            st.error(f"Query failed: {e}")
 
 
 def draw_pitch(fig):
@@ -80,7 +95,7 @@ def tab_team_comparison(matches, shots, stats):
             ["date", "stage", "home_team", "home_score", "away_score", "away_team"]
         ],
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
     match_xg = shots.groupby(["match_id", "team"])["xg"].sum().reset_index()
@@ -100,7 +115,7 @@ def tab_team_comparison(matches, shots, stats):
         labels={"opponent_stage": "Match", "xg": "xG"},
     )
     fig.update_layout(xaxis_tickangle=-30)
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
     st.caption(
         "xG is StatsBomb's own model output from the open data — the "
@@ -150,7 +165,7 @@ def tab_shot_map(matches, shots):
         )
     fig = draw_pitch(fig)
     fig.update_layout(title=f"Shots — {match_choice}", legend=dict(orientation="h"))
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
     st.caption("Marker size scales with xG. Stars are goals.")
 
     st.dataframe(
@@ -158,7 +173,7 @@ def tab_shot_map(matches, shots):
         .sort_values("xg", ascending=False)
         .round({"xg": 3}),
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
 
@@ -196,7 +211,7 @@ def tab_player_explorer(stats):
         barmode="group",
         title=f"{player} — goals vs xG by match",
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
 
 def tab_heatmap(matches, passes):
@@ -232,22 +247,22 @@ def tab_heatmap(matches, passes):
     )
     fig = draw_pitch(fig)
     fig.update_layout(title=f"{player} — pass origin heatmap")
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
     st.caption(f"{len(p_passes)} passes plotted for this match.")
 
 
 def main():
     st.set_page_config(page_title="France 2018 World Cup Analytics", layout="wide")
-    st.title("France 2018 World Cup — Analytics Dashboard")
+    st.title("France 2018 World Cup: Analytics Dashboard")
     st.caption(
         "Built on real StatsBomb open event data for all seven of France's "
-        "matches at the 2018 World Cup."
+        "matches at the 2018 World Cup, stored in SQLite and queried with SQL."
     )
 
     matches, shots, passes, stats = load_data()
 
-    tab1, tab2, tab3, tab4 = st.tabs(
-        ["Team comparison", "Shot map", "Player explorer", "Heatmaps"]
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(
+        ["Team comparison", "Shot map", "Player explorer", "Heatmaps", "SQL explorer"]
     )
     with tab1:
         tab_team_comparison(matches, shots, stats)
@@ -257,6 +272,8 @@ def main():
         tab_player_explorer(stats)
     with tab4:
         tab_heatmap(matches, passes)
+    with tab5:
+        tab_sql()
 
 
 if __name__ == "__main__":

@@ -1,52 +1,52 @@
-name,country,region,climate,budget_level,avg_daily_cost_usd,best_season,activities
-Bali,Indonesia,Southeast Asia,Tropical,1,45,Apr-Oct,beach|nature|relaxation|culture
-Bangkok,Thailand,Southeast Asia,Tropical,1,40,Nov-Feb,food|culture|nightlife|shopping
-Chiang Mai,Thailand,Southeast Asia,Tropical,1,30,Nov-Feb,culture|nature|food|relaxation
-Hanoi,Vietnam,Southeast Asia,Tropical,1,30,Oct-Apr,food|culture|history
-Ho Chi Minh City,Vietnam,Southeast Asia,Tropical,1,30,Dec-Apr,food|culture|nightlife
-Siem Reap,Cambodia,Southeast Asia,Tropical,1,35,Nov-Feb,history|culture|adventure
-Kuala Lumpur,Malaysia,Southeast Asia,Tropical,2,45,Dec-Feb,food|shopping|culture|nightlife
-Singapore,Singapore,Southeast Asia,Tropical,3,120,Feb-Apr,food|shopping|culture|nightlife
-Tokyo,Japan,East Asia,Temperate,3,130,Mar-May,culture|food|shopping|nightlife
-Kyoto,Japan,East Asia,Temperate,2,100,Mar-May,culture|history|nature
-Seoul,South Korea,East Asia,Temperate,2,90,Sep-Nov,food|culture|nightlife|shopping
-Beijing,China,East Asia,Temperate,2,70,Sep-Nov,history|culture
-Shanghai,China,East Asia,Temperate,2,85,Sep-Nov,culture|shopping|nightlife
-Taipei,Taiwan,East Asia,Temperate,2,70,Oct-Dec,food|culture|nature
-Bali Ubud,Indonesia,Southeast Asia,Tropical,1,40,Apr-Oct,nature|relaxation|culture
-Queenstown,New Zealand,Oceania,Temperate,3,140,Dec-Feb,adventure|nature
-Sydney,Australia,Oceania,Temperate,3,150,Sep-Nov,beach|culture|nightlife|nature
-Melbourne,Australia,Oceania,Temperate,3,140,Mar-May,food|culture|nightlife
-Fiji (Nadi),Fiji,Oceania,Tropical,2,90,May-Oct,beach|relaxation|adventure
-Reykjavik,Iceland,Northern Europe,Cold,3,160,Jun-Aug,nature|adventure
-Oslo,Norway,Northern Europe,Cold,3,170,Jun-Aug,nature|culture
-Stockholm,Sweden,Northern Europe,Cold,3,150,Jun-Aug,culture|nightlife|nature
-Copenhagen,Denmark,Northern Europe,Cold,3,160,Jun-Aug,culture|food|nightlife
-Amsterdam,Netherlands,Western Europe,Temperate,3,140,Apr-Sep,culture|nightlife|history
-Paris,France,Western Europe,Temperate,3,150,Apr-Jun,culture|history|food|shopping
-London,United Kingdom,Western Europe,Temperate,3,160,May-Sep,culture|history|nightlife|shopping
-Berlin,Germany,Western Europe,Temperate,2,100,May-Sep,history|culture|nightlife
-Barcelona,Spain,Southern Europe,Mediterranean,2,110,May-Jun,beach|culture|food|nightlife
-Madrid,Spain,Southern Europe,Mediterranean,2,100,Apr-Jun,culture|food|nightlife
-Rome,Italy,Southern Europe,Mediterranean,2,120,Apr-Jun,history|culture|food
-Venice,Italy,Southern Europe,Mediterranean,3,150,Apr-Jun,culture|history|relaxation
-Santorini,Greece,Southern Europe,Mediterranean,3,140,May-Sep,beach|relaxation|culture
-Athens,Greece,Southern Europe,Mediterranean,2,90,Apr-Jun,history|culture|food
-Lisbon,Portugal,Southern Europe,Mediterranean,2,90,Mar-May,culture|food|beach|nightlife
-Prague,Czech Republic,Central Europe,Temperate,2,80,May-Sep,history|culture|nightlife
-Vienna,Austria,Central Europe,Temperate,3,130,Apr-Jun,culture|history
-Zurich,Switzerland,Central Europe,Cold,3,200,Jun-Sep,nature|culture
-Interlaken,Switzerland,Central Europe,Cold,3,180,Jun-Sep,adventure|nature
-Dubai,UAE,Middle East,Arid,3,150,Nov-Mar,shopping|nightlife|adventure
-Istanbul,Turkey,Middle East,Mediterranean,2,60,Apr-May,history|culture|food
-Marrakech,Morocco,North Africa,Arid,1,50,Mar-May,culture|history|adventure
-Cape Town,South Africa,Southern Africa,Mediterranean,2,70,Nov-Mar,nature|adventure|beach|food
-Nairobi,Kenya,East Africa,Tropical,2,80,Jun-Oct,wildlife|adventure|nature
-Cairo,Egypt,North Africa,Arid,1,45,Oct-Apr,history|culture
-New York City,United States,North America,Temperate,3,180,Apr-Jun,culture|nightlife|shopping|food
-San Francisco,United States,North America,Temperate,3,170,Sep-Nov,culture|food|nature
-Cancun,Mexico,North America,Tropical,2,90,Dec-Apr,beach|relaxation|nightlife
-Rio de Janeiro,Brazil,South America,Tropical,2,70,Dec-Mar,beach|nightlife|nature
-Buenos Aires,Argentina,South America,Temperate,1,55,Sep-Nov,culture|food|nightlife
-Cusco,Peru,South America,Temperate,1,40,May-Sep,history|adventure|culture
-Banff,Canada,North America,Cold,3,150,Jun-Sep,nature|adventure
+name,country,region,climate,budget_level,avg_daily_cost_usd,best_season,activities,lat,lon
+Bali,Indonesia,Southeast Asia,Tropical,1,45,Apr-Oct,beach|nature|relaxation|culture,-8.65,115.22
+Bangkok,Thailand,Southeast Asia,Tropical,1,40,Nov-Feb,food|culture|nightlife|shopping,13.76,100.5
+Chiang Mai,Thailand,Southeast Asia,Tropical,1,30,Nov-Feb,culture|nature|food|relaxation,18.79,98.98
+Hanoi,Vietnam,Southeast Asia,Tropical,1,30,Oct-Apr,food|culture|history,21.03,105.85
+Ho Chi Minh City,Vietnam,Southeast Asia,Tropical,1,30,Dec-Apr,food|culture|nightlife,10.82,106.63
+Siem Reap,Cambodia,Southeast Asia,Tropical,1,35,Nov-Feb,history|culture|adventure,13.36,103.86
+Kuala Lumpur,Malaysia,Southeast Asia,Tropical,2,45,Dec-Feb,food|shopping|culture|nightlife,3.14,101.69
+Singapore,Singapore,Southeast Asia,Tropical,3,120,Feb-Apr,food|shopping|culture|nightlife,1.35,103.82
+Tokyo,Japan,East Asia,Temperate,3,130,Mar-May,culture|food|shopping|nightlife,35.68,139.69
+Kyoto,Japan,East Asia,Temperate,2,100,Mar-May,culture|history|nature,35.01,135.77
+Seoul,South Korea,East Asia,Temperate,2,90,Sep-Nov,food|culture|nightlife|shopping,37.57,126.98
+Beijing,China,East Asia,Temperate,2,70,Sep-Nov,history|culture,39.9,116.4
+Shanghai,China,East Asia,Temperate,2,85,Sep-Nov,culture|shopping|nightlife,31.23,121.47
+Taipei,Taiwan,East Asia,Temperate,2,70,Oct-Dec,food|culture|nature,25.03,121.57
+Bali Ubud,Indonesia,Southeast Asia,Tropical,1,40,Apr-Oct,nature|relaxation|culture,-8.51,115.26
+Queenstown,New Zealand,Oceania,Temperate,3,140,Dec-Feb,adventure|nature,-45.03,168.66
+Sydney,Australia,Oceania,Temperate,3,150,Sep-Nov,beach|culture|nightlife|nature,-33.87,151.21
+Melbourne,Australia,Oceania,Temperate,3,140,Mar-May,food|culture|nightlife,-37.81,144.96
+Fiji (Nadi),Fiji,Oceania,Tropical,2,90,May-Oct,beach|relaxation|adventure,-17.8,177.42
+Reykjavik,Iceland,Northern Europe,Cold,3,160,Jun-Aug,nature|adventure,64.15,-21.94
+Oslo,Norway,Northern Europe,Cold,3,170,Jun-Aug,nature|culture,59.91,10.75
+Stockholm,Sweden,Northern Europe,Cold,3,150,Jun-Aug,culture|nightlife|nature,59.33,18.07
+Copenhagen,Denmark,Northern Europe,Cold,3,160,Jun-Aug,culture|food|nightlife,55.68,12.57
+Amsterdam,Netherlands,Western Europe,Temperate,3,140,Apr-Sep,culture|nightlife|history,52.37,4.9
+Paris,France,Western Europe,Temperate,3,150,Apr-Jun,culture|history|food|shopping,48.86,2.35
+London,United Kingdom,Western Europe,Temperate,3,160,May-Sep,culture|history|nightlife|shopping,51.51,-0.13
+Berlin,Germany,Western Europe,Temperate,2,100,May-Sep,history|culture|nightlife,52.52,13.4
+Barcelona,Spain,Southern Europe,Mediterranean,2,110,May-Jun,beach|culture|food|nightlife,41.39,2.17
+Madrid,Spain,Southern Europe,Mediterranean,2,100,Apr-Jun,culture|food|nightlife,40.42,-3.7
+Rome,Italy,Southern Europe,Mediterranean,2,120,Apr-Jun,history|culture|food,41.9,12.5
+Venice,Italy,Southern Europe,Mediterranean,3,150,Apr-Jun,culture|history|relaxation,45.44,12.32
+Santorini,Greece,Southern Europe,Mediterranean,3,140,May-Sep,beach|relaxation|culture,36.39,25.46
+Athens,Greece,Southern Europe,Mediterranean,2,90,Apr-Jun,history|culture|food,37.98,23.73
+Lisbon,Portugal,Southern Europe,Mediterranean,2,90,Mar-May,culture|food|beach|nightlife,38.72,-9.14
+Prague,Czech Republic,Central Europe,Temperate,2,80,May-Sep,history|culture|nightlife,50.08,14.44
+Vienna,Austria,Central Europe,Temperate,3,130,Apr-Jun,culture|history,48.21,16.37
+Zurich,Switzerland,Central Europe,Cold,3,200,Jun-Sep,nature|culture,47.38,8.54
+Interlaken,Switzerland,Central Europe,Cold,3,180,Jun-Sep,adventure|nature,46.69,7.86
+Dubai,UAE,Middle East,Arid,3,150,Nov-Mar,shopping|nightlife|adventure,25.2,55.27
+Istanbul,Turkey,Middle East,Mediterranean,2,60,Apr-May,history|culture|food,41.01,28.98
+Marrakech,Morocco,North Africa,Arid,1,50,Mar-May,culture|history|adventure,31.63,-8.01
+Cape Town,South Africa,Southern Africa,Mediterranean,2,70,Nov-Mar,nature|adventure|beach|food,-33.92,18.42
+Nairobi,Kenya,East Africa,Tropical,2,80,Jun-Oct,wildlife|adventure|nature,-1.29,36.82
+Cairo,Egypt,North Africa,Arid,1,45,Oct-Apr,history|culture,30.04,31.24
+New York City,United States,North America,Temperate,3,180,Apr-Jun,culture|nightlife|shopping|food,40.71,-74.01
+San Francisco,United States,North America,Temperate,3,170,Sep-Nov,culture|food|nature,37.77,-122.42
+Cancun,Mexico,North America,Tropical,2,90,Dec-Apr,beach|relaxation|nightlife,21.16,-86.85
+Rio de Janeiro,Brazil,South America,Tropical,2,70,Dec-Mar,beach|nightlife|nature,-22.91,-43.17
+Buenos Aires,Argentina,South America,Temperate,1,55,Sep-Nov,culture|food|nightlife,-34.6,-58.38
+Cusco,Peru,South America,Temperate,1,40,May-Sep,history|adventure|culture,-13.53,-71.97
+Banff,Canada,North America,Cold,3,150,Jun-Sep,nature|adventure,51.18,-115.57

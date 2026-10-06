@@ -4,8 +4,12 @@ numpy==2.4.4
 plotly==7.1.0
 scikit-learn==1.8.0
 scikit-image==0.26.0
-opencv-contrib-python==5.0.0.93
+opencv-contrib-python-headless==5.0.0.93
 networkx==3.6.1
 mplsoccer==1.8.1
 Pillow
+joblib
+streamlit-webrtc==0.78.1
+streamlit-js-eval==1.0.0
+google-genai==2.28.0
 pytest

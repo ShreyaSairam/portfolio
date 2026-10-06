@@ -33,6 +33,11 @@ CONFIDENCE_THRESHOLD = 75.0  # LBPH distance; lower = better match
 
 
 def load_recognizer():
+    if not (os.path.exists(MODEL_PATH) and os.path.exists(LABELS_PATH)):
+        # The trained model isn't committed (it's 35 MB); training takes a few seconds.
+        import train_model
+
+        train_model.main()
     recognizer = cv2.face.LBPHFaceRecognizer_create()
     recognizer.read(MODEL_PATH)
     with open(LABELS_PATH, "rb") as f:

@@ -10,65 +10,44 @@ see the top-level README).
 
 import streamlit as st
 
-st.set_page_config(page_title="Shreya Sairam — Project Portfolio", page_icon="📁", layout="wide")
+st.set_page_config(page_title="Shreya Sairam: Project Demos", page_icon="📁", layout="wide")
 
 
 def home_page():
-    st.title("Project Portfolio")
-    st.caption("Five working projects, one dashboard. Pick one from the sidebar.")
+    st.title("Shreya Sairam: Project Demos")
+    st.caption("Five working projects, each a live app. Pick one from the sidebar. "
+               "Code: github.com/ShreyaSairam/portfolio")
 
     projects = [
         {
-            "title": "France 2018 World Cup — Football Analytics",
-            "desc": (
-                "Streamlit dashboard on real StatsBomb open event data "
-                "covering all seven of France's matches at the 2018 World "
-                "Cup: team xG comparison, shot maps, a player explorer, "
-                "and pass-location heatmaps."
-            ),
-            "stack": "pandas, plotly, StatsBomb open data",
+            "title": "Football Analytics: France at the 2018 World Cup",
+            "desc": "Shot maps with expected goals (xG), team comparison, a player explorer and pass "
+                    "heatmaps from real StatsBomb event data, stored in SQLite with a live SQL explorer.",
+            "stack": "pandas, Plotly, SQLite, StatsBomb open data",
         },
         {
-            "title": "SignSpeak — Sign Language Digit Recognition",
-            "desc": (
-                "HOG features + SVM classifier trained on the Sign "
-                "Language Digits Dataset (2,062 images, digits 0-9). "
-                "86% held-out test accuracy. Upload a photo or try a "
-                "sample image."
-            ),
-            "stack": "OpenCV, scikit-image, scikit-learn",
+            "title": "SignSpeak: Real-Time Sign Recognition",
+            "desc": "Reads ASL letters A to Y from your webcam. HOG features, PCA and an SVM, 95.2% accuracy "
+                    "on 7,172 separate test images. Demo mode spells words without a camera.",
+            "stack": "OpenCV, scikit-learn, streamlit-webrtc, SQLite",
         },
         {
-            "title": "WanderWise — Travel Recommendation System",
-            "desc": (
-                "Hybrid recommender over 51 hand-curated destinations: "
-                "content-based matching on your stated activity/climate/"
-                "budget preferences, blended with a collaborative-"
-                "filtering signal from simulated traveller ratings."
-            ),
-            "stack": "scikit-learn (cosine similarity), pandas",
+            "title": "WanderWise: AI Travel Recommender",
+            "desc": "Hybrid recommender (content plus collaborative filtering) over 51 destinations, with live "
+                    "weather, your location, a Gemini chat assistant and accounts with saved favourites.",
+            "stack": "scikit-learn, Open-Meteo, Gemini API, SQLite",
         },
         {
-            "title": "Facial Recognition Attendance System",
-            "desc": (
-                "OpenCV Haar cascade face detection + LBPH face "
-                "recognizer, trained on the AT&T/ORL Database of Faces "
-                "(40 subjects). 93.8% held-out accuracy. Detects faces in "
-                "an uploaded photo and logs attendance per person, once "
-                "per day."
-            ),
-            "stack": "OpenCV (opencv-contrib)",
+            "title": "Facial Recognition Attendance",
+            "desc": "Check in by webcam or photo. Haar cascade detection and LBPH recognition (93.8% accuracy), "
+                    "with present, late and absent tracking against the class start time.",
+            "stack": "OpenCV, SQLite",
         },
         {
-            "title": "Genetic Testing Decision-Support Tool",
-            "desc": (
-                "GP-facing prototype: match patient symptoms (HPO-coded) "
-                "against real disease phenotype profiles from the Human "
-                "Phenotype Ontology, then suggest a genetic testing "
-                "strategy based on how many genes are implicated, with a "
-                "disease-gene knowledge graph."
-            ),
-            "stack": "NetworkX, pandas, real HPO/OMIM data",
+            "title": "Genetic Testing Decision Support",
+            "desc": "A GP enters symptoms and gets ranked genetic conditions, the genes behind them, a "
+                    "confidence level and one recommended test. Built on real HPO data.",
+            "stack": "pandas, NetworkX, SQLite, Human Phenotype Ontology",
         },
     ]
 
@@ -81,11 +60,7 @@ def home_page():
                 st.caption(f"**Stack:** {p['stack']}")
 
     st.divider()
-    st.markdown(
-        "Each project also runs standalone — see its own folder's README "
-        "for `streamlit run app.py` instructions and the one-time data/"
-        "model preparation steps."
-    )
+    st.caption("Everything here runs on open data. Databases reset when the app restarts.")
 
 
 home = st.Page(home_page, title="Home", icon="🏠", default=True)
@@ -93,7 +68,7 @@ football = st.Page("views/football.py", title="Football Analytics", icon="⚽")
 signspeak = st.Page("views/signspeak.py", title="SignSpeak", icon="🤟")
 wanderwise = st.Page("views/wanderwise.py", title="WanderWise", icon="🧭")
 attendance = st.Page("views/attendance.py", title="Attendance System", icon="🧑‍💼")
-genomics = st.Page("views/genomics.py", title="Genetic Testing DSST", icon="🧬")
+genomics = st.Page("views/genomics.py", title="Genetic Testing", icon="🧬")
 
 nav = st.navigation([home, football, signspeak, wanderwise, attendance, genomics])
 nav.run()

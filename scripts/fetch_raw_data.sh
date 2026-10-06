@@ -27,14 +27,14 @@ for id in 7546 7580 7530 8649 8658 8655 7563; do
     fi
 done
 
-echo "== SignSpeak: Sign Language Digits Dataset (Apache 2.0) =="
-if [ ! -d "$DATA_DIR/sign_language_digits" ]; then
-    tmp_dir=$(mktemp -d)
-    git clone --depth 1 https://github.com/ardamavi/Sign-Language-Digits-Dataset.git "$tmp_dir/sld"
-    mkdir -p "$DATA_DIR/sign_language_digits"
-    cp -r "$tmp_dir/sld/Dataset/"* "$DATA_DIR/sign_language_digits/"
-    rm -rf "$tmp_dir"
-fi
+echo "== SignSpeak: Sign Language MNIST (CC0, 24 static ASL letters) =="
+mkdir -p "$DATA_DIR/sign_mnist"
+for f in sign_mnist_train.csv sign_mnist_test.csv; do
+    if [ ! -f "$DATA_DIR/sign_mnist/$f" ]; then
+        curl -sL "https://raw.githubusercontent.com/samurainote/CNN_for_Sign_Language_Images/master/$f" \
+            -o "$DATA_DIR/sign_mnist/$f"
+    fi
+done
 
 echo "== Attendance System: AT&T/ORL Database of Faces =="
 if [ ! -d "$DATA_DIR/att_faces" ] || [ -z "$(ls -A "$DATA_DIR/att_faces" 2>/dev/null)" ]; then

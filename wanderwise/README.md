@@ -1,37 +1,22 @@
-# WanderWise — Travel Recommendation System
+# WanderWise: AI Travel Recommender
 
-A hybrid recommender: content-based matching on your stated preferences,
-blended with a collaborative-filtering signal from simulated traveller
-ratings.
+Tell it what you like doing, the climate and your budget. It ranks 51 destinations and adds live context.
 
-## Setup
+- **Hybrid recommender** (`recommender.py`): content-based matching (cosine similarity between your preferences and each destination's activities, climate and budget) blended with item-item collaborative filtering from traveller ratings.
+- **Live weather** (`ww_services.py`): current conditions and a 3-day outlook for where you are and for every match, from Open-Meteo. No key needed; cached for 15 minutes.
+- **Your location**: the browser's GPS (with permission) or a city you pick, for distance and rough flying time (haversine distance at 800 km/h plus 45 minutes).
+- **Chat assistant**: ask about any match. Answers come from Google Gemini when a `GOOGLE_API_KEY` is set (Streamlit secrets or environment). Without one, it answers from the trip facts and labels the answer as offline.
+- **Accounts and favourites** (`ww_db.py`): SQLite, with salted PBKDF2-SHA256 password hashes (200,000 iterations), never plain passwords.
+
+## Data
+
+- `data/destinations.csv`: 51 hand-curated destinations with coordinates (`data/build_destinations.py`).
+- `data/ratings.csv`: simulated traveller ratings (`data/build_ratings.py`), since real ratings aren't openly available. The collaborative signal is a demonstration of the technique.
+
+## Run
 
 ```bash
-cd data && python build_destinations.py && python build_ratings.py && cd ..
 streamlit run app.py
 ```
 
-## How it's built
-
-- **Destinations** (`data/destinations.csv`, via `data/build_destinations.py`)
-  — 51 real, well-known destinations, hand-curated with genuine attributes
-  (climate, typical daily cost, best season, activity mix) from general
-  travel knowledge. No open dataset with this kind of attribute mix exists
-  publicly, so this is curated reference data rather than fetched from a
-  source.
-- **Content-based scoring** (`recommender.py`) — destinations are
-  vectorised (activities as multi-hot tags, climate one-hot, budget
-  scaled) and compared to your stated preferences via cosine similarity.
-- **Collaborative-filtering signal** (`data/ratings.csv`, via
-  `data/build_ratings.py`) — there's no public dataset of real travellers
-  rating these 51 destinations, so this generates *synthetic* ratings from
-  300 simulated users, each assigned a "traveller persona" (e.g.
-  beach-relaxer, budget-backpacker) that biases their ratings toward
-  matching destinations, with noise added. An item-item similarity matrix
-  built from this data powers "travellers like you also liked..." —
-  clearly a demonstration of the mechanism, not a claim about real travel
-  behaviour.
-- **Hybrid blend** (`recommender.get_recommendations()`) — final score is
-  `(1 - w) * content_score + w * collaborative_score`, where `w` is
-  adjustable in the app sidebar, and the collaborative half only kicks in
-  once you've told it a destination you've enjoyed before.
+For Gemini answers: `export GOOGLE_API_KEY=...` or add it to `.streamlit/secrets.toml`.

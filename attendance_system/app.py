@@ -1,147 +1,156 @@
 """
-Facial Recognition Attendance System — dashboard page.
+Facial Recognition Attendance System.
 
-Upload a photo (a snapshot from a webcam or phone camera works), the app
-detects faces with a Haar cascade, identifies each one with the trained
-LBPH recognizer, and marks attendance for anyone it recognises with
-enough confidence. There's also a gallery of sample AT&T faces to try
-without needing your own photo.
-
-Note on scope: this runs on an uploaded still image because this app is
-hosted headlessly with no camera access. recognizer.py's detect_faces /
-recognize_face functions are the same ones you'd call inside a
-cv2.VideoCapture loop for a real-time desktop version — see the README.
+Take a photo with your webcam, upload one, or use the sample gallery.
+The app finds each face (Haar cascade), identifies it (LBPH recognizer),
+and records the check-in in SQLite as present or late against the class
+start time. Anyone on the roster who hasn't checked in shows as absent.
 """
 
 import os
+from datetime import date, datetime, time, timedelta
 
 import cv2
 import numpy as np
-import pandas as pd
 import streamlit as st
 from PIL import Image
 
+import att_db
 import recognizer as R
 from roster import ROSTER
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SAMPLE_DIR = os.path.join(HERE, "..", "data", "att_faces")
+STATUS_ICON = {"present": "🟢 present", "late": "🟠 late", "absent": "🔴 absent"}
 
 
 @st.cache_resource
 def load_pipeline():
-    rec, labels = R.load_recognizer()
-    det = R.load_detector()
-    return rec, det
+    rec, _ = R.load_recognizer()
+    return rec, R.load_detector()
 
 
-def process_image(pil_image, rec, det):
+def find_faces(pil_image, rec, det):
     img = np.array(pil_image.convert("RGB"))[:, :, ::-1].copy()
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = R.detect_faces(gray, det)
-
+    if len(faces) == 0 and gray.shape[0] <= 120:
+        # The sample gallery images are already tight face crops.
+        faces = [(0, 0, gray.shape[1], gray.shape[0])]
     results = []
     for (x, y, w, h) in faces:
-        face_crop = gray[y : y + h, x : x + w]
-        label_id, confidence, is_known = R.recognize_face(face_crop, rec)
-        info = ROSTER.get(label_id, {"name": "Unknown", "department": "-"})
-        color = (0, 200, 0) if is_known else (0, 0, 255)
-        cv2.rectangle(img, (x, y), (x + w, y + h), color, 2)
-        label_text = info["name"] if is_known else "Unrecognised"
-        cv2.putText(
-            img, label_text, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, color, 2
-        )
-        results.append(
-            {
-                "subject_id": label_id,
-                "name": info["name"],
-                "department": info["department"],
-                "confidence": round(confidence, 1),
-                "recognised": is_known,
-            }
-        )
-
-    annotated = Image.fromarray(img[:, :, ::-1])
-    return annotated, results
+        label_id, distance, known = R.recognize_face(gray[y:y + h, x:x + w], rec)
+        colour = (0, 190, 0) if known else (0, 0, 230)
+        cv2.rectangle(img, (x, y), (x + w, y + h), colour, 2)
+        name = ROSTER.get(label_id, {}).get("name", "Unknown") if known else "Unrecognised"
+        cv2.putText(img, name.split(" (")[0], (x + 3, max(14, y - 6)), cv2.FONT_HERSHEY_SIMPLEX, 0.5, colour, 2)
+        results.append({"id": int(label_id), "distance": round(float(distance), 1), "known": known})
+    return Image.fromarray(img[:, :, ::-1]), results
 
 
 def main():
     st.set_page_config(page_title="Attendance System", layout="wide")
     st.title("Facial Recognition Attendance System")
     st.caption(
-        "OpenCV Haar cascade face detection + LBPH face recognizer, trained "
-        "on the AT&T/ORL Database of Faces (40 subjects). 93.8% held-out "
-        "recognition accuracy."
+        "Haar cascade face detection and an LBPH face recognizer trained on the AT&T/ORL "
+        "Database of Faces (40 people), **93.8% accuracy** on held-out photos. Check-ins are "
+        "stored in SQLite and sorted into present, late and absent."
     )
-
     rec, det = load_pipeline()
 
-    col1, col2 = st.columns([1, 1])
-
-    with col1:
-        st.subheader("Check in")
-        source = st.radio("Image source", ["Sample gallery", "Upload a photo"], horizontal=True)
-
-        pil_image = None
-        if source == "Upload a photo":
-            uploaded = st.file_uploader("Photo with a face", type=["jpg", "jpeg", "png"])
-            if uploaded:
-                pil_image = Image.open(uploaded)
+    with st.container(border=True):
+        s1, s2, s3, s4 = st.columns(4)
+        class_date = s1.date_input("Class date", value=date.today(), key="att_date")
+        start = s2.time_input("Class starts", value=time(9, 0), step=300, key="att_start")
+        grace = s3.number_input("Grace period (minutes)", 0, 30, 5, key="att_grace")
+        use_clock = s4.toggle("Use the real clock", value=False, key="att_clock",
+                              help="Off: pick the check-in time yourself, handy for trying late arrivals.")
+        if use_clock:
+            arrival = datetime.now().time().replace(microsecond=0)
+            st.caption(f"Check-in time: now ({arrival.strftime('%H:%M')})")
         else:
-            subject_dirs = sorted(
-                d for d in os.listdir(SAMPLE_DIR)
-                if d.startswith("s") and d[1:].isdigit()
-                and os.path.isdir(os.path.join(SAMPLE_DIR, d))
-            )
-            subject = st.selectbox(
-                "Sample subject",
-                subject_dirs,
-                format_func=lambda s: ROSTER.get(int(s[1:]), {}).get("name", s),
-            )
-            if subject.startswith("s"):
-                sample_files = sorted(
-                    f for f in os.listdir(os.path.join(SAMPLE_DIR, subject)) if f.endswith(".pgm")
-                )
-                fname = st.selectbox("Sample image", sample_files)
-                pil_image = Image.open(os.path.join(SAMPLE_DIR, subject, fname))
+            arrival = st.time_input("Check-in time", value=time(8, 55), step=60, key="att_arrival")
+    cutoff = (datetime.combine(class_date, start) + timedelta(minutes=grace)).time()
+    day = class_date.isoformat()
 
-        if pil_image:
-            st.image(pil_image, caption="Input", width=250)
+    left, right = st.columns([1, 1])
+    with left:
+        st.subheader("Check in")
+        source = st.radio("Photo from", ["Sample gallery", "Webcam", "Upload"], horizontal=True, key="att_src")
+        pil_image = None
+        if source == "Webcam":
+            snap = st.camera_input("Look at the camera", key="att_cam")
+            if snap:
+                pil_image = Image.open(snap)
+            st.caption("The model only knows the 40 AT&T faces, so a new face shows as unrecognised. "
+                       "That's the system correctly refusing a stranger.")
+        elif source == "Upload":
+            up = st.file_uploader("Photo with a face", type=["jpg", "jpeg", "png", "pgm"], key="att_up")
+            if up:
+                pil_image = Image.open(up)
+        else:
+            subject = st.selectbox("Student", list(range(1, 41)), key="att_subject",
+                                   format_func=lambda i: ROSTER[i]["name"]
+                                   + ("" if i <= att_db.CLASS_SIZE else "  (not in this class)"))
+            photo = st.select_slider("Photo", options=list(range(1, 11)), value=1, key="att_photo")
+            pil_image = Image.open(os.path.join(SAMPLE_DIR, f"s{subject}", f"{photo}.pgm"))
+            st.image(pil_image, width=150)
 
-        if pil_image and st.button("Detect & check in"):
-            annotated, results = process_image(pil_image, rec, det)
-            st.image(annotated, caption="Detected faces", use_container_width=True)
-
+        if pil_image is not None and st.button("Detect and check in", type="primary", key="att_go"):
+            annotated, results = find_faces(pil_image, rec, det)
+            st.image(annotated, width=320)
             if not results:
-                st.warning("No faces detected in this image.")
+                st.warning("No face found. Try a clearer, front-on photo.")
             for r in results:
-                if r["recognised"]:
-                    marked = R.mark_attendance(r["subject_id"], r["name"], r["department"])
-                    if marked:
-                        st.success(
-                            f"Checked in: {r['name']} ({r['department']}) — "
-                            f"confidence distance {r['confidence']}"
-                        )
-                    else:
-                        st.info(f"{r['name']} already checked in today.")
+                if not r["known"]:
+                    st.error(f"Face not recognised (distance {r['distance']}, needs {R.CONFIDENCE_THRESHOLD} or less).")
+                    continue
+                name = ROSTER[r["id"]]["name"]
+                if not att_db.is_enrolled(r["id"]):
+                    st.warning(f"Recognised {name}, but they aren't enrolled in this class.")
+                    continue
+                status = "present" if arrival <= cutoff else "late"
+                before = att_db.check_in(r["id"], day, arrival.strftime("%H:%M"), status)
+                if before:
+                    st.info(f"{name} already checked in at {before[0]} ({before[1]}).")
+                elif status == "present":
+                    st.success(f"{name} checked in at {arrival.strftime('%H:%M')}: present.")
                 else:
-                    st.error(
-                        f"Face detected but not recognised confidently "
-                        f"(distance {r['confidence']}, threshold "
-                        f"{R.CONFIDENCE_THRESHOLD})."
-                    )
+                    mins = int((datetime.combine(class_date, arrival)
+                                - datetime.combine(class_date, start)).total_seconds() // 60)
+                    st.warning(f"{name} checked in at {arrival.strftime('%H:%M')}: late by {mins} minutes.")
 
-    with col2:
-        st.subheader("Today's attendance log")
-        log_df = R.read_attendance_log()
-        today = pd.Timestamp.now().strftime("%Y-%m-%d")
-        today_log = log_df[log_df["date"] == today] if not log_df.empty else log_df
-        st.dataframe(today_log, hide_index=True, use_container_width=True)
-        st.caption(f"{len(today_log)} check-ins today · {len(log_df)} total logged")
+    with right:
+        report = att_db.day_report(day)
+        counts = report["status"].value_counts()
+        st.subheader(f"Class register, {class_date.strftime('%d %b %Y')}")
+        m1, m2, m3 = st.columns(3)
+        m1.metric("Present", int(counts.get("present", 0)))
+        m2.metric("Late", int(counts.get("late", 0)))
+        m3.metric("Absent", int(counts.get("absent", 0)))
+        st.caption(f"Late means after {cutoff.strftime('%H:%M')} (start time plus grace period).")
+        shown = report.assign(status=report["status"].map(STATUS_ICON))
+        st.dataframe(shown, hide_index=True, width="stretch", height=460)
+        absent = report.loc[report["status"] == "absent", "name"].tolist()
+        with st.expander(f"Absentee list ({len(absent)})"):
+            st.write(", ".join(absent) if absent else "Everyone is here.")
+        if st.button("Clear this day's check-ins", key="att_reset"):
+            att_db.reset_day(day)
+            st.rerun()
 
-        if not log_df.empty:
-            by_dept = log_df.groupby("department").size().reset_index(name="check_ins")
-            st.bar_chart(by_dept.set_index("department"))
+    with st.expander("How it works"):
+        st.markdown(
+            """
+1. **Detect**: a Haar cascade scans the photo for face-shaped patterns and returns a box per face.
+2. **Recognise**: each face is resized to 100x100 and compared with the trained LBPH model, which
+   describes faces by local texture patterns. It returns the closest person and a distance.
+3. **Decide**: a distance of 75 or less counts as a match. Anything higher is treated as a stranger,
+   so the system doesn't guess.
+4. **Record**: the check-in goes into SQLite as present or late against the class start time plus
+   grace period. One check-in per person per day.
+5. **Report**: absent students are everyone on the roster with no check-in, found with a SQL LEFT JOIN.
+"""
+        )
 
 
 if __name__ == "__main__":

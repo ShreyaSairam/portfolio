@@ -1,44 +1,31 @@
-# SignSpeak — Sign Language Digit Recognition
+# SignSpeak: Real-Time Sign Recognition
 
-A hand-sign digit classifier (0-9): HOG (Histogram of Oriented Gradients)
-features + an RBF-kernel SVM, trained on the
-[Sign Language Digits Dataset](https://github.com/ardamavi/Sign-Language-Digits-Dataset)
-(2,062 images, Apache 2.0 licensed). **86% held-out test accuracy.**
+Reads American Sign Language letters from a webcam and spells them out.
 
-## Setup
+- **Live camera**: your browser webcam through streamlit-webrtc. Hold a sign in the green box; the letter is drawn on the video, and holding it for about a second adds it to the text.
+- **Demo mode**: type a word and watch it spelled from test images the model never trained on. Works without a camera.
+- **Upload a photo**: one still image.
+- Every prediction is logged to SQLite (`sign_db.py`) and shown as recent activity.
 
-```bash
-# from the repo root, if not already done:
-bash scripts/fetch_raw_data.sh
-python preprocess.py   # extracts HOG features -> features.csv, copies sample images
-python train.py        # trains the SVM -> model.pkl
-streamlit run app.py
-```
+## Model
 
-## How it's built
+| Step | Detail |
+|---|---|
+| Data | Sign Language MNIST: 27,455 training and 7,172 test images, 28x28 grayscale, 24 letters (CC0) |
+| Features | Histogram of Oriented Gradients, 1,296 numbers per image |
+| Classifier | StandardScaler, PCA to 160 components, RBF-kernel SVM with probabilities |
+| Accuracy | **95.2%** on the separate test file (per-letter scores in `metrics.json`) |
+| Speed | about 3 ms per frame on a laptop CPU |
 
-1. **Preprocess** (`preprocess.py`) — each image is resized to 64x64,
-   converted to grayscale, and contrast-normalised with histogram
-   equalisation, then a 1,764-dimension HOG feature vector is extracted.
-2. **Train** (`train.py`) — an 80/20 train/test split with 5-fold
-   cross-validation, an RBF SVM (`C=10`) fit on standardised features.
-3. **App** (`app.py`) — loads the trained model and lets you try a sample
-   image or upload your own hand-sign photo for a live prediction with
-   per-class confidence.
+J and Z are signed with movement, so a single frame can't capture them; they are left out.
 
-## Scope note
+**Honest limit:** the training images are tightly cropped hands on plain backgrounds. On a real webcam it works best with good light and a plain wall behind your hand.
 
-This classifies **still images**, not a live webcam feed — the app runs
-headlessly with no camera access here. `predict_digit()` in `app.py` (which
-wraps `extract_hog_features()` from `preprocess.py`) is exactly the
-function you'd call inside a `cv2.VideoCapture` loop for real-time
-recognition on a machine with a webcam:
+## Files
 
-```python
-import cv2
-cap = cv2.VideoCapture(0)
-while True:
-    ret, frame = cap.read()
-    # crop to the hand region (e.g. via a bounding box or hand detector),
-    # then feed the PIL/np crop through predict_digit(crop, bundle)
-```
+- `sign_engine.py`: the shared pipeline (crop, grayscale, 28x28, HOG, predict)
+- `train.py`: trains the model and writes `model.joblib`, `metrics.json` and `sample_frames/`
+- `sign_db.py`: SQLite prediction log
+- `app.py`: the Streamlit page
+
+Retrain with `bash ../scripts/fetch_raw_data.sh && python train.py`.
